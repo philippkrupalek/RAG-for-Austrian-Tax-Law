@@ -1,0 +1,2058 @@
+[
+  {
+    "case_id": 1,
+    "bfg_case": "152",
+    "statement": "Ein Versandhändler erhält von Kunden irrtümlich Doppel- und Überzahlungen für bereits gelieferte Waren. Die Mehrbeträge werden nicht sofort zurückgezahlt und beruhen auf keinem anderen Rechtsgrund als dem zugrunde liegenden Warenverkauf.",
+    "question": "Gehören die Doppel- und Überzahlungen zur Bemessungsgrundlage der Lieferung?",
+    "answer": "Ja. Nach § 4 Abs. 1 UStG 1994 ist Entgelt alles, was der Empfänger aufzuwenden hat, um die Lieferung zu erhalten. Nach § 4 Abs. 2 Z 1 UStG 1994 gehören auch freiwillige Mehrzahlungen des Leistungsempfängers zum Entgelt. Irrtümliche Doppel- und Überzahlungen für bereits gelieferte Waren sind daher grundsätzlich Teil der Bemessungsgrundlage; bei späterer Rückzahlung kommt eine Berichtigung nach § 16 UStG 1994 in Betracht.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 4 Abs. 1 UStG 1994",
+      "§ 4 Abs. 2 Z 1 UStG 1994"
+    ],
+    "topic": "Bemessungsgrundlage / Doppelzahlung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/5d0a1fba-7f99-4b45-8795-9e218588e87f/118941.pdf"
+  },
+  {
+    "case_id": 2,
+    "bfg_case": "2",
+    "statement": "Ein Motorenentwicklungsunternehmen mietet Versuchsfahrzeuge, die laufend technisch umgebaut und ausschließlich für Erprobungsfahrten verwendet werden. Die Fahrzeuge dienen nicht der gewöhnlichen Personenbeförderung und werden nach Abschluss der Tests nicht im normalen Straßenverkehr eingesetzt.",
+    "question": "Ist der Vorsteuerabzug aus der Miete dieser Versuchsfahrzeuge nach § 12 Abs. 2 Z 2 lit. b UStG 1994 ausgeschlossen?",
+    "answer": "Nein. § 12 Abs. 2 Z 2 lit. b UStG 1994 erfasst Leistungen im Zusammenhang mit Personenkraftwagen. Werden die Fahrzeuge nach ihrem tatsächlichen Verwendungszweck und ihrer technischen Gestaltung jedoch als reine Versuchsfahrzeuge eingesetzt und dienen sie nicht der üblichen Personenbeförderung, greift der Vorsteuerausschluss nicht ein.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 2 Z 2 lit. b UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Versuchsfahrzeuge",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/ef5a51a7-f823-44dd-b40f-6c8634b55387/148537.1.1.pdf"
+  },
+  {
+    "case_id": 3,
+    "bfg_case": "3",
+    "statement": "Eine GmbH erwirbt eine Eigentumswohnung und macht die Vorsteuer aus dem Kauf geltend. Der Geschäftsführer nutzt die Wohnung gemeinsam mit seiner Familie als privaten Wohnsitz; ein Mietvertrag besteht nicht und eine betriebliche Nutzung liegt nicht vor.",
+    "question": "Ist der Vorsteuerabzug wegen § 12 Abs. 2 Z 2 lit. a UStG 1994 ausgeschlossen?",
+    "answer": "Ja. Wird eine Wohnung überwiegend für private Wohnzwecke des Geschäftsführers verwendet, stehen die damit zusammenhängenden Aufwendungen in Zusammenhang mit der privaten Lebensführung. Nach § 12 Abs. 2 Z 2 lit. a UStG 1994 gelten solche Leistungen insoweit nicht als für das Unternehmen ausgeführt, sodass der Vorsteuerabzug ausgeschlossen ist.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 2 Z 2 lit. a UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / private Wohnnutzung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/7816a7a8-addc-4baf-8b0c-b418b702bf2e/118354.pdf"
+  },
+  {
+    "case_id": 4,
+    "bfg_case": "4",
+    "statement": "Eine GmbH erbringt laufend entgeltliche EDV- und Beratungsleistungen an mehrere Kunden. Für diese Tätigkeit bezieht sie Eingangsleistungen, die ihr mit gesondertem Umsatzsteuerausweis in Rechnung gestellt werden und ausschließlich für diese entgeltlichen Leistungen verwendet werden.",
+    "question": "Ist die GmbH Unternehmerin und steht ihr der Vorsteuerabzug für diese Eingangsleistungen zu?",
+    "answer": "Ja. Durch die nachhaltige entgeltliche Erbringung von EDV- und Beratungsleistungen übt die GmbH eine wirtschaftliche Tätigkeit aus und ist Unternehmerin im Sinn des § 2 Abs. 1 UStG 1994. Werden die Eingangsleistungen für diese unternehmerische Tätigkeit verwendet, steht der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 zu.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 2 Abs. 1 UStG 1994",
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Unternehmereigenschaft / Vorsteuerabzug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/fdb2a8c3-8b2f-458d-9c64-d896827bd02a/133992.1.1.pdf"
+  },
+  {
+    "case_id": 5,
+    "bfg_case": "5",
+    "statement": "Eine in Deutschland ansässige Unternehmerin entsendet eine Mitarbeiterin zu einem Fachseminar in einem österreichischen Hotel. Der österreichische Veranstalter stellt dafür eine Rechnung mit österreichischer Umsatzsteuer aus.",
+    "question": "Liegt der Leistungsort der Seminarteilnahme in Österreich?",
+    "answer": "Ja. Handelt es sich nicht um eine Beratungsleistung, sondern um eine Leistung unterrichtender oder wissenschaftlicher Natur, liegt der Leistungsort nach § 3a Abs. 11 UStG 1994 dort, wo der Unternehmer ausschließlich oder zum wesentlichen Teil tätig wird. Da das Seminar in Österreich stattfand, liegt auch der Leistungsort in Österreich.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 11 UStG 1994"
+    ],
+    "topic": "Leistungsort / Seminar",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/5f669ee6-16ca-48a8-b52a-fe232f8d8456/102834.pdf"
+  },
+  {
+    "case_id": 6,
+    "bfg_case": "6",
+    "statement": "Eine GmbH least einen Audi Q7 und macht die in den Leasingraten sowie den laufenden Betriebskosten gesondert ausgewiesene Umsatzsteuer als Vorsteuer geltend. Das Fahrzeug wird als gewöhnlicher Personenkraftwagen verwendet.",
+    "question": "Ist der Vorsteuerabzug für die Leasingraten und Betriebskosten ausgeschlossen?",
+    "answer": "Ja. Nach § 12 Abs. 2 Z 2 lit. b UStG 1994 gelten Leistungen im Zusammenhang mit der Miete und dem Betrieb von Personenkraftwagen grundsätzlich nicht als für das Unternehmen ausgeführt. Der Vorsteuerabzug für die darauf entfallende Umsatzsteuer ist daher ausgeschlossen.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 2 Z 2 lit. b UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / PKW",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/dc7b796d-63e1-4b23-b06e-ffee88c194df/113093.pdf"
+  },
+  {
+    "case_id": 7,
+    "bfg_case": "7",
+    "statement": "Eine in Deutschland ansässige GmbH mietet in Österreich an Gebäuden angebrachte Werbeflächen (zB an Tal- und Bergstationen) für eine Werbekampagne. Obwohl konkrete Gebäudeflächen genutzt werden, steht wirtschaftlich die Erbringung einer Werbeleistung im Vordergrund und nicht die Einräumung eines grundstücksbezogenen Nutzungsrechts.",
+    "question": "Liegt der Leistungsort dieser Werbeleistung in Deutschland?",
+    "answer": "Ja. Trotz Nutzung konkreter Gebäudeflächen fehlt ein ausreichend direkter Zusammenhang mit einem Grundstück im Sinne des § 3a Abs. 9 UStG 1994. Die Leistung ist daher als sonstige Leistung zu qualifizieren. Bei Leistungen an einen Unternehmer bestimmt sich der Leistungsort gemäß § 3a Abs. 6 UStG 1994 nach dem Sitz des Leistungsempfängers, somit Deutschland.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 9 UStG 1994",
+      "§ 3a Abs. 6 UStG 1994"
+    ],
+    "topic": "Leistungsort / Werbung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/4e6ecfcc-278d-4d31-a356-7af9c61b287b/119904.pdf"
+  },
+  {
+    "case_id": 8,
+    "bfg_case": "187",
+    "statement": "Eine Kapitalgesellschaft bezieht Waren von einer angeblichen Liefer-GmbH und macht die in den Rechnungen ausgewiesene Umsatzsteuer als Vorsteuer geltend. In den Rechnungen ist als Anschrift des leistenden Unternehmers eine Adresse angegeben, unter der im maßgeblichen Zeitraum kein Betrieb der Liefer-GmbH besteht.",
+    "question": "Steht der Kapitalgesellschaft der Vorsteuerabzug aus diesen Rechnungen zu?",
+    "answer": "Nein. Der Vorsteuerabzug setzt nach § 12 Abs. 1 Z 1 UStG 1994 eine Rechnung im Sinn des § 11 UStG 1994 voraus. Fehlt es an einer zutreffenden Anschrift des leistenden Unternehmers, liegt keine ordnungsgemäße Rechnung vor; der Vorsteuerabzug ist daher zu versagen.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 11 Abs. 1 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Rechnungsmerkmale",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6c2b8d2f-280f-4f89-8904-9a1e89ec2e27/144012.1.1.pdf"
+  },
+  {
+    "case_id": 9,
+    "bfg_case": "9",
+    "statement": "Ein in Großbritannien ansässiger Unternehmer erbringt an einen österreichischen Unternehmer eine sonstige Leistung und hat im Inland weder sein Unternehmen noch eine an der Leistungserbringung beteiligte Betriebsstätte. Die Leistung wird für das Unternehmen des österreichischen Leistungsempfängers bezogen.",
+    "question": "Schuldet der österreichische Leistungsempfänger die Umsatzsteuer und steht ihm der korrespondierende Vorsteuerabzug zu?",
+    "answer": "Ja. Nach § 19 Abs. 1 UStG 1994 geht die Steuerschuld für die sonstige Leistung auf den inländischen Unternehmer als Leistungsempfänger über. Da die Leistung für sein Unternehmen ausgeführt wird, steht ihm nach § 12 Abs. 1 Z. 3 UStG 1994 auch der entsprechende Vorsteuerabzug zu.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 19 Abs. 1 UStG 1994",
+      "§ 12 Abs. 1 Z. 3 UStG 1994"
+    ],
+    "topic": "Reverse Charge / Vorsteuerabzug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6a4824b2-b715-4bc9-89b4-48a8d4f056d6/136641.1.1.pdf"
+  },
+  {
+    "case_id": 10,
+    "bfg_case": "10",
+    "statement": "Eine ursprünglich bloß beteiligungshaltende Gesellschaft erbringt nunmehr zusätzlich entgeltliche Unternehmensberatungsleistungen an Gemeinden. Für die Anbahnung dieser Beratungsleistungen bezieht sie Kontaktvermittlungsleistungen mit gesondertem Umsatzsteuerausweis.",
+    "question": "Ist die Gesellschaft Unternehmerin und zum Vorsteuerabzug aus den Kontaktvermittlungsleistungen berechtigt?",
+    "answer": "Ja. Durch die nachhaltige entgeltliche Erbringung von Beratungsleistungen ist die Gesellschaft Unternehmerin im Sinne des § 2 Abs. 1 UStG 1994. Werden die bezogenen Kontaktvermittlungsleistungen für diese unternehmerische Tätigkeit verwendet, steht der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 zu.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 2 Abs. 1 UStG 1994",
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Unternehmereigenschaft / Vorsteuerabzug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/4fdc4c4d-182c-4641-9f55-4d9d1a183654/119925.pdf"
+  },
+  {
+    "case_id": 11,
+    "bfg_case": "11",
+    "statement": "Eine gemischte Holding erbringt neben dem Halten von Beteiligungen auch entgeltliche Unternehmensberatungsleistungen. Für eine Kontaktvermittlung an potenzielle Beratungskunden erhält sie eine Rechnung, in der Art. und Umfang der Leistung sowie der Leistungszeitraum angegeben sind und Umsatzsteuer gesondert ausgewiesen wird.",
+    "question": "Ist der Vorsteuerabzug aus dieser Rechnung zulässig?",
+    "answer": "Ja. Wird die Kontaktvermittlungsleistung für die unternehmerische Beratungstätigkeit bezogen und liegt eine den Anforderungen des § 11 Abs. 1 Z 3 und 4 UStG 1994 entsprechende Rechnung vor, steht der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 zu.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 11 Abs. 1 Z 3 UStG 1994",
+      "§ 11 Abs. 1 Z 4 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / gemischte Holding",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/4fdc4c4d-182c-4641-9f55-4d9d1a183654/119925.pdf"
+  },
+  {
+    "case_id": 12,
+    "bfg_case": "201",
+    "statement": "Eine österreichische Transport-GmbH bezieht für grenzüberschreitende Güterbeförderungen Leistungen von Subfrächtern, für die sie als Leistungsempfängerin die Steuer schuldet. Sie macht die entsprechenden Vorsteuerbeträge geltend, obwohl objektive Umstände vorliegen, aus denen sich ergibt, dass sie von einer Umsatzsteuerhinterziehung im Zusammenhang mit diesen Umsätzen wusste oder wissen musste.",
+    "question": "Steht der GmbH der Vorsteuerabzug aus den übergegangenen Steuerbeträgen zu?",
+    "answer": "Nein. Zwar sind nach § 12 Abs. 1 Z 3 UStG 1994 grundsätzlich auch jene Steuerbeträge als Vorsteuer abziehbar, die der Unternehmer als Leistungsempfänger schuldet. Dieser Vorsteuerabzug ist aber nach § 12 Abs. 14 UStG 1994 zu versagen, wenn aufgrund objektiver Umstände feststeht, dass der Unternehmer wusste oder wissen musste, dass der Umsatz mit einer Umsatzsteuerhinterziehung oder einem sonstigen Umsatzsteuerfinanzvergehen zusammenhängt.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 3 UStG 1994",
+      "§ 12 Abs. 14 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Reverse Charge / Steuerhinterziehung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/9b0352a2-56ad-47e0-95ce-9d51a9306a7b/144031.1.1.pdf"
+  },
+  {
+    "case_id": 13,
+    "bfg_case": "13",
+    "statement": "Eine in Deutschland ansässige Unternehmerin überlässt ihrer in Österreich wohnhaften Dienstnehmerin einen Dienstwagen für mehr als 30 Tage gegen gesondertes Entgelt zur privaten Nutzung. Das Fahrzeug wird der Dienstnehmerin in Österreich verwendet.",
+    "question": "Liegt der Leistungsort der nicht kurzfristigen Vermietung des Beförderungsmittels in Österreich?",
+    "answer": "Ja. Bei der nicht kurzfristigen Vermietung eines Beförderungsmittels an einen Nichtunternehmer liegt der Leistungsort nach § 3a Abs. 12 Z 2 UStG 1994 am Wohnsitz oder gewöhnlichen Aufenthalt des Leistungsempfängers. Da die Dienstnehmerin in Österreich ansässig ist, liegt der Leistungsort in Österreich.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 12 Z 2 UStG 1994"
+    ],
+    "topic": "Leistungsort / Beförderungsmittel",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c3a72df9-bbec-47cb-8631-470eb6853058/145538.1.1.pdf"
+  },
+  {
+    "case_id": 14,
+    "bfg_case": "14",
+    "statement": "Eine österreichische Rechtsanwaltskanzlei erbringt eine anwaltliche Vertretungsleistung an ein italienisches Unternehmen, das in Österreich weder Sitz noch Betriebsstätte hat. Die Leistung wird für dessen Unternehmen bezogen.",
+    "question": "Liegt der Leistungsort in Italien und geht die Steuerschuld auf den italienischen Unternehmer über?",
+    "answer": "Ja. Nach § 3a Abs. 6 UStG 1994 wird die sonstige Leistung am Ort ausgeführt, von dem aus der Empfänger sein Unternehmen betreibt; das ist hier Italien. Damit kommt es gemäß § 19 UStG 1994 zum Übergang der Steuerschuld auf den Leistungsempfänger.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994",
+      "§ 19 Abs. 1 UStG 1994"
+    ],
+    "topic": "Leistungsort / Reverse Charge",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/1014f4cd-3101-47ad-b6ca-c6a344940839/133864.1.1.pdf"
+  },
+  {
+    "case_id": 15,
+    "bfg_case": "15",
+    "statement": "Eine Unternehmerin veräußert ihre GmbH-Anteile steuerfrei. Für Beratungs- und Vermittlungsleistungen, die ausschließlich im Zusammenhang mit dieser Anteilsveräußerung stehen, wird ihr Umsatzsteuer in Rechnung gestellt.",
+    "question": "Sind die Vorsteuern aus diesen Leistungen abzugsfähig?",
+    "answer": "Nein. Die Anteilsveräußerung ist nach § 6 Abs. 1 Z 8 lit. g UStG 1994 steuerfrei. Stehen die Beratungs- und Vermittlungsleistungen unmittelbar mit diesem steuerfreien Umsatz in Zusammenhang, ist der Vorsteuerabzug gemäß § 12 Abs. 3 Z 2 UStG 1994 ausgeschlossen.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 8 lit. g UStG 1994",
+      "§ 12 Abs. 3 Z 2 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / steuerfreie Anteilsveräußerung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/745da6c4-af0f-4680-8e5e-226a5996ee5a/117012.pdf"
+  },
+  {
+    "case_id": 16,
+    "bfg_case": "16",
+    "statement": "Ein in Deutschland ansässiger Unternehmer ohne Betriebsstätte in Österreich erbringt an einen österreichischen Unternehmer eine sonstige Leistung. Er weist dennoch in seiner Rechnung österreichische Umsatzsteuer aus und berichtigt die Rechnung nicht.",
+    "question": "Schuldet der Leistungsempfänger die Umsatzsteuer und schuldet der Rechnungsaussteller zusätzlich den ausgewiesenen Steuerbetrag?",
+    "answer": "Ja. Für die sonstige Leistung geht die Steuerschuld nach § 19 UStG 1994 auf den österreichischen Leistungsempfänger über. Weist der deutsche Unternehmer dennoch österreichische Umsatzsteuer in der Rechnung aus, schuldet er diesen Betrag zusätzlich nach § 11 Abs. 12 UStG 1994, solange keine Berichtigung erfolgt.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 19 UStG 1994",
+      "§ 11 Abs. 12 UStG 1994"
+    ],
+    "topic": "Reverse Charge / unrichtiger Steuerausweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/253e8e1d-cb87-4603-9d8e-c599de55deab/149525.1.1.pdf"
+  },
+  {
+    "case_id": 17,
+    "bfg_case": "177",
+    "statement": "Ein Einzelunternehmen wird entgeltlich in eine GmbH eingebracht. Der schriftliche Einbringungsvertrag enthält alle gesetzlich erforderlichen Rechnungsmerkmale und weist die Umsatzsteuer gesondert aus.",
+    "question": "Kann der Einbringungsvertrag als Rechnung im Sinn des § 11 UStG 1994 dienen?",
+    "answer": "Ja. Als Rechnung gilt jede Urkunde, mit der über eine Lieferung oder sonstige Leistung abgerechnet wird. Enthält ein Einbringungsvertrag bereits alle Merkmale des § 11 Abs. 1 UStG 1994 und hat er Abrechnungsfunktion, kann er als Rechnung im Sinn des UStG 1994 angesehen werden.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 11 Abs. 1 UStG 1994"
+    ],
+    "topic": "Rechnung / Einbringungsvertrag",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/196b100a-1fbc-4765-82a0-5767bc25c1c1/104741.pdf"
+  },
+  {
+    "case_id": 18,
+    "bfg_case": "18",
+    "statement": "Eine Unternehmerin stellt Rechnungen mit gesondertem Umsatzsteuerausweis aus, obwohl sie die darin angeführten Leistungen tatsächlich nicht erbracht hat. Erst in einem späteren Veranlagungszeitraum werden die Rechnungen berichtigt und die Gefährdung des Steueraufkommens vollständig beseitigt.",
+    "question": "Fällt die Steuerschuld aus den Rechnungen rückwirkend weg?",
+    "answer": "Nein. Wer in einer Rechnung Umsatzsteuer ausweist, obwohl keine Lieferung oder sonstige Leistung ausgeführt wurde, schuldet den ausgewiesenen Betrag nach § 11 Abs. 14 UStG 1994. Wird die Rechnung später berichtigt, ist die Berichtigung nach der in der Entscheidung herangezogenen sinngemäßen Anwendung des § 16 Abs. 1 UStG 1994 erst im Zeitraum der Berichtigung zu berücksichtigen und wirkt daher nicht rückwirkend.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 11 Abs. 14 UStG 1994",
+      "§ 16 Abs. 1 UStG 1994"
+    ],
+    "topic": "Steuerschuld kraft Rechnung / Berichtigung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/82a9d6a7-9798-463e-a2b2-64f9e16f1986/140190.1.1.pdf"
+  },
+  {
+    "case_id": 19,
+    "bfg_case": "19",
+    "statement": "Ein in Deutschland ansässiger Unternehmer erhält für in Österreich bezogene Leistungen Rechnungen ausschließlich als PDF-Dateien per E-Mail. Der Unternehmer stimmt dieser Form der Rechnungslegung zu; Echtheit der Herkunft, Unversehrtheit des Inhalts und Lesbarkeit der Rechnungen sind gewährleistet.",
+    "question": "Berechtigen diese elektronischen Rechnungen zum Vorsteuerabzug?",
+    "answer": "Ja. Eine als PDF übermittelte Rechnung ist eine elektronische Rechnung im Sinn des § 11 Abs. 2 UStG 1994, wenn der Empfänger dieser Form zustimmt und Echtheit, Unversehrtheit sowie Lesbarkeit gewährleistet sind. Liegen diese Voraussetzungen vor, kann die darin gesondert ausgewiesene Steuer nach § 12 Abs. 1 Z 1 UStG 1994 als Vorsteuer abgezogen werden.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 11 Abs. 2 UStG 1994",
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Elektronische Rechnung / Vorsteuerabzug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/40612389-685c-4ba8-8aba-2a74ded908a2/116809.pdf"
+  },
+  {
+    "case_id": 20,
+    "bfg_case": "20",
+    "statement": "Eine deutsche Unternehmerin kauft in Österreich Treibstoff. Sie erhält Kassenbons (unvollständig) und eine Sammelrechnung mit gesondertem USt-Ausweis.",
+    "question": "Berechtigt die Sammelrechnung zum Vorsteuerabzug?",
+    "answer": "Ja. Liegt eine Rechnung iSd § 11 Abs. 1 UStG 1994 vor, ist der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 möglich.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 11 Abs. 1 UStG 1994",
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Sammelrechnung / Vorsteuerabzug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c7c08820-da9d-4c10-aa8f-d3630a77347a/137390.1.1.pdf"
+  },
+  {
+    "case_id": 21,
+    "bfg_case": "21",
+    "statement": "Ein in Deutschland ansässiger Unternehmer ohne Betriebsstätte in Österreich erbringt an einen österreichischen Unternehmer eine sonstige Leistung. Er weist dennoch in seiner Rechnung österreichische Umsatzsteuer aus, obwohl die Leistung dem Reverse-Charge-Verfahren unterliegt.",
+    "question": "Kann der österreichische Leistungsempfänger die zu Unrecht ausgewiesene österreichische Umsatzsteuer als Vorsteuer abziehen?",
+    "answer": "Nein. Für die sonstige Leistung geht die Steuerschuld nach § 19 Abs. 1 UStG 1994 auf den österreichischen Leistungsempfänger über. Die vom ausländischen Unternehmer dennoch ausgewiesene österreichische Umsatzsteuer wird nur nach § 11 Abs. 12 UStG 1994 kraft Rechnung geschuldet; sie beruht daher nicht auf der Leistung selbst und ist beim Leistungsempfänger nicht als Vorsteuer abzugsfähig.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 19 Abs. 1 UStG 1994",
+      "§ 11 Abs. 12 UStG 1994",
+      "§ 12 Abs. 1 Z 3 UStG 1994"
+    ],
+    "topic": "Reverse Charge / unrichtiger Steuerausweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/253e8e1d-cb87-4603-9d8e-c599de55deab/149525.1.1.pdf"
+  },
+  {
+    "case_id": 22,
+    "bfg_case": "22",
+    "statement": "Eine Unternehmerin mietet von einer anderen GmbH einen Bus. Die Vermieterin behandelt die Mietumsätze zunächst als steuerfrei und stellt eine Rechnung aus, in der kein Steuerbetrag ausgewiesen ist; später werden die Umsätze bei der Vermieterin als steuerpflichtig behandelt, eine berichtigte Rechnung wird dem Mieter aber nicht vorgelegt.",
+    "question": "Steht dem Mieter bereits aufgrund der späteren Besteuerung beim Leistenden der Vorsteuerabzug zu?",
+    "answer": "Nein. Der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 setzt eine Rechnung im Sinn des § 11 Abs. 1 UStG 1994 mit gesondertem Steuerausweis voraus. Wird in der vorhandenen Rechnung kein Steuerbetrag ausgewiesen und liegt keine berichtigte Rechnung vor, kann der Leistungsempfänger den Vorsteuerabzug nicht schon deshalb geltend machen, weil der Leistende den Umsatz später der Umsatzsteuer unterworfen hat.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 11 Abs. 1 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / fehlender Steuerausweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c9d1bb8c-dcf5-438c-adc7-b49df929f042/130641.1.1.pdf"
+  },
+  {
+    "case_id": 23,
+    "bfg_case": "23",
+    "statement": "Eine GmbH errichtet ein Gebäude mit Büroräumen und einer Wohnung. Die Wohnung wird dem nicht beteiligten Geschäftsführer als Dienstwohnung überlassen; eine private Nutzung durch den Gesellschafter liegt nicht vor.",
+    "question": "Ist die auf die Wohnung entfallende Vorsteuer nach § 12 Abs. 2 Z 2 lit. a UStG 1994 ausgeschlossen?",
+    "answer": "Nein. § 12 Abs. 2 Z 2 lit. a UStG 1994 schließt Vorsteuern nur aus, wenn die bezogenen Leistungen dem nichtunternehmerischen Bereich zuzuordnen sind. Wird die Wohnung einem nicht beteiligten Geschäftsführer als Dienstwohnung überlassen und liegen keine Umstände vor, die eine private Vorteilszuwendung an den Gesellschafter erkennen lassen, bleibt der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 eröffnet.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 12 Abs. 2 Z 2 lit. a UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Dienstwohnung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/e4e95de6-ae2d-44c3-9dce-35b82aedc6d9/107576.pdf"
+  },
+  {
+    "case_id": 24,
+    "bfg_case": "24",
+    "statement": "Ein Unternehmer hatte Druckmaschinen bereits früher seinem Unternehmen zugeordnet und die damit zusammenhängende Vorsteuer geltend gemacht. Jahre später erhält er im Zusammenhang mit der Auflösung der Leasingverträge weitere Rechnungen mit gesondertem Umsatzsteuerausweis und möchte daraus nochmals Vorsteuer abziehen.",
+    "question": "Steht aus diesen späteren Rechnungen ein weiterer Vorsteuerabzug zu?",
+    "answer": "Nein. § 12 Abs. 1 Z 1 UStG 1994 verlangt, dass die ausgewiesene Steuer auf einer Lieferung oder sonstigen Leistung für das Unternehmen beruht. Wurde der Leasinggegenstand dem Unternehmer bereits zuvor zugeordnet und die Vorsteuer bereits aus diesem Vorgang gezogen, begründen spätere Rechnungen über Vertragsauflösung oder weitere Raten keinen neuerlichen Vorsteuerabzug.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Leasingauflösung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/e5fc1371-c2a0-44dc-964f-0de73a844dfd/109653.pdf"
+  },
+  {
+    "case_id": 25,
+    "bfg_case": "189",
+    "statement": "Eine Holding-KG hält bloß Beteiligungen an mehreren Unternehmen. Sie erbringt an diese Beteiligungsgesellschaften keine entgeltlichen administrativen, kaufmännischen oder technischen Leistungen, macht aber aus an sie adressierten Eingangsrechnungen Vorsteuer geltend.",
+    "question": "Ist die Holding-KG Unternehmerin und zum Vorsteuerabzug berechtigt?",
+    "answer": "Nein. Unternehmer ist nach § 2 Abs. 1 UStG 1994 nur, wer eine gewerbliche oder berufliche Tätigkeit selbständig ausübt. Beschränkt sich die Tätigkeit auf das bloße Halten von Beteiligungen ohne entgeltliche Leistungen an die Beteiligungsgesellschaften, fehlt es an einer unternehmerischen Tätigkeit; damit besteht auch kein Vorsteuerabzug nach § 12 Abs. 1 UStG 1994.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 2 Abs. 1 UStG 1994",
+      "§ 12 Abs. 1 UStG 1994"
+    ],
+    "topic": "Holding / Unternehmereigenschaft / Vorsteuerabzug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c4077b05-e1ef-4849-8919-f20ee3912e85/143705.1.1.pdf"
+  },
+  {
+    "case_id": 26,
+    "bfg_case": "26",
+    "statement": "Ein österreichischer Getränkehändler verkauft Waren an einen Unternehmer aus einem anderen Mitgliedstaat, der die Ware selbst abholt. Der Händler hält zwar die UID des Abnehmers fest, verfügt aber über keine Erklärung des Abnehmers, dass die Ware in das übrige Gemeinschaftsgebiet befördert wird, und kann die tatsächliche Warenbewegung nicht eindeutig nachweisen.",
+    "question": "Liegt eine steuerfreie innergemeinschaftliche Lieferung vor?",
+    "answer": "Nein. Eine innergemeinschaftliche Lieferung setzt nach Art. 7 Abs. 1 UStG 1994 voraus, dass der Gegenstand in das übrige Gemeinschaftsgebiet befördert oder versendet wird. Kann der Unternehmer diesen Vorgang nach Art. 7 Abs. 3 UStG 1994 nicht buchmäßig nachweisen, fehlt die Voraussetzung für die Steuerbefreiung.",
+    "result": "Nein",
+    "paragraphs": [
+      "Art. 7 Abs. 1 UStG 1994",
+      "Art. 7 Abs. 3 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung / Nachweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/a1e06eba-33b8-4dd0-9511-1b93c05a87e3/121536.pdf"
+  },
+  {
+    "case_id": 27,
+    "bfg_case": "198",
+    "statement": "Eine GmbH macht Vorsteuer aus Rechnungen eines angeblichen Subunternehmers geltend. Die Rechnungen weisen jedoch keine ordnungsgemäßen Angaben über den leistenden Unternehmer auf und erfüllen die gesetzlichen Rechnungsmerkmale nicht.",
+    "question": "Steht der GmbH aus diesen Rechnungen der Vorsteuerabzug zu?",
+    "answer": "Nein. Der Vorsteuerabzug setzt nach § 12 Abs. 1 Z 1 UStG 1994 eine Rechnung im Sinn des § 11 Abs. 1 Z 1 UStG 1994 voraus. Fehlen die gesetzlich erforderlichen Rechnungsangaben zum leistenden Unternehmer, liegt keine zum Vorsteuerabzug berechtigende Rechnung vor.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 11 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / mangelhafte Rechnung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/1d298921-1779-4e9f-a972-c4862115b9a3/126922.pdf"
+  },
+  {
+    "case_id": 28,
+    "bfg_case": "28",
+    "statement": "Ein Wiederverkäufer erwirbt von einem deutschen Fahrzeughändler gebrauchte Fahrzeuge, wobei in den Rechnungen deutsche Umsatzsteuer offen ausgewiesen ist. Er veräußert die Fahrzeuge anschließend in Österreich weiter und möchte dabei die Differenzbesteuerung anwenden.",
+    "question": "Ist die Differenzbesteuerung nach § 24 UStG 1994 zulässig?",
+    "answer": "Nein. § 24 Abs. 1 Z 2 lit. a UStG 1994 setzt voraus, dass für die Lieferung an den Wiederverkäufer keine Umsatzsteuer geschuldet wurde. Wurde dem Wiederverkäufer die Lieferung mit offen ausgewiesener Umsatzsteuer in Rechnung gestellt, ist diese Voraussetzung nicht erfüllt.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 24 Abs. 1 Z 2 lit. a UStG 1994"
+    ],
+    "topic": "Differenzbesteuerung / Gebrauchtfahrzeuge",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/a977f4ad-4ffe-4f61-9f42-601226847752/107278.pdf"
+  },
+  {
+    "case_id": 29,
+    "bfg_case": "29",
+    "statement": "Die X-GmbH ist vollständig in die Y-AG eingegliedert, tritt aber nach außen als eigenständige Unternehmerin auf.",
+    "question": "Liegt trotz Außenauftritts fehlende Selbständigkeit nach § 2 Abs. 2 Z 2 UStG 1994 vor?",
+    "answer": "Ja. Entscheidend ist die fehlende eigene Willensbildung, nicht der Außenauftritt.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 2 Abs. 2 Z 2 UStG 1994"
+    ],
+    "topic": "Organschaft / Außenauftritt",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/167175a9-a2dc-401f-a3ba-838514b4725b/117274.pdf"
+  },
+  {
+    "case_id": 30,
+    "bfg_case": "203",
+    "statement": "Eine deutsche Planungs-GmbH erbringt für ein in Österreich gelegenes Bauvorhaben Generalplanungsleistungen. Ein Teil der Planungsleistungen wird von einem österreichischen Subunternehmer erbracht und mit österreichischer Umsatzsteuer in Rechnung gestellt.",
+    "question": "Liegt der Leistungsort der Subplanungsleistungen in Österreich?",
+    "answer": "Ja. Nach § 3a Abs. 9 UStG 1994 werden sonstige Leistungen im Zusammenhang mit einem Grundstück dort ausgeführt, wo das Grundstück gelegen ist. Beziehen sich die Planungsleistungen auf ein in Österreich gelegenes Grundstück, verdrängt diese Sonderregel die Generalklausel des § 3a Abs. 6 UStG 1994.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 9 UStG 1994",
+      "§ 3a Abs. 6 UStG 1994"
+    ],
+    "topic": "Leistungsort / grundstücksbezogene Planung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/7a8ec77f-5006-4637-b8f7-3f5ae9d34f6b/121631.pdf"
+  },
+  {
+    "case_id": 31,
+    "bfg_case": "200",
+    "statement": "Eine GmbH ist als planender Baumeister tätig, entwickelt daneben aber auch Bauträgerprojekte auf eigenes Risiko und verwertet die errichteten Wohnungen. Für einen derartigen Umsatz will sie die Steuer nach vereinnahmten Entgelten berechnen.",
+    "question": "Darf die GmbH für diesen Umsatz die Istbesteuerung nach § 17 Abs. 1 UStG 1994 anwenden?",
+    "answer": "Nein. § 17 Abs. 1 UStG 1994 erfasst nur die dort begünstigten Tätigkeiten. Übt die GmbH neben planenden Leistungen auch Bauträgertätigkeiten aus, geht ihre Tätigkeit über eine bloß ziviltechnikerähnliche Leistung hinaus; damit bleibt es für diese Umsätze bei der Steuerentstehung nach § 19 Abs. 2 Z 1 lit. a UStG 1994.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 17 Abs. 1 UStG 1994",
+      "§ 19 Abs. 2 Z 1 lit. a UStG 1994"
+    ],
+    "topic": "Istbesteuerung / planender Baumeister",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/b9fa730b-2c5c-41ab-9bfe-3d931f495f55/146546.1.1.pdf"
+  },
+  {
+    "case_id": 32,
+    "bfg_case": "32",
+    "statement": "Eine Miteigentumsgemeinschaft beauftragt ein Bauunternehmen mit der Errichtung eines Rohbaus. Die Miteigentumsgemeinschaft erbringt selbst keine Bauleistungen und ist auch nicht üblicherweise mit der Erbringung von Bauleistungen beauftragt.",
+    "question": "Geht die Steuerschuld für die Rohbauleistung nach § 19 Abs. 1a UStG 1994 auf die Leistungsempfängerin über?",
+    "answer": "Nein. § 19 Abs. 1a UStG 1994 setzt für den Übergang der Steuerschuld voraus, dass der Leistungsempfänger Unternehmer ist, der seinerseits mit der Erbringung von Bauleistungen beauftragt ist oder üblicherweise selbst Bauleistungen erbringt. Fehlt diese Voraussetzung, schuldet nicht der Leistungsempfänger, sondern der leistende Unternehmer die Umsatzsteuer.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 19 Abs. 1a UStG 1994"
+    ],
+    "topic": "Reverse Charge / Bauleistungen",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/23844c74-fd84-4ccd-8f6f-9a4fd235c0dd/142627.1.1.pdf"
+  },
+  {
+    "case_id": 33,
+    "bfg_case": "33",
+    "statement": "Ein Unternehmer verwendet bei einem Reihengeschäft seine österreichische UID, obwohl die Ware nie nach Österreich gelangt, sondern unmittelbar vom ersten Lieferer in einen anderen Mitgliedstaat zum letzten Abnehmer befördert wird. In der Zusammenfassenden Meldung wird der Vorgang zunächst nicht als Dreiecksgeschäft erklärt.",
+    "question": "Gilt der zusätzliche innergemeinschaftliche Erwerb in Österreich nach Art. 25 Abs. 2 UStG 1994 als besteuert?",
+    "answer": "Nein. Verwendet der Erwerber eine österreichische UID, entsteht nach Art. 3 Abs. 8 UStG 1994 zunächst ein zusätzlicher innergemeinschaftlicher Erwerb in Österreich. Dieser gilt nach Art. 25 Abs. 2 UStG 1994 nur dann als besteuert, wenn ein Dreiecksgeschäft nachgewiesen wird und der Erwerber seiner besonderen Erklärungspflicht rechtzeitig nachkommt; fehlt dies, bleibt der Erwerb in Österreich steuerpflichtig.",
+    "result": "Nein",
+    "paragraphs": [
+      "Art. 3 Abs. 8 UStG 1994",
+      "Art. 25 Abs. 2 UStG 1994"
+    ],
+    "topic": "Dreiecksgeschäft / zusätzlicher innergemeinschaftlicher Erwerb",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/8cccee00-6bb3-4fa4-8c29-efc6752b6ae4/110292.pdf"
+  },
+  {
+    "case_id": 34,
+    "bfg_case": "203",
+    "statement": "Eine ausländische Planungs-GmbH vergibt für ein österreichisches Bauprojekt reine Planungsleistungen an einen österreichischen Subunternehmer. Die Leistungen bestehen ausschließlich in Planung und Koordinierung; handwerkliche oder bauliche Ausführungsleistungen werden nicht erbracht.",
+    "question": "Geht die Steuerschuld für diese Leistungen nach § 19 Abs. 1a UStG 1994 auf die ausländische GmbH über?",
+    "answer": "Nein. § 19 Abs. 1a UStG 1994 erfasst nur Bauleistungen, also Leistungen, die der Herstellung, Instandsetzung, Instandhaltung, Reinigung, Änderung oder Beseitigung von Bauwerken dienen. Reine selbständige Planungsleistungen fallen nicht darunter, sodass kein Übergang der Steuerschuld nach dieser Bestimmung eintritt.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 19 Abs. 1a UStG 1994"
+    ],
+    "topic": "Reverse Charge / Bauleistung / Planung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/7a8ec77f-5006-4637-b8f7-3f5ae9d34f6b/121631.pdf"
+  },
+  {
+    "case_id": 35,
+    "bfg_case": "35",
+    "statement": "Eine Unternehmerin hat für eine steuerpflichtige Lieferung eine Rechnung mit Umsatzsteuer ausgestellt. Noch vor vollständiger Bezahlung wird über das Vermögen der Kundin das Insolvenzverfahren eröffnet und die Forderung wird uneinbringlich.",
+    "question": "Darf die Unternehmerin die für diesen Umsatz geschuldete Umsatzsteuer berichtigen?",
+    "answer": "Ja. Wird das Entgelt für eine steuerpflichtige Lieferung uneinbringlich, gilt § 16 Abs. 3 Z 1 UStG 1994 sinngemäß und führt zu einer Berichtigung nach § 16 Abs. 1 UStG 1994. Die Unternehmerin kann daher die ursprünglich geschuldete Umsatzsteuer in jenem Veranlagungszeitraum berichtigen, in dem die Uneinbringlichkeit eingetreten ist.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 16 Abs. 1 UStG 1994",
+      "§ 16 Abs. 3 Z 1 UStG 1994"
+    ],
+    "topic": "Änderung der Bemessungsgrundlage / Uneinbringlichkeit",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/78744141-2dff-4803-9239-004c51ed5aa3/102101.pdf"
+  },
+  {
+    "case_id": 36,
+    "bfg_case": "179",
+    "statement": "Eine Immobiliengesellschaft macht Vorsteuer aus Eingangsrechnungen eines Bauunternehmens geltend. In den Rechnungen werden die Leistungen nur mit Sammelbegriffen wie „Regiearbeiten\", „Material lt. Vereinbarung\" oder „Akontozahlung\" beschrieben, ohne dass auf konkretisierende Unterlagen verwiesen wird.",
+    "question": "Berechtigen solche Rechnungen zum Vorsteuerabzug?",
+    "answer": "Nein. Der Vorsteuerabzug setzt eine Rechnung im Sinn des § 11 UStG 1994 voraus. Fehlen ausreichende Angaben über Art. und Umfang der Leistung, liegt keine zum Vorsteuerabzug berechtigende Rechnung vor.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 11 UStG 1994",
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / unzureichende Leistungsbeschreibung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/f01d9c34-6990-440a-9096-84753382b994/105116.pdf"
+  },
+  {
+    "case_id": 37,
+    "bfg_case": "37",
+    "statement": "Eine Unternehmerin erwirbt in Deutschland einen Personenkraftwagen und verbringt ihn nach Österreich. Für den innergemeinschaftlichen Erwerb wird zusätzlich zur Gegenleistung auch die in Österreich anfallende NoVA in die Bemessungsgrundlage einbezogen.",
+    "question": "Gehört die NoVA zur Bemessungsgrundlage der Erwerbsteuer?",
+    "answer": "Nein. Nach § 4 UStG 1994 gehört zur Bemessungsgrundlage nur das Entgelt für den Umsatz. Fällt die NoVA erst aufgrund der erstmaligen Zulassung im Inland an, fehlt ihr der unmittelbare Zusammenhang mit dem innergemeinschaftlichen Erwerb; sie ist daher nicht in die Bemessungsgrundlage der Erwerbsteuer einzubeziehen.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 4 Abs. 1 UStG 1994",
+      "§ 4 Abs. 10 UStG 1994"
+    ],
+    "topic": "Bemessungsgrundlage / Erwerbsteuer",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/467fcfd5-ca17-46db-a113-a9a7d4695f00/102516.pdf"
+  },
+  {
+    "case_id": 38,
+    "bfg_case": "38",
+    "statement": "Eine Unternehmerin hat für einen steuerpflichtigen Umsatz Umsatzsteuer abgeführt. Über das Vermögen ihrer Schuldnerin wird ein Sanierungsverfahren eröffnet; nach dem bekannt gemachten Sanierungsplan erhalten die Gläubiger nur eine Quote von 20 %.",
+    "question": "Darf die Unternehmerin ihre Umsatzsteuer wegen Uneinbringlichkeit in Höhe von 80 % der offenen Forderung berichtigen?",
+    "answer": "Ja. Wird ein Entgelt nur mehr teilweise einbringlich, ist die Bemessungsgrundlage nach § 16 Abs. 1 UStG 1994 entsprechend zu berichtigen. Bei Anwendung des § 16 Abs. 3 Z 1 UStG 1994 kann die Unternehmerin daher jenen Teil der Umsatzsteuer berichtigen, der auf den uneinbringlichen Forderungsteil entfällt; bei einer Quote von 20 % ist das eine Berichtigung im Ausmaß von 80 %.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 16 Abs. 1 UStG 1994",
+      "§ 16 Abs. 3 Z 1 UStG 1994"
+    ],
+    "topic": "Änderung der Bemessungsgrundlage / Insolvenzquote",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/fa6247d9-8355-47e2-9ad8-c35fcb2d7130/148204.1.1.pdf"
+  },
+  {
+    "case_id": 39,
+    "bfg_case": "206",
+    "statement": "Ein liechtensteinisches Transportunternehmen erlaubt einem in Österreich eingesetzten Mitarbeiter, das Firmenmobiltelefon gelegentlich ohne gesondertes Entgelt auch privat zu nutzen. Die Privatnutzung bleibt geringfügig und hat nur untergeordneten Charakter.",
+    "question": "Liegt darin ein in Österreich steuerbarer Eigenverbrauch?",
+    "answer": "Nein. Nach § 3a Abs. 1a Z 2 UStG 1994 wird die unentgeltliche Erbringung sonstiger Leistungen für den Bedarf des Personals nur dann einer sonstigen Leistung gegen Entgelt gleichgestellt, wenn keine Aufmerksamkeit vorliegt. Bleibt die Privatnutzung bloß gelegentlich und geringfügig, liegt eine Aufmerksamkeit vor und damit kein steuerbarer Eigenverbrauch.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 3a Abs. 1a Z 2 UStG 1994"
+    ],
+    "topic": "Eigenverbrauch / Aufmerksamkeit / Telekommunikation",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/b06b69d1-5d96-4740-964d-48070e5df6cf/147428.1.1.pdf"
+  },
+  {
+    "case_id": 40,
+    "bfg_case": "196",
+    "statement": "Eine GmbH errichtet ein Gebäude mit Bürotrakt und Wohnung. Die Wohnung wird einem nicht beteiligten Geschäftsführer als Dienstwohnung überlassen; eine private Nutzung durch den Gesellschafter liegt nicht vor und ein enger Zusammenhang mit einem künftigen Gesellschafterverhältnis ist nicht feststellbar.",
+    "question": "Ist die auf die Wohnung entfallende Vorsteuer nach § 12 Abs. 2 Z 2 lit. a UStG 1994 ausgeschlossen?",
+    "answer": "Nein. Der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 ist nur dann durch § 12 Abs. 2 Z 2 lit. a UStG 1994 ausgeschlossen, wenn die Leistung überwiegend der nicht abzugsfähigen privaten Lebensführung oder einer verdeckten Ausschüttung zuzuordnen ist. Wird die Wohnung bloß einem nicht beteiligten Geschäftsführer als Dienstwohnung überlassen und fehlt ein hinreichender Zusammenhang mit einer Gesellschafterstellung, bleibt der Vorsteuerabzug eröffnet.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 12 Abs. 2 Z 2 lit. a UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Dienstwohnung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c00da38d-cb3c-473a-bc91-d670f11a4f92/149631.1.1.pdf"
+  },
+  {
+    "case_id": 41,
+    "bfg_case": "41",
+    "statement": "Ein in Deutschland ansässiger Unternehmer kauft Waren von einem österreichischen Lieferer und verkauft sie noch vor dem Abtransport an einen Unternehmer in Italien weiter. Der mittlere Unternehmer beauftragt die Abholung in Österreich; der letzte Abnehmer ist dem Erstlieferer bereits bei der Abholung bekannt und die Waren gelangen unmittelbar von Österreich nach Italien.",
+    "question": "Ist im Reihengeschäft die Lieferung des österreichischen Lieferers an den mittleren Unternehmer die ruhende Lieferung?",
+    "answer": "Ja. Im Reihengeschäft ist nach § 3 Abs. 7 und § 3 Abs. 8 UStG 1994 zwischen ruhender und bewegter Lieferung zu unterscheiden. Steht bereits bei Beginn des Transports fest, dass die Waren unmittelbar an den letzten Abnehmer gelangen und ist diesem die Warenbewegung zuzuordnen, ist die erste Lieferung die ruhende Lieferung in Österreich und die zweite Lieferung die bewegte Lieferung.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3 Abs. 15 UStG 1994"
+    ],
+    "topic": "Reihengeschäft / ruhende und bewegte Lieferung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/b527f478-4200-410a-bb61-40c5edddee85/111150.pdf"
+  },
+  {
+    "case_id": 42,
+    "bfg_case": "42",
+    "statement": "Eine in Deutschland ansässige Unternehmerin lässt an in Österreich eingebauten Klimaanlagen Wartungsarbeiten durchführen. Der Leistungsempfänger hat im Inland weder Sitz noch Betriebsstätte.",
+    "question": "Liegt der Leistungsort der Wartungsleistung in Österreich?",
+    "answer": "Ja. Eine sonstige Leistung im Zusammenhang mit einem Grundstück wird nach § 3a Abs. 9 UStG 1994 dort ausgeführt, wo das Grundstück gelegen ist. Bezieht sich die Wartung auf fest eingebaute Anlagen eines in Österreich gelegenen Gebäudes, liegt der Leistungsort daher in Österreich.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 9 UStG 1994"
+    ],
+    "topic": "Leistungsort / Grundstücksbezogene Leistung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/e13f894c-81eb-4ba7-b518-05e4be51b6d5/109719.pdf"
+  },
+  {
+    "case_id": 43,
+    "bfg_case": "43",
+    "statement": "Ein Unternehmer beschäftigt eine Arbeitnehmerin sowohl in seinen Ordinationsräumen als auch im privaten Haushalt seiner Familie. Ein abgrenzbarer Teil der Arbeitsleistung entfällt auf private Haushaltstätigkeiten.",
+    "question": "Unterliegt der auf den Privathaushalt entfallende Arbeitseinsatz der Umsatzsteuer?",
+    "answer": "Ja. Der Einsatz der Dienstnehmerin für Zwecke außerhalb des Unternehmens ist umsatzsteuerpflichtig. Für Zeiträume ab 2004 folgt dies aus § 3a Abs. 1a Z 2 UStG 1994; für Zeiträume vor dem 1.1.2004 ist der Umsatz als Eigenverbrauch nach § 1 Abs. 1 Z 2 UStG 1994 in der damals geltenden Fassung steuerpflichtig.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 1a Z 2 UStG 1994",
+      "§ 1 Abs. 1 Z 2 UStG 1994"
+    ],
+    "topic": "Eigenverbrauch / Dienstnehmerleistungen",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/70a35ed0-2004-4d02-ae06-89477309adcf/136963.1.1.pdf"
+  },
+  {
+    "case_id": 44,
+    "bfg_case": "206",
+    "statement": "Ein liechtensteinisches Unternehmen erbringt gegen gesondertes Entgelt Mobilfunkleistungen an eine Privatperson mit Wohnsitz in Österreich. Das Unternehmen hat im Inland weder Sitz noch Betriebsstätte.",
+    "question": "Liegt der Leistungsort dieser Telekommunikationsleistung in Österreich?",
+    "answer": "Ja. Nach § 3a Abs. 13 UStG 1994 werden Telekommunikationsleistungen an dem Ort ausgeführt, an dem der Nichtunternehmer seinen Wohnsitz, Sitz oder gewöhnlichen Aufenthalt hat. Hat der private Leistungsempfänger seinen Wohnsitz in Österreich, liegt der Leistungsort daher in Österreich.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 13 UStG 1994"
+    ],
+    "topic": "Leistungsort / Telekommunikationsleistung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/b06b69d1-5d96-4740-964d-48070e5df6cf/147428.1.1.pdf"
+  },
+  {
+    "case_id": 45,
+    "bfg_case": "208",
+    "statement": "Eine GmbH bezieht Bauleistungen und macht die in einer Rechnung gesondert ausgewiesene Umsatzsteuer als Vorsteuer geltend. Die Rechnung enthält weder den Tag der Leistung noch den Leistungszeitraum; auf andere Belege mit diesen Angaben wird in der Rechnung nicht verwiesen.",
+    "question": "Steht der GmbH der Vorsteuerabzug aus dieser Rechnung zu?",
+    "answer": "Nein. Nach § 12 Abs. 1 Z 1 UStG 1994 setzt der Vorsteuerabzug eine Rechnung im Sinn des § 11 UStG 1994 voraus. Fehlt bei der Rechnung die nach § 11 Abs. 1 Z 4 UStG 1994 erforderliche Angabe des Leistungszeitpunkts oder Leistungszeitraums und enthält die Rechnung keinen Verweis auf andere Belege mit diesen Angaben, liegt keine zum Vorsteuerabzug berechtigende Rechnung vor.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 11 Abs. 1 Z 4 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Rechnungsmerkmale",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/b2d9181d-ddca-45ea-93e3-9a17322ddbb6/106041.pdf"
+  },
+  {
+    "case_id": 46,
+    "bfg_case": "190",
+    "statement": "Ein deutsches Telekommunikationsunternehmen bezieht von einem österreichischen Unternehmer technische Beratungs- und Datenverarbeitungsleistungen. Der österreichische Leistende weist dafür österreichische Umsatzsteuer in Rechnung.",
+    "question": "Ist die ausgewiesene österreichische Umsatzsteuer als Vorsteuer abzugs- oder erstattungsfähig?",
+    "answer": "Nein. Die Leistungen der technischen Beratung und Datenverarbeitung werden nach § 3a Abs. 9 UStG 1994 und § 3a Abs. 10 UStG 1994 bei einem unternehmerischen Leistungsempfänger am Empfängerort ausgeführt. Liegt dieser in Deutschland, sind die Leistungen nicht im Inland ausgeführt; damit fehlt die Voraussetzung des § 12 Abs. 1 Z 1 UStG 1994 für einen Vorsteuerabzug aus österreichischer Umsatzsteuer.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 3a Abs. 9 UStG 1994",
+      "§ 3a Abs. 10 UStG 1994",
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Leistungsort / Vorsteuererstattung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/afad803e-1401-4c64-858e-5b9bf4262084/138672.1.1.pdf"
+  },
+  {
+    "case_id": 47,
+    "bfg_case": "153",
+    "statement": "Ein Medienunternehmen verkauft eine Tageszeitung gemeinsam mit einer beigepackten DVD zu einem Einheitspreis. Die DVD ist nicht bloß unselbständiger Bestandteil der Zeitung, sondern ein gesondert zu beurteilendes Produkt.",
+    "question": "Ist auf den gesamten Einheitspreis der ermäßigte Steuersatz für Druckerzeugnisse anzuwenden?",
+    "answer": "Nein. Soweit die Lieferung nicht unter den begünstigten Tatbestand des § 10 Abs. 2 UStG 1994 fällt, ist der Normalsteuersatz nach § 10 Abs. 1 UStG 1994 anzuwenden. Wird Zeitung und DVD umsatzsteuerlich nicht einheitlich als begünstigtes Druckerzeugnis behandelt, ist der Preis aufzuteilen und der nicht begünstigte Teil mit dem Normalsteuersatz zu versteuern.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 10 Abs. 1 UStG 1994",
+      "§ 10 Abs. 2 UStG 1994"
+    ],
+    "topic": "Steuersatz / Presseprodukt mit DVD",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/a5fe32ee-2779-4c4e-8660-1541c5d0a7bd/124218.pdf"
+  },
+  {
+    "case_id": 48,
+    "bfg_case": "48",
+    "statement": "Ein Fahrzeughändler überlässt Journalisten Fahrzeuge jeweils für rund 15 Tage ausschließlich zu Testzwecken. Die Journalisten zahlen kein Geld, führen aber die vereinbarten Testtätigkeiten für ihre Medien durch.",
+    "question": "Liegt ein tauschähnlicher Umsatz im Sinn des § 3a Abs. 2 UStG 1994 vor?",
+    "answer": "Ja. Wird ein Fahrzeug nicht bloß unverbindlich zur Verfügung gestellt, sondern gerade zur Durchführung vereinbarter Testtätigkeiten überlassen, besteht ein unmittelbarer Zusammenhang zwischen Fahrzeugüberlassung und Gegenleistung. Damit liegt ein tauschähnlicher Umsatz nach § 3a Abs. 2 UStG 1994 vor.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 2 UStG 1994"
+    ],
+    "topic": "Tauschähnlicher Umsatz / Pressefahrzeuge",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6bbeb1e8-298e-445f-94ff-8acd7489fc63/123116.pdf"
+  },
+  {
+    "case_id": 49,
+    "bfg_case": "49",
+    "statement": "Ein Unternehmer hatte beim Erwerb einer zur steuerpflichtigen Vermietung bestimmten Eigentumswohnung Vorsteuer abgezogen. Innerhalb des Berichtigungszeitraums verkauft er die Wohnung steuerfrei.",
+    "question": "Ist der Vorsteuerabzug im Jahr der Veräußerung für den restlichen Berichtigungszeitraum zu berichtigen?",
+    "answer": "Ja. Ändern sich bei einem Grundstück innerhalb des Berichtigungszeitraums die für den Vorsteuerabzug maßgeblichen Verhältnisse durch eine steuerfreie Veräußerung, ist nach § 12 Abs. 10 UStG 1994 die Vorsteuer für die verbleibenden Berichtigungsjahre im Jahr der Änderung zu berichtigen.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 10 UStG 1994"
+    ],
+    "topic": "Vorsteuerberichtigung / Grundstück",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/470b3e61-54a8-457a-a27f-a23b0b67dc86/109439.pdf"
+  },
+  {
+    "case_id": 50,
+    "bfg_case": "154",
+    "statement": "Eine in Deutschland ansässige GmbH beantragt die Erstattung österreichischer Vorsteuer aus Werbeleistungen einer österreichischen Agentur. Die Agentur hat österreichische Umsatzsteuer in Rechnung gestellt, obwohl die Werbeleistung an die deutsche Unternehmerin erbracht wurde.",
+    "question": "Ist die ausgewiesene österreichische Umsatzsteuer als Vorsteuer erstattungsfähig?",
+    "answer": "Nein. Nach § 3a Abs. 6 UStG 1994 liegt der Leistungsort einer sonstigen Leistung an einen Unternehmer grundsätzlich am Sitz des Leistungsempfängers. Liegt der Leistungsort daher in Deutschland, unterliegt die Leistung nicht der österreichischen Umsatzsteuer; ein bloß unrichtig in Rechnung gestellter österreichischer Steuerbetrag ist nicht als Vorsteuer abziehbar.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994"
+    ],
+    "topic": "Leistungsort / Werbeleistung / Vorsteuererstattung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c4b6c138-6c24-47e8-a8b4-00002ac45ce7/111656.pdf"
+  },
+  {
+    "case_id": 51,
+    "bfg_case": "202",
+    "statement": "Eine deutsche GmbH vermietet zahlreiche Pkw zu fremdüblichen Bedingungen an ihre österreichische Konzerngesellschaft. Später verkauft sie diese Fahrzeuge, während sich die Pkw in Österreich in der Verfügungsmacht der Leasingnehmerin befinden und keine Beförderung oder Versendung mehr stattfindet.",
+    "question": "Ist die Veräußerung der Pkw in Österreich steuerbar?",
+    "answer": "Ja. Nach § 3 Abs. 7 UStG 1994 wird eine Lieferung dort ausgeführt, wo sich der Gegenstand im Zeitpunkt der Verschaffung der Verfügungsmacht befindet, wenn keine Beförderung oder Versendung erfolgt; das ist hier Österreich. Der Ausschluss des § 12 Abs. 2 Z 2 lit. b UStG 1994 greift nicht ein, wenn die Fahrzeuge der gewerblichen Vermietung dienen, sodass die Veräußerung steuerbar ist.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3 Abs. 7 UStG 1994",
+      "§ 12 Abs. 2 Z 2 lit. b UStG 1994"
+    ],
+    "topic": "Lieferort / PKW / gewerbliche Vermietung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/176af8e7-f8b6-41c4-87cc-b24cd52886c5/117706.pdf"
+  },
+  {
+    "case_id": 52,
+    "bfg_case": "52",
+    "statement": "Ein Malerbetrieb bezieht Bauleistungen von einem Subunternehmer. Der Subunternehmer weist in seinen Rechnungen dennoch 20 % Umsatzsteuer aus, obwohl die Leistung dem Reverse-Charge-Verfahren unterliegt.",
+    "question": "Kann der Malerbetrieb die gesondert ausgewiesene Umsatzsteuer als Vorsteuer abziehen?",
+    "answer": "Nein. Bei Bauleistungen schuldet unter den Voraussetzungen des § 19 Abs. 1a UStG 1994 der Leistungsempfänger die Umsatzsteuer. Weist der leistende Unternehmer dennoch Umsatzsteuer offen aus, schuldet er diesen Betrag nach § 11 Abs. 12 UStG 1994 kraft Rechnung; dieser gesondert ausgewiesene Betrag berechtigt den Leistungsempfänger nicht zum Vorsteuerabzug.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 19 Abs. 1a UStG 1994",
+      "§ 11 Abs. 12 UStG 1994"
+    ],
+    "topic": "Reverse Charge / unrichtiger Steuerausweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/1db8c613-070f-43ac-9c50-4b49b7572e95/150649.1.1.pdf"
+  },
+  {
+    "case_id": 53,
+    "bfg_case": "53",
+    "statement": "Eine Erzeugerorganisation erhält von einem Mitglied eine Zahlung, die in einer Beitragsvorschreibung bereits einer konkret bezeichneten Investitionsleistung für einen bestimmten Zeitraum zugeordnet ist. Die Leistung selbst wird erst später ausgeführt.",
+    "question": "Entsteht die Umsatzsteuer bereits mit Vereinnahmung dieser Zahlung?",
+    "answer": "Ja. Steht die vereinnahmte Zahlung bereits mit einer ausreichend konkretisierten künftigen Leistung in Zusammenhang, liegt eine steuerbare Anzahlung vor. Die Steuerschuld entsteht dann nach § 19 Abs. 2 Z 1 lit. a UStG 1994 bereits mit Ablauf des Voranmeldungszeitraums der Vereinnahmung.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 19 Abs. 2 Z 1 lit. a UStG 1994"
+    ],
+    "topic": "Anzahlungsbesteuerung / konkretisierte Leistung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/f1e22347-0199-4266-ab46-6317565635cb/116956.pdf"
+  },
+  {
+    "case_id": 54,
+    "bfg_case": "192",
+    "statement": "Eine GmbH kauft von einem deutschen Händler einen gebrauchten Pkw für ihr Unternehmen. Das Fahrzeug gelangt im Zuge der Lieferung von Deutschland nach Österreich.",
+    "question": "Unterliegt dieser Vorgang in Österreich dem innergemeinschaftlichen Erwerb?",
+    "answer": "Ja. Nach Art. 1 Abs. 1 UStG 1994 unterliegt der innergemeinschaftliche Erwerb im Inland der Umsatzsteuer. Gelangt ein Gegenstand bei einer entgeltlichen Lieferung von einem Mitgliedstaat in einen anderen und erwirbt ihn eine GmbH für ihr Unternehmen, sind die Voraussetzungen des Art. 1 Abs. 2 UStG 1994 erfüllt.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 1 Abs. 1 UStG 1994",
+      "Art. 1 Abs. 2 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftlicher Erwerb / Fahrzeugkauf",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/10d8dd07-503b-4901-b3e0-ad0b59f12274/115695.pdf"
+  },
+  {
+    "case_id": 55,
+    "bfg_case": "202",
+    "statement": "Eine deutsche Leasing-GmbH gibt gegenüber österreichischen Fahrzeughändlern an, erworbene Pkw in einen anderen Mitgliedstaat zu verbringen. Tatsächlich verbleiben die Fahrzeuge von Anfang an in Österreich; die Lieferanten behandeln die Verkäufe aufgrund der für sie nicht als unrichtig erkennbaren Angaben dennoch als steuerfreie innergemeinschaftliche Lieferungen.",
+    "question": "Schuldet die deutsche GmbH in Österreich Umsatzsteuer und kann sie diese als Vorsteuer abziehen?",
+    "answer": "Ja hinsichtlich der Steuerschuld, aber nein hinsichtlich des Vorsteuerabzugs. Nach Art. 7 Abs. 4 UStG 1994 ist in einem solchen Fall die Umsatzsteuer dem Abnehmer vorzuschreiben, wenn der Lieferer die Lieferung aufgrund unrichtiger, für ihn nicht erkennbarer Angaben steuerfrei belassen hat. Ein Vorsteuerabzug steht dafür nach § 12 Abs. 1 Z 1 UStG 1994 nicht zu, weil diese Steuer nicht als von einem anderen Unternehmer in Rechnung gestellte Umsatzsteuer abziehbar ist.",
+    "result": "Teilweise",
+    "paragraphs": [
+      "Art. 7 Abs. 4 UStG 1994",
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung / Vertrauensschutz / Vorsteuerabzug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/176af8e7-f8b6-41c4-87cc-b24cd52886c5/117706.pdf"
+  },
+  {
+    "case_id": 56,
+    "bfg_case": "176",
+    "statement": "Eine österreichische GmbH erwirbt Maschinen und versendet sie als Sacheinlage an ihre Tochtergesellschaft in Russland. Die Maschinen werden dabei vom Unternehmen selbst in das Drittlandsgebiet befördert.",
+    "question": "Ist diese Lieferung als Ausfuhrlieferung steuerfrei und bleibt der Vorsteuerabzug aus dem Erwerb der Maschinen erhalten?",
+    "answer": "Ja. Werden Gegenstände vom Unternehmer in das Drittlandsgebiet befördert oder versendet, ist die Lieferung nach § 7 Abs. 1 Z 1 UStG 1994 steuerfrei. Da es sich um eine echt steuerfreie Ausfuhrlieferung handelt, schließt § 12 Abs. 3 UStG 1994 den Vorsteuerabzug aus den Anschaffungskosten nicht aus.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 7 Abs. 1 Z 1 UStG 1994",
+      "§ 12 Abs. 3 UStG 1994"
+    ],
+    "topic": "Ausfuhrlieferung / Sacheinlage / Vorsteuerabzug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/9f1672f3-a7e7-41d4-9c1e-febd344ae642/102643.pdf"
+  },
+  {
+    "case_id": 57,
+    "bfg_case": "57",
+    "statement": "Eine GmbH erwirbt ein Seegrundstück und macht die damit zusammenhängende Vorsteuer geltend. Im Zeitpunkt des Leistungsbezugs steht noch nicht fest, ob das Grundstück später steuerfrei veräußert oder im Rahmen eines steuerpflichtigen Beherbergungs- oder Vermietungsmodells genutzt werden soll; beide Verwendungen sind gleichermaßen möglich.",
+    "question": "Steht der Vorsteuerabzug bereits im Erwerbsjahr zu?",
+    "answer": "Nein. Der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 setzt voraus, dass die Eingangsleistung dem Unternehmen für eine zum Vorsteuerabzug berechtigende Verwendung zugeordnet werden kann. Ist im Bezugszeitpunkt eine steuerpflichtige Nutzung nicht wahrscheinlicher als eine steuerfreie Verwertung, besteht der Vorsteuerabzug noch nicht.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / unklare Grundstücksverwertung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/4a09a411-1a7f-4d2f-b9c5-c4fc594ae520/150516.1.1.pdf"
+  },
+  {
+    "case_id": 58,
+    "bfg_case": "58",
+    "statement": "Ein Bergbahnunternehmen erhält vor Saisonbeginn Anzahlungen aufgrund von Verträgen, in denen als Vertragsgegenstand konkret Skipässe mit dem Recht auf Benutzung der Bergbahnen bezeichnet sind. Die konkrete Leistung steht damit bereits bei Zahlung fest, auch wenn die spätere Inanspruchnahme erst in der Saison erfolgt.",
+    "question": "Entsteht die Umsatzsteuer bereits mit Vereinnahmung der Anzahlungen?",
+    "answer": "Ja. Steht die vereinnahmte Zahlung bereits mit einer hinreichend konkretisierten künftigen Leistung in Zusammenhang, liegt eine steuerbare Anzahlung vor. Die Steuerschuld entsteht daher nach § 19 Abs. 2 Z 1 lit. a UStG 1994 bereits mit Ablauf des Voranmeldungszeitraums der Vereinnahmung; für die Personenbeförderungsleistung gilt dabei der ermäßigte Steuersatz nach § 10 Abs. 2 Z 6 UStG 1994.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 19 Abs. 2 Z 1 lit. a UStG 1994",
+      "§ 10 Abs. 2 Z 6 UStG 1994"
+    ],
+    "topic": "Anzahlungsbesteuerung / Skipässe",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/ad46b8d9-4f03-4192-a217-63182733756e/133175.1.1.pdf"
+  },
+  {
+    "case_id": 59,
+    "bfg_case": "243",
+    "statement": "Ein deutsches Motorsport-Unternehmen kauft in Österreich Ersatzteile für ein Rennfahrzeug und teilt dem Lieferanten seine deutsche UID mit. Die Teile werden nach dem Rennen zusammen mit dem Fahrzeug nach Deutschland verbracht; der Lieferant weist in der Rechnung dennoch österreichische Umsatzsteuer offen aus.",
+    "question": "Liegt eine steuerfreie innergemeinschaftliche Lieferung vor und schuldet der Lieferant den offen ausgewiesenen Steuerbetrag dennoch?",
+    "answer": "Ja. Werden die gekauften Gegenstände vom Abnehmer in das übrige Gemeinschaftsgebiet verbracht und sind die Voraussetzungen des Art. 7 UStG 1994 erfüllt, liegt eine steuerfreie innergemeinschaftliche Lieferung vor. Weist der Lieferant dafür dennoch Umsatzsteuer offen aus, schuldet er diesen Betrag nach § 11 Abs. 12 UStG 1994 kraft Rechnung, solange keine Berichtigung erfolgt.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 7 UStG 1994",
+      "§ 11 Abs. 12 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung / unrichtiger Steuerausweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/037fa377-51de-408f-99b0-f73770426952/149819.1.1.pdf"
+  },
+  {
+    "case_id": 60,
+    "bfg_case": "158",
+    "statement": "Ein Vermieter hat ein Geschäftslokal bereits 2011 umsatzsteuerpflichtig vermietet. 2013 wird die bisherige Mieterin auf eine andere Gesellschaft verschmolzen, die dadurch als Gesamtrechtsnachfolgerin in den bestehenden Mietvertrag eintritt; eine neue Willenseinigung über ein neues Mietverhältnis erfolgt nicht.",
+    "question": "Liegt durch die Verschmelzung ein neues Mietverhältnis vor, sodass die Option zur Steuerpflicht nach dem 1. Stabilitätsgesetz 2012 ausgeschlossen ist?",
+    "answer": "Nein. Die Vermietung von Grundstücken ist nach § 6 Abs. 1 Z 16 UStG 1994 grundsätzlich steuerfrei, kann aber nach § 6 Abs. 2 UStG 1994 steuerpflichtig behandelt werden. Nach § 28 Abs. 38 UStG 1994 gilt die Einschränkung der Option nur für Mietverhältnisse, die nach dem 31. August 2012 beginnen; tritt infolge einer Verschmelzung bloß die Gesamtrechtsnachfolgerin in den bestehenden Vertrag ein, ohne dass ein neues Mietverhältnis begründet wird, bleibt die bisherige Optionsmöglichkeit bestehen.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 16 UStG 1994",
+      "§ 6 Abs. 2 UStG 1994",
+      "§ 28 Abs. 38 UStG 1994"
+    ],
+    "topic": "Vermietung / Option / Verschmelzung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/f3b10161-365f-47f6-a67d-861a90d96646/119395.pdf"
+  },
+  {
+    "case_id": 61,
+    "bfg_case": "61",
+    "statement": "Ein ausländischer Unternehmer lässt in Österreich ein Fahrzeug reparieren. Der Reparaturbetrieb verwendet dabei selbst beschaffte Teile, die im wirtschaftlichen Gesamtbild mehr als bloße Zutaten oder Nebensachen darstellen.",
+    "question": "Ist die Fahrzeugreparatur als Lieferung und nicht als sonstige Leistung zu behandeln?",
+    "answer": "Ja. Werden bei einer Be- oder Verarbeitung selbst beschaffte Stoffe verwendet, die wirtschaftlich nicht bloß Nebensachen sind, liegt nach § 3 Abs. 4 UStG 1994 eine Lieferung vor. Dann kommt die Ortsbestimmung des § 3a Abs. 6 UStG 1994 für sonstige Leistungen nicht zur Anwendung.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3 Abs. 4 UStG 1994",
+      "§ 3a Abs. 6 UStG 1994"
+    ],
+    "topic": "Lieferung oder sonstige Leistung / Fahrzeugreparatur",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/90d0d30e-2cb9-4d45-86bc-a9e824dd2b5d/108646.pdf"
+  },
+  {
+    "case_id": 62,
+    "bfg_case": "245",
+    "statement": "Ein österreichischer Unternehmer erbringt eine sonstige Leistung an einen Unternehmer mit Sitz in Deutschland. Weitere besondere Ortsregelungen sind nicht einschlägig.",
+    "question": "Wo liegt der Leistungsort dieser sonstigen Leistung?",
+    "answer": "Der Leistungsort liegt in Deutschland. Nach § 3a Abs. 6 UStG 1994 wird eine sonstige Leistung an einen Unternehmer an dem Ort ausgeführt, von dem aus der Empfänger sein Unternehmen betreibt.",
+    "result": null,
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994"
+    ],
+    "topic": "Leistungsort",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/d451ebda-abd6-4f8c-aeee-a9466ccf2f5c/148716.1.1.pdf"
+  },
+  {
+    "case_id": 63,
+    "bfg_case": "63",
+    "statement": "Ein Unternehmer saniert ein Altgebäude umfassend und vermietet einen Gebäudeteil ab 2014 an eine Versicherung, die dort Umsätze ausführt, die den Vorsteuerabzug ausschließen. Vor dem 1. September 2012 wurden nur Abbrucharbeiten durchgeführt; mit den eigentlichen handwerklichen Baumaßnahmen der Generalsanierung wurde erst danach begonnen.",
+    "question": "Kann der Unternehmer für diese Vermietung wirksam auf die Steuerbefreiung verzichten?",
+    "answer": "Nein. Bei Vermietungsumsätzen nach § 6 Abs. 1 Z 16 UStG 1994 ist der Verzicht auf die Steuerbefreiung nach der Übergangsregel des § 28 Abs. 38 Z 1 UStG 1994 nur dann nach altem Recht möglich, wenn mit der Errichtung des Gebäudes bereits vor dem 1. September 2012 begonnen wurde. Reine Abbrucharbeiten stellen noch keinen Beginn der Errichtung dar, sodass der Verzicht gegenüber einem unecht befreiten Mieter nicht zulässig ist.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 16 UStG 1994",
+      "§ 28 Abs. 38 Z 1 UStG 1994"
+    ],
+    "topic": "Vermietung / Option / Übergangsrecht",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6c1f6bda-3f59-4f6a-8e83-053f3cdd308c/109313.pdf"
+  },
+  {
+    "case_id": 64,
+    "bfg_case": "241",
+    "statement": "Eine Projektentwicklungs-GmbH wird von der Eigentümerin eines Grundstücks mit dem Um- und Neubau eines Gebäudes beauftragt. Für die Ausführung dieser Bauarbeiten zieht sie einen Subunternehmer heran, der genau diese Leistungen an die GmbH erbringt.",
+    "question": "Geht die Steuerschuld für diese Leistungen auf die Projektentwicklungs-GmbH über?",
+    "answer": "Ja. Werden Bauleistungen an einen Unternehmer erbracht, der seinerseits mit der Erbringung von Bauleistungen beauftragt ist, schuldet nach § 19 Abs. 1a UStG 1994 der Leistungsempfänger die Umsatzsteuer. Da die GmbH selbst mit dem Um- und Neubau beauftragt ist, geht die Steuerschuld für die Leistungen des Subunternehmers auf sie über.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 19 Abs. 1a UStG 1994"
+    ],
+    "topic": "Reverse Charge / Bauleistungen",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/8340fda6-258b-42ad-a51b-926e17cf36c7/125536.pdf"
+  },
+  {
+    "case_id": 65,
+    "bfg_case": "65",
+    "statement": "Ein Unternehmer hat aus ordnungsgemäßen Rechnungen den Vorsteuerabzug geltend gemacht. Noch im selben Jahr steht fest, dass er die offenen Entgelte auf absehbare Zeit nicht bezahlen kann und die Forderungen deshalb uneinbringlich geworden sind; erst später leistet er eine Teilzahlung.",
+    "question": "Muss der Unternehmer den Vorsteuerabzug berichtigen und bei späterer Teilzahlung erneut anpassen?",
+    "answer": "Ja. Wird das Entgelt für eine steuerpflichtige Leistung uneinbringlich, ist der in Anspruch genommene Vorsteuerabzug nach § 16 Abs. 3 Z 1 iVm § 16 Abs. 1 UStG 1994 zu berichtigen. Wird später doch noch ein Teil des Entgelts bezahlt, ist die Vorsteuer insoweit erneut zu berichtigen.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 16 Abs. 3 Z 1 UStG 1994",
+      "§ 16 Abs. 1 UStG 1994"
+    ],
+    "topic": "Vorsteuerberichtigung / Uneinbringlichkeit",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/a2c39c2f-ad65-41eb-9660-dd81752781df/119955.pdf"
+  },
+  {
+    "case_id": 66,
+    "bfg_case": "213",
+    "statement": "Eine österreichische KG stellt für im Ausland ausgeführte, im Inland nicht steuerbare Leistungen Rechnungen mit österreichischem Umsatzsteuerausweis aus. Später berichtigt sie diese Rechnungen durch Sammelberichtigung.",
+    "question": "Ist die ursprünglich ausgewiesene Umsatzsteuer nach § 11 Abs. 12 UStG 1994 entstanden und wirkt die Berichtigung erst ab ihrem Zeitpunkt?",
+    "answer": "Ja. Wird für eine nicht steuerbare Leistung in einer Rechnung österreichische Umsatzsteuer ausgewiesen, entsteht die Steuerschuld nach § 11 Abs. 12 UStG 1994 kraft Rechnung. Die spätere Rechnungsberichtigung ist nach § 16 Abs. 1 UStG 1994 ex nunc zu berücksichtigen und wirkt daher nicht rückwirkend.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 11 Abs. 12 UStG 1994",
+      "§ 16 Abs. 1 UStG 1994"
+    ],
+    "topic": "Steuerschuld kraft Rechnung / Berichtigung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/209b8863-f066-47e3-8f8f-7effc0785a86/140435.1.1.pdf"
+  },
+  {
+    "case_id": 67,
+    "bfg_case": "67",
+    "statement": "Ein ausländischer Unternehmer hat für einen bestimmten Zeitraum bereits Vorsteuererstattung für in Österreich bezogene Leistungen erhalten. Später wird ihm für genau diese Leistungen eine Gutschrift gewährt, die zu einer Minderung des ursprünglich bezahlten Entgelts führt.",
+    "question": "Muss der bereits in Anspruch genommene Vorsteuerabzug wegen der späteren Gutschrift berichtigt werden?",
+    "answer": "Ja. Ändert sich nachträglich das Entgelt, ist nach § 16 Abs. 1 Z 2 UStG 1994 der bereits in Anspruch genommene Vorsteuerabzug zu berichtigen. Eine Berichtigung setzt aber voraus, dass für den betroffenen Zeitraum tatsächlich bereits ein Vorsteuerabzug oder eine Vorsteuererstattung in Anspruch genommen wurde.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 16 Abs. 1 Z 2 UStG 1994"
+    ],
+    "topic": "Vorsteuerberichtigung / nachträgliche Gutschrift",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/358da26e-fede-42f6-bcd5-fb8a6179ee5c/137263.1.1.pdf"
+  },
+  {
+    "case_id": 68,
+    "bfg_case": "156",
+    "statement": "Ein Unternehmer verwendet bei einem Reihengeschäft eine österreichische UID und behandelt den Vorgang zunächst nicht als Dreiecksgeschäft. Erst später berichtigt er Rechnungen und Zusammenfassende Meldungen und ergänzt den Hinweis auf das Dreiecksgeschäft.",
+    "question": "Fällt der zusätzliche innergemeinschaftliche Erwerb in Österreich dadurch rückwirkend weg?",
+    "answer": "Nein. Nach Art. 25 Abs. 2 UStG 1994 gilt der Erwerb nur dann als besteuert, wenn das Dreiecksgeschäft nachgewiesen und die Erklärungspflicht ordnungsgemäß erfüllt wurde. Wurde die Erklärungspflicht zunächst nicht erfüllt, bleibt der zusätzliche Erwerb nach Art. 3 Abs. 8 UStG 1994 bestehen; ein späterer Nachweis wirkt nicht rückwirkend.",
+    "result": "Nein",
+    "paragraphs": [
+      "Art. 25 Abs. 2 UStG 1994",
+      "Art. 3 Abs. 8 UStG 1994"
+    ],
+    "topic": "Dreiecksgeschäft / zusätzliche Erwerbsteuer",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/8cccee00-6bb3-4fa4-8c29-efc6752b6ae4/110292.pdf"
+  },
+  {
+    "case_id": 69,
+    "bfg_case": "214",
+    "statement": "Eine KG bezahlt aufgrund ordnungsgemäßer Anzahlungsrechnungen eines Bauunternehmens Teilentgelte für ein Bauprojekt und zieht die Vorsteuer ab. In weiterer Folge wird die vereinbarte Bauleistung nur teilweise ausgeführt; hinsichtlich des Restes steht fest, dass sie endgültig unterbleibt.",
+    "question": "Muss die KG den bereits vorgenommenen Vorsteuerabzug für den nicht ausgeführten Leistungsteil berichtigen?",
+    "answer": "Ja. Der Vorsteuerabzug aus einer Anzahlungsrechnung steht nach § 12 Abs. 1 Z 1 UStG 1994 bereits zu, wenn die Rechnung vorliegt und die Zahlung geleistet wurde. Wird die vereinbarte Leistung später ganz oder teilweise nicht ausgeführt, ist der für den nicht ausgeführten Teil in Anspruch genommene Vorsteuerabzug nach § 16 Abs. 3 Z 2 UStG 1994 zu berichtigen.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 16 Abs. 3 Z 2 UStG 1994"
+    ],
+    "topic": "Vorsteuerberichtigung / Anzahlungsrechnung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/5023ea3b-3b50-40c9-82e8-df7a9ce69bc1/129138.1.1.pdf"
+  },
+  {
+    "case_id": 70,
+    "bfg_case": "230",
+    "statement": "Eine in Deutschland ansässige GmbH erwirbt von österreichischen Fahrzeughändlern Pkw unter der Erklärung, die Fahrzeuge in das übrige Gemeinschaftsgebiet zu verbringen. Tatsächlich sind die Fahrzeuge von Anfang an zur Vermietung an eine österreichische Konzerngesellschaft für deren Verwendung in Österreich bestimmt; die Händler haben die Lieferungen im Vertrauen auf die Angaben der GmbH steuerfrei behandelt.",
+    "question": "Schuldet die deutsche GmbH die entgangene Umsatzsteuer nach Art. 7 Abs. 4 UStG 1994?",
+    "answer": "Ja. Art. 7 Abs. 4 UStG 1994 ordnet an, dass der Abnehmer die entgangene Steuer schuldet, wenn eine Lieferung im Vertrauen auf seine unrichtigen Angaben als innergemeinschaftliche Lieferung steuerfrei behandelt wurde. Sind die Fahrzeuge tatsächlich von Anfang an für Österreich bestimmt und hat die GmbH dennoch ihre Verbringung in einen anderen Mitgliedstaat erklärt, greift diese Rechtsfolge ein.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 7 Abs. 4 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung / Vertrauensschutz / Fahrzeugleasing",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/176af8e7-f8b6-41c4-87cc-b24cd52886c5/117706.pdf"
+  },
+  {
+    "case_id": 71,
+    "bfg_case": "151",
+    "statement": "Eine KEG stellt in mehreren Jahren Rechnungen über die Überlassung und Wartung von Software aus. Tatsächlich erbringt sie diese Leistungen nicht, weist in den Rechnungen aber gesondert Umsatzsteuer aus; die Rechnungen enthalten bei den behaupteten Dauerleistungen jeweils einen Jahres- oder Halbjahreszeitraum.",
+    "question": "Schuldet die KEG die ausgewiesene Umsatzsteuer trotz Nichtausführung der Leistungen?",
+    "answer": "Ja. Bei behaupteten Dauerleistungen genügt nach § 11 Abs. 1 Z 4 UStG 1994 die Angabe des Zeitraums, über den sich die sonstige Leistung erstreckt. Weist der Unternehmer in einer formal ausreichenden Rechnung Umsatzsteuer für tatsächlich nicht ausgeführte Leistungen aus, schuldet er diesen Betrag nach § 11 Abs. 14 UStG 1994 kraft Rechnung.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 11 Abs. 1 Z 4 UStG 1994",
+      "§ 11 Abs. 14 UStG 1994"
+    ],
+    "topic": "Steuerschuld kraft Rechnung / Dauerleistung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/03ed5839-a97f-46cc-b0bf-09af0c617c5c/119218.pdf"
+  },
+  {
+    "case_id": 72,
+    "bfg_case": "72",
+    "statement": "Ein Unternehmer betreibt eine Selbstbedienungsbäckerei, in der Kunden Backwaren aus Vitrinen entnehmen und Heißgetränke aus Automaten beziehen. Die Tätigkeit geht nicht über eine bloße Abgabe von Waren mit geringfügigen Nebenleistungen hinaus.",
+    "question": "Unterliegen diese Umsätze dem ermäßigten Steuersatz von 5 % nach § 28 Abs. 52 Z 1 lit. a UStG 1994?",
+    "answer": "Nein. Die Selbstbedienungsbäckerei entfaltet nach dem BFG keine begünstigte Tätigkeit iSd § 28 Abs. 52 Z 1 lit. a UStG 1994; die Bestimmung ist eng auszulegen und erfasst hier die unter § 111 Abs. 2 GewO fallenden Tätigkeiten nicht.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 28 Abs. 52 Z 1 lit. a UStG 1994"
+    ],
+    "topic": "Steuersatz / Gastgewerbe",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/fd4b9bf9-967c-4d37-8d05-5a3086a266f1/144960.1.1.pdf"
+  },
+  {
+    "case_id": 73,
+    "bfg_case": "175",
+    "statement": "Ein im EU-Ausland ansässiges Unternehmen erhält für in Österreich bezogene Lieferungen Rechnungen über mehr als 10.000 Euro, in denen zunächst die UID des Leistungsempfängers fehlt. Noch vor Abschluss des Verwaltungsverfahrens legt es berichtigte Rechnungen vor, die nun sowohl die UID des Lieferanten als auch jene des Leistungsempfängers enthalten.",
+    "question": "Steht der Vorsteuerabzug trotz zunächst mangelhafter Rechnungen zu?",
+    "answer": "Ja. Eine Rechnung, die zum Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 berechtigen soll, muss die in § 11 UStG 1994 vorgesehenen Angaben enthalten. Wird der Rechnungsmangel noch im offenen Verfahren durch berichtigte Rechnungen behoben, ist der Vorsteuerabzug zu gewähren.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 11 Abs. 1 UStG 1994",
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Rechnungsberichtigung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c699690d-04fc-40a8-aa18-fb2ff1aef7f1/107631.pdf"
+  },
+  {
+    "case_id": 74,
+    "bfg_case": "238",
+    "statement": "Eine österreichische GmbH verwendet beim Einkauf von Waren aus den Niederlanden ihre österreichische UID-Nummer. Die Waren gelangen unmittelbar nach Finnland, wo der innergemeinschaftliche Erwerb erst im Folgejahr erklärt und besteuert wird; ein Nachweis der Besteuerung im Bestimmungsmitgliedstaat liegt im Erwerbsjahr noch nicht vor.",
+    "question": "Fällt der zusätzliche innergemeinschaftliche Erwerb in Österreich bereits im Erwerbsjahr weg?",
+    "answer": "Nein. Verwendet der Erwerber eine österreichische UID-Nummer, gilt der Erwerb nach Art. 3 Abs. 8 UStG 1994 zusätzlich in Österreich als bewirkt, bis der Nachweis erbracht wird, dass der Erwerb im Bestimmungsmitgliedstaat besteuert worden ist. Wird dieser Nachweis erst im Folgejahr erbracht, wirkt die Berichtigung nach der in Art. 3 Abs. 8 UStG 1994 angeordneten sinngemäßen Anwendung des § 16 UStG 1994 nur ex nunc und nicht rückwirkend.",
+    "result": "Nein",
+    "paragraphs": [
+      "Art. 3 Abs. 8 UStG 1994",
+      "§ 16 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftlicher Erwerb / UID-Verwendung / ex nunc-Berichtigung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/d687a895-82ff-4c2b-be7e-b56c04a11e43/131466.1.1.pdf"
+  },
+  {
+    "case_id": 75,
+    "bfg_case": "75",
+    "statement": "Ein Unternehmer vermietet einen zu einem mobilen Tonstudio umgebauten Steyr-Bus an einen deutschen Kunden. Das Fahrzeug bleibt trotz des Umbaus ein fahrbereites Kraftfahrzeug und damit ein Beförderungsmittel.",
+    "question": "Ist diese Vermietung als Vermietung eines Beförderungsmittels nach § 3a Abs. 12 UStG 1994 zu beurteilen?",
+    "answer": "Ja. Maßgeblich ist, ob der vermietete Gegenstand seinem Wesen nach weiterhin ein Beförderungsmittel ist. Bleibt ein umgebauter Bus trotz technischer Anpassungen ein fahrbereites Kraftfahrzeug, ist seine Vermietung nach § 3a Abs. 12 UStG 1994 als Vermietung eines Beförderungsmittels zu behandeln.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 12 UStG 1994"
+    ],
+    "topic": "Leistungsort / Vermietung von Beförderungsmitteln",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c78e2792-302f-404d-bd2a-960afdaf1596/144365.1.1.pdf"
+  },
+  {
+    "case_id": 76,
+    "bfg_case": "244",
+    "statement": "Eine Projekt-GmbH saniert ein Gebäude, um einzelne Wohnungen später zu veräußern, und zieht aus den Sanierungskosten Vorsteuer. Im Zeitpunkt des Leistungsbezugs liegen aber weder verbindliche Käufervereinbarungen noch sonstige Umstände vor, aus denen sich eine mit größerer Sicherheit bevorstehende steuerpflichtige Grundstücksveräußerung ergibt; es existieren nur Verkaufsunterlagen mit Bruttopreisen inklusive Umsatzsteuer.",
+    "question": "Steht der sofortige Vorsteuerabzug zu?",
+    "answer": "Nein. Nach § 12 Abs. 3 Z 1 UStG 1994 und § 12 Abs. 3 Z 2 UStG 1994 ist der Vorsteuerabzug ausgeschlossen, soweit Eingangsleistungen für steuerfreie Umsätze verwendet werden. Eine künftige steuerpflichtige Behandlung nach § 6 Abs. 2 UStG 1994 eröffnet den Vorsteuerabzug nur dann schon vor Ausführung des Umsatzes, wenn die Absicht zur steuerpflichtigen Veräußerung im Zeitpunkt des Leistungsbezugs zweifelsfrei feststeht; bloße Verkaufsprospekte reichen dafür nicht aus.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 3 Z 1 UStG 1994",
+      "§ 12 Abs. 3 Z 2 UStG 1994",
+      "§ 6 Abs. 2 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Grundstücksveräußerung / Option",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/77f9a198-013a-422b-bc7a-b18a4105cec3/144307.1.1.pdf"
+  },
+  {
+    "case_id": 77,
+    "bfg_case": "77",
+    "statement": "Ein österreichischer Unternehmer stellt ausländischen Unternehmenskunden Serverstellplätze samt Stromversorgung, Internetanbindung und Kühlung zur Verfügung. Vertraglich ist weder ein bestimmter Raum noch ein bestimmter Teil eines Grundstücks zur ausschließlichen Nutzung des Kunden festgelegt.",
+    "question": "Ist diese Server-Housing-Leistung am Grundstücksort oder nach der B2B-Generalklausel zu beurteilen?",
+    "answer": "Sie ist nach § 3a Abs. 6 UStG 1994 zu beurteilen. § 3a Abs. 9 UStG 1994 setzt einen hinreichend direkten Zusammenhang mit einem konkreten Grundstück voraus. Fehlt dem Kunden ein bestimmter oder bestimmbarer Gebäudeteil zur ausschließlichen Nutzung, liegt keine Grundstücksleistung vor, sodass die B2B-Generalklausel des § 3a Abs. 6 UStG 1994 anzuwenden ist.",
+    "result": null,
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994",
+      "§ 3a Abs. 9 UStG 1994"
+    ],
+    "topic": "Leistungsort / Server Housing",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/bf7c600c-a26d-45d9-918b-f5e6abb8204e/130989.1.1.pdf"
+  },
+  {
+    "case_id": 78,
+    "bfg_case": "225",
+    "statement": "Eine GmbH bietet in Zusammenarbeit mit einer Universität ein berufsbegleitendes zweisemestriges Studium an und verrechnet den Teilnehmern dafür Teilnahmegebühren. Der Lehrgang führt zu einem von der Universität verliehenen akademischen Grad, entspricht aber nach Umfang und Lehrziel nicht annähernd einem vergleichbaren öffentlichen Studium.",
+    "question": "Sind die Teilnahmegebühren nach § 6 Abs. 1 Z 11 UStG 1994 steuerfrei?",
+    "answer": "Nein. Die Steuerbefreiung des § 6 Abs. 1 Z 11 UStG 1994 setzt voraus, dass eine mit öffentlichen Schulen oder anderen begünstigten Bildungseinrichtungen vergleichbare Tätigkeit ausgeübt wird. Fehlt es an einer ausreichenden Vergleichbarkeit des angebotenen Studiums mit einem öffentlichen Lehrgang nach Lehrstoff, Umfang und Lehrziel, sind die Teilnahmegebühren nicht steuerfrei.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 11 UStG 1994"
+    ],
+    "topic": "Steuerbefreiung / Bildungseinrichtung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/e577354d-73f8-44ae-b947-361ecc892ca0/103210.pdf"
+  },
+  {
+    "case_id": 79,
+    "bfg_case": "79",
+    "statement": "Ein in Deutschland ansässiger Unternehmer erbringt an ein österreichisches Unternehmen aufgrund eines einheitlichen Vertrags Beratungs- und Teamtrainingsleistungen. Im Rahmen dieser Gesamtleistung organisiert er auch einen Kletterparkbesuch; im Inland hat er weder Sitz noch Betriebsstätte.",
+    "question": "Liegt der Leistungsort dieser einheitlichen sonstigen Leistung in Österreich und schuldet der österreichische Empfänger die Umsatzsteuer?",
+    "answer": "Ja. Bei einer einheitlichen sonstigen Leistung an einen Unternehmer bestimmt sich der Leistungsort nach § 3a Abs. 6 UStG 1994 nach dem Ort, von dem aus der Empfänger sein Unternehmen betreibt. Da die Leistung an ein österreichisches Unternehmen erbracht wird und der leistende Unternehmer im Inland weder Sitz noch Betriebsstätte hat, geht die Steuerschuld nach § 19 Abs. 1 UStG 1994 auf den österreichischen Leistungsempfänger über.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994",
+      "§ 19 Abs. 1 UStG 1994"
+    ],
+    "topic": "Leistungsort / Reverse Charge",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6692c727-f30b-4520-b370-fc12cbbeb2ec/127184.pdf"
+  },
+  {
+    "case_id": 80,
+    "bfg_case": "80",
+    "statement": "Eine in der Schweiz ansässige Unternehmerin liefert Waren aus Österreich an Unternehmer in Deutschland. Die Waren gelangen tatsächlich von Österreich nach Deutschland und der Erwerb ist dort beim Abnehmer steuerbar.",
+    "question": "Ist diese Lieferung als innergemeinschaftliche Lieferung steuerfrei?",
+    "answer": "Ja. Nach Art. 6 Abs. 1 UStG 1994 sind innergemeinschaftliche Lieferungen steuerfrei. Eine solche liegt nach Art. 7 Abs. 1 UStG 1994 vor, wenn der Gegenstand in das übrige Gemeinschaftsgebiet gelangt, der Abnehmer die dort genannte Erwerberstellung hat und der Erwerb in einem anderen Mitgliedstaat steuerbar ist.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 6 Abs. 1 UStG 1994",
+      "Art. 7 Abs. 1 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6a986bf3-8ea4-430b-a780-409b5674836a/126248.pdf"
+  },
+  {
+    "case_id": 81,
+    "bfg_case": "226",
+    "statement": "Ein Baumeister macht aus einer berichtigten Rechnung seiner Subunternehmerin Vorsteuer geltend. Die Rechnung beschreibt die Leistung nur allgemein als Projektsteuerung und -entwicklung für ein Bauprojekt und enthält keine so konkrete Leistungsbeschreibung, dass Art. und Umfang der erbrachten Leistungen nachvollzogen werden können.",
+    "question": "Berechtigt diese berichtigte Rechnung zum Vorsteuerabzug?",
+    "answer": "Nein. Der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 setzt eine Rechnung voraus, die den Anforderungen des § 11 Abs. 1 Z 3 UStG 1994 entspricht. Ist die Leistungsbeschreibung nicht ausreichend konkret, sodass weder Art. noch Umfang der sonstigen Leistung verlässlich überprüft werden können, liegt keine zum Vorsteuerabzug berechtigende Rechnung vor.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 11 Abs. 1 Z 3 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / unzureichende Leistungsbeschreibung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/8f8ecba9-b0c2-4fb1-8feb-5be4e0ad4dd7/117442.pdf"
+  },
+  {
+    "case_id": 82,
+    "bfg_case": "82",
+    "statement": "Ein pauschalierter Land- und Forstwirt überträgt seinen Betrieb unentgeltlich an einen anderen Unternehmer für dessen Unternehmen. Er stellt über den auf diese unentgeltliche Übertragung entfallenden Steuerbetrag eine Rechnung aus.",
+    "question": "Darf der Landwirt diesen Steuerbetrag gesondert in Rechnung stellen und gilt er beim Empfänger wie gesondert ausgewiesene Umsatzsteuer?",
+    "answer": "Ja. Auch bei einem pauschalierten Land- und Forstwirt fallen Umsätze im Rahmen des land- und forstwirtschaftlichen Betriebes unter § 22 Abs. 1 UStG 1994. Erbringt er an einen anderen Unternehmer eine Lieferung gemäß § 3 Abs. 2 UStG 1994, ist er nach § 12 Abs. 15 UStG 1994 berechtigt, den dafür geschuldeten Steuerbetrag gesondert in Rechnung zu stellen; dieser Betrag gilt beim Empfänger wie für eine entgeltliche steuerpflichtige Lieferung gesondert ausgewiesene Steuer.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 15 UStG 1994",
+      "§ 22 Abs. 1 UStG 1994"
+    ],
+    "topic": "Land- und Forstwirtschaft / Rechnungsausweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/55cb2758-2993-46ef-a9c2-215ccc5bb169/112418.pdf"
+  },
+  {
+    "case_id": 83,
+    "bfg_case": "83",
+    "statement": "Ein Arzt erzielt neben unecht befreiten Heilbehandlungen nur geringe weitere steuerpflichtige Umsätze, die unter der Kleinunternehmergrenze bleiben. Einen Antrag auf Regelbesteuerung stellt er nicht und beantragt eine UID-Nummer nur deshalb, um Rechnungen mit Umsatzsteuer ausstellen zu können.",
+    "question": "Hat er allein aus diesem Grund Anspruch auf Erteilung einer UID-Nummer?",
+    "answer": "Nein. Sind die zusätzlichen Umsätze nach § 6 Abs. 1 Z 27 UStG 1994 als Kleinunternehmerumsätze unecht steuerfrei und liegt kein weiterer in Art. 28 Abs. 1 UStG 1994 genannter Vergabegrund vor, besteht kein Anspruch auf Erteilung einer UID-Nummer. Die bloße gewünschte Rechnungslegung mit Umsatzsteuer genügt dafür nicht.",
+    "result": "Nein",
+    "paragraphs": [
+      "Art. 28 Abs. 1 UStG 1994",
+      "§ 6 Abs. 1 Z 27 UStG 1994"
+    ],
+    "topic": "UID-Nummer / Kleinunternehmer",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/bde6a52c-c198-4aa1-a837-4df40328967a/119394.pdf"
+  },
+  {
+    "case_id": 84,
+    "bfg_case": "227",
+    "statement": "Eine KG wurde gegründet, um ein Gebäude zu errichten und es danach an eine Gemeinde zu vermieten. Vor dem 1. September 2012 wurden nur vorbereitende Aushubarbeiten für Streifenfundamente gesetzt; mit der eigentlichen fortgesetzten Errichtung des Gebäudes wurde erst danach begonnen, und die Gemeinde würde das Objekt für hoheitliche Zwecke nutzen.",
+    "question": "Kann die KG für die Vermietung wirksam auf die Steuerbefreiung verzichten?",
+    "answer": "Nein. Die Vermietung von Grundstücken ist nach § 6 Abs. 1 Z 16 UStG 1994 grundsätzlich steuerfrei. Nach § 28 Abs. 38 Z 1 UStG 1994 bleibt die frühere Optionsmöglichkeit nur erhalten, wenn mit der Errichtung des Gebäudes bereits vor dem 1. September 2012 tatsächlich begonnen wurde; bloß vorbereitende Maßnahmen genügen dafür nicht.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 16 UStG 1994",
+      "§ 28 Abs. 38 Z 1 UStG 1994"
+    ],
+    "topic": "Vermietung / Option / Übergangsrecht",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/96235022-4944-4d3e-922b-6c292aec1c2f/117152.1.1.pdf"
+  },
+  {
+    "case_id": 85,
+    "bfg_case": "85",
+    "statement": "Ein Unternehmer erwirbt einen Gegenstand unter Vorsteuerabzug im Rahmen eines Ratenkaufvertrags. Später wird der Vertrag einvernehmlich aufgehoben und der Gegenstand an den Verkäufer zurückgegeben, ohne dass über eine gesonderte Nutzungsüberlassung abgerechnet wird.",
+    "question": "Ist der bereits in Anspruch genommene Vorsteuerabzug wegen Rückgängigmachung des Umsatzes zu berichtigen?",
+    "answer": "Ja. Wird ein steuerpflichtiger Umsatz rückgängig gemacht, ist nach § 16 Abs. 3 Z 3 UStG 1994 die Berichtigungsregel des § 16 Abs. 1 UStG 1994 sinngemäß anzuwenden. In diesem Fall ist daher der ursprünglich geltend gemachte Vorsteuerabzug im Zeitraum der Rückgängigmachung zu berichtigen.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 16 Abs. 1 UStG 1994",
+      "§ 16 Abs. 3 Z 3 UStG 1994"
+    ],
+    "topic": "Vorsteuerberichtigung / Rückgängigmachung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/1310c850-0b22-43c5-a063-9ec12ed0be93/137194.1.1.pdf"
+  },
+  {
+    "case_id": 86,
+    "bfg_case": "86",
+    "statement": "Eine Unternehmerin erhält im Jahr 2015 eine ordnungsgemäße Rechnung über eine bereits 2014 ausgeführte Leistung. Sie macht den Vorsteuerabzug erstmals im Veranlagungszeitraum 2015 geltend.",
+    "question": "Ist der Vorsteuerabzug im Jahr 2015 zulässig?",
+    "answer": "Ja. Der Vorsteuerabzug setzt nach § 12 Abs. 1 UStG 1994 voraus, dass eine ordnungsgemäße Rechnung vorliegt und die Leistung für das Unternehmen ausgeführt wurde. Nach § 20 Abs. 2 UStG 1994 fällt die Vorsteuer in jenen Veranlagungszeitraum, in dem die Voraussetzungen für den Abzug erstmals vollständig erfüllt sind; liegt die Rechnung erst 2015 vor, ist der Abzug in diesem Jahr zulässig.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 1 UStG 1994",
+      "§ 20 Abs. 2 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Zeitpunkt",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/60239f13-3599-4f5e-9189-41abeeee9721/137513.1.1.pdf"
+  },
+  {
+    "case_id": 87,
+    "bfg_case": "87",
+    "statement": "Eine private Krankenanstalt verrechnet ihren Patienten die Benutzung eines Telefons gesondert. Die Telefonüberlassung erfolgt nur auf Wunsch des jeweiligen Patienten und wird gesondert entgolten.",
+    "question": "Unterliegt die gesondert verrechnete Telefonüberlassung dem ermäßigten Steuersatz nach § 10 Abs. 2 Z 15 UStG 1994?",
+    "answer": "Nein. Der ermäßigte Steuersatz nach § 10 Abs. 2 Z 15 UStG 1994 erfasst nur Leistungen von Kranken- und Pflegeanstalten, die unmittelbar mit der Krankenbehandlung oder Pflege zusammenhängen. Eine bloß auf Wunsch gesondert entgeltlich erbrachte Telefonüberlassung ist keine solche unmittelbar begünstigte Leistung.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 10 Abs. 2 Z 15 UStG 1994"
+    ],
+    "topic": "Steuersatz / Krankenanstalt",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/9934d739-85a2-4225-bcf9-99408379abbb/108212.pdf"
+  },
+  {
+    "case_id": 88,
+    "bfg_case": "240",
+    "statement": "Eine GmbH ist Organträgerin einer umsatzsteuerlichen Organschaft und hat auch die Vorsteuern ihrer Organgesellschaft geltend gemacht. Noch während aufrechter Organschaft werden offene Eingangsrechnungen der Organgesellschaft uneinbringlich; kurz danach wird über deren Vermögen das Insolvenzverfahren eröffnet.",
+    "question": "Ist die Vorsteuerberichtigung beim Organträger vorzunehmen?",
+    "answer": "Ja. Nach § 16 Abs. 3 Z 1 UStG 1994 ist der Vorsteuerabzug zu berichtigen, wenn das Entgelt uneinbringlich geworden ist. Tritt die Uneinbringlichkeit noch während aufrechter Organschaft ein, ist die Berichtigung bei dem Organträger vorzunehmen, der nach § 2 Abs. 2 Z 2 UStG 1994 die Umsätze und Vorsteuern der Organgesellschaft umsatzsteuerlich zu erfassen hat.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 16 Abs. 3 Z 1 UStG 1994",
+      "§ 2 Abs. 2 Z 2 UStG 1994"
+    ],
+    "topic": "Vorsteuerberichtigung / Organschaft / Uneinbringlichkeit",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/2b00590c-1f49-429c-a477-40b9ac1d0d13/150346.1.1.pdf"
+  },
+  {
+    "case_id": 89,
+    "bfg_case": "89",
+    "statement": "Eine österreichische Telekomgesellschaft verrechnet einem im Drittland ansässigen Telekomunternehmer Entgelte für die Terminierung von Anrufen und SMS in ihr österreichisches Netz. Der Leistungsempfänger ist Unternehmer und betreibt sein Unternehmen im Drittland.",
+    "question": "Liegt der Leistungsort dieser sonstigen Leistungen im Drittland?",
+    "answer": "Ja. Bei sonstigen Leistungen an einen Unternehmer bestimmt sich der Leistungsort nach § 3a Abs. 6 UStG 1994 nach dem Ort, von dem aus der Empfänger sein Unternehmen betreibt. Da der Empfänger sein Unternehmen im Drittland betreibt, sind die Leistungen nicht in Österreich, sondern im Drittland ausgeführt.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994"
+    ],
+    "topic": "Leistungsort / Telekommunikationsleistungen",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/9054dbf2-e464-4093-8b48-befa4ea54ef2/149233.1.1.pdf"
+  },
+  {
+    "case_id": 90,
+    "bfg_case": "90",
+    "statement": "Ein Unternehmer vermietet seit 2010 ein Geschäftslokal. Ab 2015 will er den Vermietungsumsatz als steuerpflichtig behandeln, obwohl der Mieter das Objekt nicht nahezu ausschließlich für Umsätze verwendet, die den Vorsteuerabzug nicht ausschließen.",
+    "question": "Ist die Option zur Steuerpflicht dennoch zulässig?",
+    "answer": "Ja. Zwar ist der Verzicht auf die Steuerbefreiung nach § 6 Abs. 2 UStG 1994 in der neueren Fassung eingeschränkt. Nach § 28 Abs. 38 Z 1 UStG 1994 gilt diese Einschränkung aber nicht für vor dem 1. September 2012 begonnene Mietverhältnisse, sodass die Option in diesem Fall weiterhin zulässig ist.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 6 Abs. 2 UStG 1994",
+      "§ 28 Abs. 38 Z 1 UStG 1994"
+    ],
+    "topic": "Vermietung / Option / Übergangsrecht",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/82010099-76b8-49bd-a58f-3083557b7caa/148342.1.1.pdf"
+  },
+  {
+    "case_id": 91,
+    "bfg_case": "239",
+    "statement": "Eine in der Slowakei gegründete KG schließt im eigenen Namen Werkverträge über EDV-Optimierungsleistungen mit mehreren österreichischen Unternehmen ab und fakturiert diese Leistungen an die Auftraggeber. Die Leistungen werden tatsächlich vom Geschäftsführer der KG persönlich erbracht, die Empfänger beziehen sie jeweils für ihr Unternehmen.",
+    "question": "Ist die KG Unternehmerin und liegt der Leistungsort der sonstigen Leistungen in Österreich?",
+    "answer": "Ja. Unternehmer ist nach § 2 Abs. 1 UStG 1994, wer selbständig und nachhaltig Leistungen zur Erzielung von Einnahmen ausführt; tritt die KG nach außen im eigenen Namen als Vertragspartnerin auf und verrechnet sie die Leistungen selbst, ist sie umsatzsteuerlich Unternehmerin. Da die Leistungen an österreichische Unternehmer erbracht werden, bestimmt sich der Leistungsort nach § 3a Abs. 6 UStG 1994 nach dem Ort, von dem aus die Leistungsempfänger ihr Unternehmen betreiben, somit nach Österreich.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 2 Abs. 1 UStG 1994",
+      "§ 3a Abs. 6 UStG 1994"
+    ],
+    "topic": "Unternehmereigenschaft / Leistungsort / grenzüberschreitende EDV-Leistungen",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/7422ab29-440f-4af2-bd45-c2bc92a00f66/145079.1.1.pdf"
+  },
+  {
+    "case_id": 92,
+    "bfg_case": "162",
+    "statement": "Ein in Deutschland ansässiger Unternehmer beantragt die Erstattung österreichischer Vorsteuer aus Treibstoffkosten. Die betroffenen Rechnungen betreffen den Betrieb von in Österreich eingesetzten Personenkraftwagen.",
+    "question": "Ist die Vorsteuer aus diesen Treibstoffkosten erstattungsfähig?",
+    "answer": "Nein. Nach § 12 Abs. 2 Z 2 lit. b UStG 1994 gelten Aufwendungen im Zusammenhang mit der Anschaffung, Miete oder dem Betrieb von Personenkraftwagen grundsätzlich nicht als für das Unternehmen ausgeführt. Die darauf entfallende Umsatzsteuer ist daher auch im Erstattungsverfahren nicht abzugsfähig.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 2 Z 2 lit. b UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / PKW-Kosten",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/75979f5a-e2c0-449a-b334-96e90e93172f/111145.pdf"
+  },
+  {
+    "case_id": 93,
+    "bfg_case": "231",
+    "statement": "Eine Projektentwicklungs-GmbH macht Vorsteuer aus Rechnungen eines Bauunternehmens für ein Wohnbauprojekt geltend. Nach den Umständen des Einzelfalls steht fest, dass die GmbH wusste oder wissen musste, dass die in Rechnung gestellten Umsätze mit Umsatzsteuerhinterziehungen oder sonstigen die Umsatzsteuer betreffenden Finanzvergehen zusammenhingen.",
+    "question": "Entfällt das Recht auf Vorsteuerabzug?",
+    "answer": "Ja. Nach § 12 Abs. 14 UStG 1994 entfällt das Recht auf Vorsteuerabzug, wenn der Unternehmer wusste oder wissen musste, dass der betreffende Umsatz mit Umsatzsteuerhinterziehungen oder sonstigen, die Umsatzsteuer betreffenden Finanzvergehen zusammenhängt. Liegen solche Umstände vor, kann die Projektentwicklungs-GmbH die Vorsteuer nicht abziehen.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 14 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Wissen um Umsatzsteuerbetrug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/3bc79590-df94-47ea-b82a-e144919de143/141066.1.1.pdf"
+  },
+  {
+    "case_id": 94,
+    "bfg_case": "210",
+    "statement": "Eine unternehmerisch tätige Privatstiftung veräußert eine Beteiligung an einer GmbH steuerfrei. Für die Vorbereitung und Durchführung dieses Anteilsverkaufs bezieht sie von einer ausländischen Corporate-Finance-Gesellschaft Beratungsleistungen.",
+    "question": "Sind die auf den Anteilverkauf entfallenden Beratungsleistungen zum Vorsteuerabzug berechtigend?",
+    "answer": "Nein. Die Veräußerung von Anteilen an Gesellschaften ist nach § 6 Abs. 1 Z 8 lit. g UStG 1994 steuerfrei. Stehen die bezogenen Beratungsleistungen in unmittelbarem und ausschließlichem Zusammenhang mit diesem steuerfreien Anteilsverkauf, ist der Vorsteuerabzug nach § 12 Abs. 3 Z 2 UStG 1994 ausgeschlossen.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 8 lit. g UStG 1994",
+      "§ 12 Abs. 3 Z 2 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / steuerfreie Anteilsveräußerung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/52701708-801f-440a-b86e-f579aab74f83/147948.1.1.pdf"
+  },
+  {
+    "case_id": 95,
+    "bfg_case": "95",
+    "statement": "Eine in Deutschland ansässige Veranstaltungs-GmbH besorgt für einen deutschen Unternehmenskunden Eintrittsberechtigungen zu einem Konzert in Wien. Die Eintrittsberechtigungen werden im Rahmen einer an Unternehmer erbrachten Gesamtleistung weiterverrechnet.",
+    "question": "Liegt der Leistungsort der Eintrittsberechtigung in Österreich?",
+    "answer": "Ja. Sonstige Leistungen betreffend die Eintrittsberechtigung zu einer kulturellen Veranstaltung werden nach § 3a Abs. 11a UStG 1994 dort ausgeführt, wo die Veranstaltung tatsächlich stattfindet. Findet das Konzert in Wien statt, liegt der Leistungsort daher in Österreich.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 11a UStG 1994"
+    ],
+    "topic": "Leistungsort / Eintrittsberechtigung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/07bf5b44-ec2f-4392-96e0-aa28d2e8ff97/119988.pdf"
+  },
+  {
+    "case_id": 96,
+    "bfg_case": "181",
+    "statement": "Eine im EU-Ausland ansässige Gesellschaft liefert Waren im Versandhandel an private Abnehmer in Österreich und hat auf die österreichische Lieferschwelle verzichtet. In ihrem Heimatstaat gibt sie irrtümlich Zusammenfassende Meldungen über innergemeinschaftliche Verbringungen nach Österreich ab, obwohl die Warenlieferungen tatsächlich als Versandhandelsumsätze in Österreich ausgeführt werden.",
+    "question": "Begründet die irrtümliche Abgabe von Zusammenfassenden Meldungen über innergemeinschaftliche Verbringungen in Österreich zusätzliche steuerpflichtige Umsätze oder eine Schätzungsbefugnis?",
+    "answer": "Nein. Werden die Voraussetzungen des Versandhandels erfüllt, gilt die Lieferung nach Art. 3 Abs. 3 UStG 1994 dort als ausgeführt, wo die Beförderung oder Versendung endet. Hat der Lieferer zudem auf die österreichische Lieferschwelle verzichtet, sind die Lieferungen nach Art. 3 Abs. 5 UStG 1994 in Österreich steuerbar; eine bloß irrtümlich im Herkunftsstaat abgegebene Zusammenfassende Meldung über innergemeinschaftliche Verbringungen ändert an dieser umsatzsteuerlichen Beurteilung nichts.",
+    "result": "Nein",
+    "paragraphs": [
+      "Art. 3 Abs. 3 UStG 1994",
+      "Art. 3 Abs. 5 UStG 1994"
+    ],
+    "topic": "Versandhandel / Lieferschwelle",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c6f9f3e6-dbd4-4a39-93ea-f67f9687d50b/105306.pdf"
+  },
+  {
+    "case_id": 97,
+    "bfg_case": "219",
+    "statement": "Eine AG stellt an eine verbundene Gesellschaft Rechnungen über Managementleistungen mit gesondertem Umsatzsteuerausweis aus. Später wendet sie ein, die Leistungen seien nicht oder nicht im behaupteten Umfang ausgeführt worden.",
+    "question": "Schuldet die AG die ausgewiesene Umsatzsteuer dennoch?",
+    "answer": "Ja. Weist ein Unternehmer in einer Rechnung Umsatzsteuer gesondert aus, obwohl keine Lieferung oder sonstige Leistung ausgeführt wurde, entsteht die Steuerschuld nach § 11 Abs. 14 UStG 1994 kraft Rechnung. Diese Steuerschuld entsteht gemäß § 19 Abs. 3 UStG 1994 mit Ablauf des Kalendermonats der Rechnungsausfolgung.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 11 Abs. 14 UStG 1994",
+      "§ 19 Abs. 3 UStG 1994"
+    ],
+    "topic": "Steuerschuld kraft Rechnung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c08fe70c-9b4f-44da-b0db-494ced680a53/145856.1.1.pdf"
+  },
+  {
+    "case_id": 98,
+    "bfg_case": "246",
+    "statement": "Ein österreichischer Unternehmer erhält von einem ausländischen Unternehmer eine Rechnung mit offen ausgewiesener österreichischer Umsatzsteuer. Tatsächlich hätte die Leistung nach dem Reverse-Charge-System ohne österreichischen Steuerausweis abgerechnet werden müssen.",
+    "question": "Ist der Vorsteuerabzug aus der offen ausgewiesenen österreichischen Umsatzsteuer zulässig?",
+    "answer": "Nein. Eine nach § 11 Abs. 12 UStG 1994 zu Unrecht ausgewiesene Steuer berechtigt den Leistungsempfänger nicht zum Vorsteuerabzug, weil der ausgewiesene Betrag nur kraft Rechnung geschuldet wird.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 11 Abs. 12 UStG 1994"
+    ],
+    "topic": "Rechnung / Vorsteuer",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/092ff085-31d2-4370-8391-a73c98391333/148117.1.1.pdf"
+  },
+  {
+    "case_id": 99,
+    "bfg_case": "99",
+    "statement": "Ein Unternehmer entnimmt ein zuvor betrieblich genutztes Boot aus seinem Unternehmen. Im Zeitpunkt der Entnahme befindet sich das Boot nachweislich in Deutschland und nicht in Österreich.",
+    "question": "Ist der Entnahmeeigenverbrauch in Österreich steuerbar?",
+    "answer": "Nein. Die Entnahme wird nach § 3 Abs. 2 UStG 1994 einer Lieferung gegen Entgelt gleichgestellt. Für die Ortsbestimmung ist daher § 3 Abs. 7 UStG 1994 heranzuziehen; befindet sich der Gegenstand im Zeitpunkt der Entnahme nicht im Inland, liegt kein in Österreich steuerbarer Eigenverbrauch vor.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 3 Abs. 2 UStG 1994",
+      "§ 3 Abs. 7 UStG 1994"
+    ],
+    "topic": "Eigenverbrauch / Ort der Entnahme",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c36ea90f-647e-411e-b005-c4e3afd94889/149258.1.1.pdf"
+  },
+  {
+    "case_id": 100,
+    "bfg_case": "100",
+    "statement": "Eine GmbH erwirbt ein Reihenhaus und vermietet es teils an ihren Gesellschafter-Geschäftsführer, teils an eine Tochtergesellschaft. Die vereinbarten Mietentgelte entsprechen den am Ort für vergleichbare Objekte erzielbaren Mieten.",
+    "question": "Steht der GmbH der Vorsteuerabzug aus dem Erwerb des Reihenhauses zu?",
+    "answer": "Ja. Vermietet die GmbH das Objekt fremdüblich und erzielt daraus laufende Einnahmen, übt sie eine wirtschaftliche Tätigkeit im Sinn des § 2 Abs. 1 UStG 1994 aus. Der Erwerb dient damit dem Unternehmen, sodass der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 zusteht.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 2 Abs. 1 UStG 1994",
+      "§ 12 Abs. 1 Z 1 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Vermietung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/b6283325-de2e-451f-91a2-ab5c7ccf64a4/145703.1.1.pdf"
+  },
+  {
+    "case_id": 101,
+    "bfg_case": "101",
+    "statement": "Ein ausländischer Unternehmer führt in Österreich zunächst steuerpflichtige Umsätze aus. Noch im selben Jahr werden die daraus offenen Forderungen uneinbringlich und der Unternehmer macht die Berichtigung im Veranlagungsweg geltend.",
+    "question": "Kann die Berichtigung im Rahmen einer Umsatzsteuerveranlagung vorgenommen werden?",
+    "answer": "Ja. Wird eine ursprünglich steuerpflichtige Forderung uneinbringlich, ist die Bemessungsgrundlage nach § 16 UStG 1994 zu berichtigen. Erfolgt dadurch für den betroffenen Zeitraum eine umsatzsteuerliche Korrektur im Inland, ist die Veranlagung nach § 21 Abs. 4 UStG 1994 nicht ausgeschlossen.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 16 UStG 1994",
+      "§ 21 Abs. 4 UStG 1994"
+    ],
+    "topic": "Veranlagung / Uneinbringlichkeit",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/a6930949-9003-46fb-8652-2edee56b5fcf/114937.1.1.pdf"
+  },
+  {
+    "case_id": 102,
+    "bfg_case": "211",
+    "statement": "Eine in Deutschland ansässige Bau-GmbH bezieht in Österreich Baustoffe und erhält darüber Rechnungen über mehr als 10.000 Euro. In den ursprünglichen Rechnungen fehlt die UID des Leistungsempfängers; noch im offenen Verfahren werden berichtigte Rechnungen mit der UID des Lieferanten und der Bau-GmbH vorgelegt.",
+    "question": "Kann die Bau-GmbH die österreichische Umsatzsteuer aus den berichtigten Rechnungen als Vorsteuer erstattet erhalten?",
+    "answer": "Ja. Für den Vorsteuerabzug nach § 12 Abs. 1 UStG 1994 muss bei Rechnungen über mehr als 10.000 Euro eine den Anforderungen des § 11 UStG 1994 entsprechende Rechnung vorliegen. Wird der ursprüngliche Rechnungsmangel im offenen Verfahren durch berichtigte Rechnungen behoben, steht der Vorsteuerabzug bzw. die Vorsteuererstattung zu.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 1 UStG 1994",
+      "§ 11 UStG 1994"
+    ],
+    "topic": "Vorsteuererstattung / Rechnungsberichtigung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c699690d-04fc-40a8-aa18-fb2ff1aef7f1/107631.pdf"
+  },
+  {
+    "case_id": 103,
+    "bfg_case": "103",
+    "statement": "Eine Unternehmerin errichtet Gebäude auf einer Liegenschaft und zieht aus den Errichtungskosten Vorsteuer ab. Die Liegenschaft wird später im Zwangsversteigerungsverfahren ohne Verzicht auf die Steuerbefreiung veräußert.",
+    "question": "Führt die steuerfreie Veräußerung zu einer Vorsteuerberichtigung?",
+    "answer": "Ja. Die Veräußerung ist nach § 6 Abs. 1 Z 9 lit. a UStG 1994 steuerfrei, wenn kein wirksamer Verzicht auf die Steuerbefreiung erfolgt. Dadurch ändern sich die für den Vorsteuerabzug maßgeblichen Verhältnisse, sodass nach § 12 Abs. 11 UStG 1994 eine Berichtigung vorzunehmen ist.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 9 lit. a UStG 1994",
+      "§ 12 Abs. 11 UStG 1994"
+    ],
+    "topic": "Vorsteuerberichtigung / Grundstück",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/892e77d0-4d5c-4f2e-bcfc-94b4ba6455ea/135620.1.1.pdf"
+  },
+  {
+    "case_id": 104,
+    "bfg_case": "233",
+    "statement": "Eine KG im Transportvermittlungsgewerbe erwirbt von einer anderen GmbH einen Kundenstock samt zugehörigen Tarifen. Die Rechnung verweist auf den zugrunde liegenden Vertrag; im Verfahren werden außerdem eine detaillierte Kundenliste und der Vertrag vorgelegt, aus denen Art. und Umfang der übertragenen Leistung eindeutig hervorgehen.",
+    "question": "Steht der KG der Vorsteuerabzug aus dieser Rechnung zu?",
+    "answer": "Ja. Der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 setzt eine Rechnung voraus, die den Anforderungen des § 11 Abs. 1 Z 3 UStG 1994 entspricht. Werden Art. und Umfang der sonstigen Leistung durch Vertrag und detaillierte Kundenliste ausreichend konkretisiert, liegt eine zum Vorsteuerabzug berechtigende Rechnung vor.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 11 Abs. 1 Z 3 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Rechnungsmerkmale / Kundenstock",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/733224a0-cce0-4bd3-bb11-103cb7e74e48/132244.1.1.pdf"
+  },
+  {
+    "case_id": 105,
+    "bfg_case": "105",
+    "statement": "Ein nicht buchführungspflichtiger Weinbaubetrieb behandelt seine Umsätze nach den allgemeinen Vorschriften des UStG 1994 und macht Vorsteuern geltend. Ein Nachweis, dass die schriftliche Erklärung nach § 22 Abs. 6 UStG 1994 bis zum Ablauf des Veranlagungszeitraums beim Finanzamt eingelangt ist, kann nicht erbracht werden.",
+    "question": "Kann der Betrieb trotz fehlenden Nachweises einer rechtzeitigen Erklärung zur Regelbesteuerung optieren?",
+    "answer": "Nein. Bei nicht buchführungspflichtigen land- und forstwirtschaftlichen Betrieben gilt grundsätzlich die Durchschnittssatzbesteuerung nach § 22 Abs. 1 UStG 1994. Eine Besteuerung nach den allgemeinen Vorschriften setzt eine rechtzeitige schriftliche Erklärung nach § 22 Abs. 6 UStG 1994 voraus; fehlt der Nachweis ihres rechtzeitigen Einlangens, bleibt es bei der Pauschalierung.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 22 Abs. 1 UStG 1994",
+      "§ 22 Abs. 6 UStG 1994"
+    ],
+    "topic": "Land- und Forstwirtschaft / Regelbesteuerung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/9982d8ba-daf9-4627-b01b-a1aed3164422/122983.pdf"
+  },
+  {
+    "case_id": 106,
+    "bfg_case": "247",
+    "statement": "Ein ausländischer Unternehmer ohne Sitz und Betriebsstätte in Österreich bezieht im Inland Leistungen mit österreichischer Umsatzsteuer. Im Inland führt er nur Umsätze aus, bei denen die Steuerschuld auf den Leistungsempfänger übergeht.",
+    "question": "Kann der Unternehmer die in Österreich angefallenen Vorsteuerbeträge im Veranlagungsverfahren geltend machen?",
+    "answer": "Ja. § 21 Abs. 4 UStG 1994 schließt eine Umsatzsteuerveranlagung für einen ausländischen Unternehmer nicht aus, wenn im Inland zu berücksichtigende Vorsteuerbeträge angefallen sind.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 21 Abs. 4 UStG 1994"
+    ],
+    "topic": "Vorsteuererstattung / ausländischer Unternehmer",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/9e409df3-832a-40ad-8808-f59bfef741a3/136661.1.1.pdf"
+  },
+  {
+    "case_id": 107,
+    "bfg_case": "180",
+    "statement": "Ein Unternehmer schafft einen Land Rover Defender 110 DCPU Pick-up an. Das Fahrzeug ist kraft Bauart als Pritschenwagen einzustufen und nicht als Personen- oder Kombinationskraftwagen.",
+    "question": "Greift für dieses Fahrzeug das Vorsteuerabzugsverbot des § 12 Abs. 2 Z 2 lit. b UStG 1994?",
+    "answer": "Nein. § 12 Abs. 2 Z 2 lit. b UStG 1994 betrifft nur Personenkraftwagen, Kombinationskraftwagen und Krafträder. Ist das angeschaffte Fahrzeug nach seiner typischen Beschaffenheit ein Pritschenwagen und damit kein Personen- oder Kombinationskraftwagen, fällt es nicht unter das Vorsteuerabzugsverbot.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 2 Z 2 lit. b UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Pick-up",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/89c25120-aa63-4a3f-a542-1791f320abc7/113144.pdf"
+  },
+  {
+    "case_id": 108,
+    "bfg_case": "164",
+    "statement": "Ein Unternehmer behandelt eine Lieferung an einen Abnehmer in einem anderen Mitgliedstaat zunächst nicht als steuerfreie innergemeinschaftliche Lieferung, weil der Beförderungsnachweis im Zeitpunkt der Veranlagung noch nicht vollständig vorliegt. Im Abgabenverfahren kann er später eindeutig nachweisen, dass die Ware tatsächlich in das übrige Gemeinschaftsgebiet gelangt ist und der Erwerb dort steuerbar war.",
+    "question": "Kann die Lieferung trotz erst später erbrachten Nachweises als innergemeinschaftliche Lieferung steuerfrei sein?",
+    "answer": "Ja. Nach Art. 6 Abs. 1 UStG 1994 sind innergemeinschaftliche Lieferungen steuerfrei. Entscheidend ist nach Art. 7 UStG 1994, dass die materiellen Voraussetzungen der innergemeinschaftlichen Lieferung vorliegen; gelingt dieser Nachweis im Abgabenverfahren, steht die spätere Nachweisführung der Steuerfreiheit nicht entgegen.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 6 Abs. 1 UStG 1994",
+      "Art. 7 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung / späterer Nachweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/f9cedb02-7d82-4935-b8de-ea57f3c3ee4f/100476.pdf"
+  },
+  {
+    "case_id": 109,
+    "bfg_case": "109",
+    "statement": "Eine deutsche Unternehmerin überlässt ihrer in Österreich eingesetzten Dienstnehmerin einen Firmenwagen auch zur privaten Nutzung. Die Dienstnehmerin zahlt dafür kein gesondertes Entgelt und verzichtet auch nicht auf Gehalt oder einen sonstigen arbeitsvertraglichen Vorteil.",
+    "question": "Liegt eine steuerbare Vermietung eines Beförderungsmittels in Österreich vor?",
+    "answer": "Nein. § 3a Abs. 12 UStG 1994 setzt für die nicht kurzfristige Vermietung eines Beförderungsmittels eine entgeltliche Leistung voraus. Wird der Dienstwagen ohne gesondertes Entgelt und ohne Gehaltsverzicht oder sonstige Gegenleistung überlassen, fehlt es an einer entgeltlichen Vermietung.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 3a Abs. 12 UStG 1994"
+    ],
+    "topic": "Leistungsort / Dienstwagen",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c3a72df9-bbec-47cb-8631-470eb6853058/145538.1.1.pdf"
+  },
+  {
+    "case_id": 110,
+    "bfg_case": "110",
+    "statement": "Ein Restaurantbetreiber gestattet einem auf Malta ansässigen Wettanbieter, in seinem Lokal ein Wettterminal aufzustellen. Zusätzlich übernimmt er gegen Beteiligung an den Wetterträgen die Wettabwicklung, Verwahrung der Wettscheine, Stromversorgung und weitere laufende Unterstützungsleistungen.",
+    "question": "Ist diese Leistung als steuerfreie Vermietung von Geschäftsräumlichkeiten zu behandeln?",
+    "answer": "Nein. Die Leistung besteht nicht in einer bloß passiven Überlassung einer bestimmten Fläche, sondern in einem einheitlichen Leistungsbündel, dessen prägender Bestandteil die Ermöglichung und Abwicklung des Wettgeschäfts ist. Eine steuerfreie Vermietung nach § 6 Abs. 1 Z 16 UStG 1994 liegt daher nicht vor.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 16 UStG 1994"
+    ],
+    "topic": "Steuerbefreiung / Vermietung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/2d88e385-c66e-4a35-bd91-2e672a718a65/102865.pdf"
+  },
+  {
+    "case_id": 111,
+    "bfg_case": "248",
+    "statement": "Ein Unternehmer behandelt eine Lieferung in einen anderen Mitgliedstaat als steuerfreie innergemeinschaftliche Lieferung. Er kann jedoch keine ordnungsgemäßen Aufzeichnungen vorlegen, aus denen sich die Voraussetzungen der Steuerfreiheit nachvollziehbar ergeben.",
+    "question": "Welche Voraussetzung muss für die Steuerfreiheit der innergemeinschaftlichen Lieferung erfüllt sein?",
+    "answer": "Der Unternehmer muss den buchmäßigen Nachweis führen. Nach Art. 7 Abs. 3 UStG 1994 ist die Steuerfreiheit der innergemeinschaftlichen Lieferung an den ordnungsgemäßen Buchnachweis geknüpft.",
+    "result": null,
+    "paragraphs": [
+      "Art. 7 Abs. 3 UStG 1994"
+    ],
+    "topic": "IG-Lieferung / Buchnachweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/16ee1bff-670d-4458-ae09-be1bc1beae7b/140222.1.1.pdf"
+  },
+  {
+    "case_id": 112,
+    "bfg_case": "249",
+    "statement": "Ein Unternehmer überlässt einem Kunden in einem Rechenzentrum einen konkret bestimmten Bereich zur ausschließlichen Aufstellung von Servern. Die Leistung bezieht sich damit auf eine spezifisch zugewiesene Fläche in einem Gebäude.",
+    "question": "Wo liegt der Leistungsort dieser Leistung?",
+    "answer": "Der Leistungsort liegt am Ort des Gebäudes. Besteht ein unmittelbarer Zusammenhang mit einer konkret zugewiesenen Fläche, ist die Leistung nach § 3a Abs. 9 UStG 1994 als grundstücksbezogene sonstige Leistung dort ausgeführt, wo das Grundstück gelegen ist.",
+    "result": null,
+    "paragraphs": [
+      "§ 3a Abs. 9 UStG 1994"
+    ],
+    "topic": "Leistungsort / Grundstück",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/7e3f6009-6346-47dc-8209-efdc8e277d9e/122550.1.1.pdf"
+  },
+  {
+    "case_id": 113,
+    "bfg_case": "250",
+    "statement": "Ein Unternehmer stellt einem anderen Unternehmer Serverkapazitäten samt Strom, Kühlung und Internetanbindung zur Verfügung. Dem Kunden wird dabei kein bestimmter oder ausschließlicher Teil eines Gebäudes zugewiesen.",
+    "question": "Liegt eine grundstücksbezogene Leistung vor?",
+    "answer": "Nein. Fehlt ein hinreichend direkter Bezug zu einem bestimmten Gebäudeteil, ist § 3a Abs. 9 UStG 1994 nicht anwendbar; die Leistung ist daher nicht als grundstücksbezogene Leistung zu beurteilen.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 3a Abs. 9 UStG 1994"
+    ],
+    "topic": "Leistungsort / Grundstück",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/4f41e613-1483-43a4-b4e5-22a3d7312e55/127363.1.1.pdf"
+  },
+  {
+    "case_id": 114,
+    "bfg_case": "216",
+    "statement": "Eine Handels-GmbH behandelt Warenlieferungen an einen Kunden im Drittland als steuerfreie Ausfuhrlieferungen. Sie kann aber weder einen ordnungsgemäßen Ausfuhrnachweis noch sonstige Unterlagen vorlegen, aus denen sich zweifelsfrei ergibt, dass die gelieferten Waren tatsächlich in das Drittlandsgebiet gelangt sind.",
+    "question": "Ist die Lieferung als Ausfuhrlieferung steuerfrei?",
+    "answer": "Nein. Nach § 6 Abs. 1 Z 1 UStG 1994 sind Ausfuhrlieferungen nur unter den Voraussetzungen des § 7 UStG 1994 steuerfrei. Kann die GmbH die Ausfuhr weder durch einen ordnungsgemäßen Ausfuhrnachweis noch durch andere eindeutige Belege nachweisen, ist die Steuerbefreiung nicht anzuerkennen.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 1 UStG 1994",
+      "§ 7 UStG 1994"
+    ],
+    "topic": "Ausfuhrlieferung / Nachweis",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/d2d94bfb-0462-4caa-a4b1-3b17662b6d04/145798.1.1.pdf"
+  },
+  {
+    "case_id": 115,
+    "bfg_case": "195",
+    "statement": "Eine GmbH errichtet ein Gebäude mit Büroflächen und einer Wohnung. Die Wohnung ist nach den tatsächlichen Verhältnissen auf den privaten Wohnbedarf des Gesellschafter-Geschäftsführers zugeschnitten; die Überlassung erfolgt fremdunüblich.",
+    "question": "Ist die auf die Wohnung entfallende Vorsteuer abzugsfähig?",
+    "answer": "Nein. Nach § 12 Abs. 2 Z 2 lit. a UStG 1994 gelten Leistungen nicht als für das Unternehmen ausgeführt, wenn ihre Entgelte überwiegend nicht abzugsfähige Aufwendungen betreffen. Wird Wohnraum einer Kapitalgesellschaft fremdunüblich für den privaten Wohnbedarf des Gesellschafter-Geschäftsführers errichtet oder überlassen, ist die darauf entfallende Vorsteuer daher ausgeschlossen.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 2 Z 2 lit. a UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / private Wohnnutzung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/599e90e9-dd5c-4f97-b8bb-e1a5a461e8fd/141654.1.1.pdf"
+  },
+  {
+    "case_id": 116,
+    "bfg_case": "220",
+    "statement": "Eine KG hält lediglich Beteiligungen und verrechnet an Beteiligungsunternehmen eine als \"Fee\" bezeichnete Gebühr mit gesondertem Umsatzsteuerausweis. Tatsächlich erbringt die KG keine eigenständigen, nach außen tretenden Managementleistungen.",
+    "question": "Schuldet die KG die in den Rechnungen ausgewiesene Umsatzsteuer?",
+    "answer": "Ja. Weist die KG in Rechnungen Umsatzsteuer aus, obwohl die behaupteten Leistungen von ihr tatsächlich nicht erbracht wurden, schuldet sie den ausgewiesenen Steuerbetrag nach § 11 Abs. 14 UStG 1994. Auf die Bezeichnung der Rechnung als \"Fee\" kommt es dabei nicht an, wenn keine entsprechende Leistung vorliegt.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 11 Abs. 14 UStG 1994"
+    ],
+    "topic": "Steuerschuld kraft Rechnung / Holdingstruktur",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c4077b05-e1ef-4849-8919-f20ee3912e85/143705.1.1.pdf"
+  },
+  {
+    "case_id": 117,
+    "bfg_case": "178",
+    "statement": "Ein Unternehmer unterschreibt mehrere Belege, in denen für Sanitärleistungen Entgelt und 20 % Umsatzsteuer gesondert ausgewiesen sind. Die Belege enthalten die wesentlichen Angaben zu Leistung, Entgelt und Steuerbetrag und dienen als Abrechnung gegenüber dem Auftraggeber.",
+    "question": "Schuldet der Unternehmer die ausgewiesene Umsatzsteuer aufgrund dieser Belege?",
+    "answer": "Ja. Eine Urkunde, mit der über eine Leistung abgerechnet wird, kann nach § 11 Abs. 2 UStG 1994 als Rechnung gelten, auch wenn sie im Geschäftsverkehr anders bezeichnet wird. Wird darin Umsatzsteuer gesondert ausgewiesen, entsteht die Steuerschuld nach § 11 Abs. 12 UStG 1994 aufgrund der Rechnung.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 11 Abs. 2 UStG 1994",
+      "§ 11 Abs. 12 UStG 1994"
+    ],
+    "topic": "Steuerschuld kraft Rechnung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/5b441697-5f7e-4ec5-bc89-2ab3d713e553/115170.pdf"
+  },
+  {
+    "case_id": 118,
+    "bfg_case": "212",
+    "statement": "Eine GmbH betreibt ein Motorradmuseum und restauriert historische Krafträder, die teilweise noch funktionsfähig und fahrbereit sind. Die GmbH macht die auf Herstellung, Instandhaltung und Betrieb dieser Motorräder entfallende Umsatzsteuer als Vorsteuer geltend.",
+    "question": "Ist der Vorsteuerabzug für diese Aufwendungen ausgeschlossen?",
+    "answer": "Ja. Nach § 12 Abs. 2 Z 2 lit. b UStG 1994 gelten Leistungen im Zusammenhang mit der Anschaffung, Herstellung oder dem Betrieb von Krafträdern grundsätzlich nicht als für das Unternehmen ausgeführt. Dass die Fahrzeuge im Rahmen eines Museums verwendet werden, ändert daran nichts, wenn es sich ihrer typischen Beschaffenheit nach weiterhin um Krafträder handelt.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 2 Z 2 lit. b UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Krafträder",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/8659c2f0-9c82-4e92-82c4-79f72e3416d9/136431.1.1.pdf"
+  },
+  {
+    "case_id": 119,
+    "bfg_case": "119",
+    "statement": "Ein Unternehmer erwirbt 2007 ein Ferienhaus als Vermietungsobjekt und zieht die gesamte Vorsteuer ab. Schon im Anschaffungszeitpunkt beabsichtigt er auch eine spätere private Nutzung; im Anschaffungsjahr kommt es wegen der kurzen Restjahresdauer noch zu keiner Privatnutzung. 2016 veräußert er die Liegenschaft steuerfrei.",
+    "question": "Ist bei der Veräußerung eine Vorsteuerberichtigung nach dem längeren Berichtigungszeitraum vorzunehmen?",
+    "answer": "Ja. Ist bereits im Anschaffungszeitpunkt eine spätere private Nutzung beabsichtigt und ist die kurzfristige Erstnutzung im Anschaffungsjahr nicht repräsentativ, sind für die Berichtigung die voraussichtlichen künftigen Verhältnisse maßgeblich. In diesem Fall greift die Berichtigungsregel des § 12 Abs. 10a UStG 1994; aufgrund der Übergangsregel des § 28 Abs. 38 Z 2 UStG 1994 bleibt für vor dem 1. April 2012 erstmals genutzte Grundstücke der längere Berichtigungszeitraum anwendbar.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 10a UStG 1994",
+      "§ 28 Abs. 38 Z 2 UStG 1994"
+    ],
+    "topic": "Vorsteuerberichtigung / Grundstück",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/4db53411-fc51-400f-9f9a-dd46a8e1bc30/139494.1.1.pdf"
+  },
+  {
+    "case_id": 120,
+    "bfg_case": "120",
+    "statement": "Eine neu gegründete land- und forstwirtschaftliche GesbR führt ab 2012 einen Betrieb und macht Vorsteuern nach den allgemeinen Vorschriften geltend. Für die GesbR selbst wird bis zum Ablauf des Veranlagungszeitraums keine schriftliche Erklärung abgegeben, dass ihre Umsätze nicht nach der Durchschnittssatzbesteuerung, sondern nach den allgemeinen Vorschriften besteuert werden sollen.",
+    "question": "Kann die GesbR dennoch zur Regelbesteuerung optieren und Vorsteuern abziehen?",
+    "answer": "Nein. Bei nicht buchführungspflichtigen land- und forstwirtschaftlichen Betrieben gilt grundsätzlich § 22 Abs. 1 UStG 1994. Ein Übergang zur Regelbesteuerung setzt nach § 22 Abs. 6 UStG 1994 eine eigene, rechtzeitige schriftliche Erklärung des Unternehmers voraus; fehlt diese für die neu entstandene GesbR, bleibt es bei der Pauschalierung.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 22 Abs. 1 UStG 1994",
+      "§ 22 Abs. 6 UStG 1994"
+    ],
+    "topic": "Land- und Forstwirtschaft / Regelbesteuerung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/c586e224-a6e2-4ff6-82d7-96822c73f618/121394.pdf"
+  },
+  {
+    "case_id": 121,
+    "bfg_case": "121",
+    "statement": "Ein nicht buchführungspflichtiger Landwirt verzichtet schriftlich nur auf die Kleinunternehmerbefreiung, gibt aber bis zum Ablauf des Veranlagungszeitraums keine Erklärung nach § 22 Abs. 6 UStG 1994 ab. Dennoch behandelt er seine Umsätze nach den allgemeinen Vorschriften und macht Vorsteuern geltend.",
+    "question": "Kann er ohne Erklärung nach § 22 Abs. 6 UStG 1994 die Regelbesteuerung anwenden?",
+    "answer": "Nein. Für land- und forstwirtschaftliche Umsätze gilt grundsätzlich die Durchschnittssatzbesteuerung nach § 22 Abs. 1 UStG 1994. Eine Erklärung zum Verzicht auf die Kleinunternehmerbefreiung ersetzt die besondere Option nach § 22 Abs. 6 UStG 1994 nicht; ohne diese bleibt es bei der Pauschalierung und ein Vorsteuerabzug nach den allgemeinen Vorschriften steht nicht zu.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 22 Abs. 1 UStG 1994",
+      "§ 22 Abs. 6 UStG 1994"
+    ],
+    "topic": "Land- und Forstwirtschaft / Regelbesteuerung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/5f0e6f58-cece-403c-a60a-f496fc9adeed/107747.pdf"
+  },
+  {
+    "case_id": 122,
+    "bfg_case": "122",
+    "statement": "Eine österreichische Rechtsanwalts-OG vertritt ein italienisches Unternehmen ohne Sitz oder Betriebsstätte in Österreich in einem Zivilverfahren vor einem österreichischen Gericht. Das Honorar wird als Nettobetrag in Rechnung gestellt mit dem Hinweis, dass die Umsatzsteuer vom Leistungsempfänger zu entrichten ist.",
+    "question": "Liegt der Leistungsort in Italien und geht die Steuerschuld auf den italienischen Unternehmer über?",
+    "answer": "Ja. Bei einer sonstigen Leistung an einen Unternehmer bestimmt sich der Leistungsort nach § 3a Abs. 6 UStG 1994 nach dem Ort, von dem aus der Empfänger sein Unternehmen betreibt. Da der Leistungsempfänger in Italien ansässig ist, liegt der Leistungsort dort; die Steuerschuld geht nach § 19 Abs. 1 UStG 1994 auf den Leistungsempfänger über.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994",
+      "§ 19 Abs. 1 UStG 1994"
+    ],
+    "topic": "Leistungsort / Reverse Charge",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/1014f4cd-3101-47ad-b6ca-c6a344940839/133864.1.1.pdf"
+  },
+  {
+    "case_id": 123,
+    "bfg_case": "123",
+    "statement": "Eine in Deutschland ansässige Unternehmerin kauft Waren in Österreich und lässt sie von dort unmittelbar an ihren italienischen Kunden befördern. Gegenüber dem österreichischen Lieferer verwendet sie ihre österreichische UID; zugleich steht fest, dass der Erwerb im Bestimmungsland besteuert wird.",
+    "question": "Führt die Verwendung der österreichischen UID zusätzlich zu einem innergemeinschaftlichen Erwerb in Österreich?",
+    "answer": "Nein. Art. 3 Abs. 8 UStG 1994 fingiert einen zusätzlichen Erwerb im UID-Staat nur solange, bis nachgewiesen ist, dass der Erwerb im Bestimmungsmitgliedstaat besteuert wurde. Ist diese Besteuerung im Bestimmungsland nachgewiesen, bleibt kein zusätzlicher Erwerb in Österreich bestehen.",
+    "result": "Nein",
+    "paragraphs": [
+      "Art. 3 Abs. 8 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftlicher Erwerb / UID-Verwendung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/b527f478-4200-410a-bb61-40c5edddee85/111150.pdf"
+  },
+  {
+    "case_id": 124,
+    "bfg_case": "124",
+    "statement": "Eine schweizerische Unternehmerin kauft Waren in einem EU-Mitgliedstaat und lässt sie unmittelbar an Abnehmer in anderen EU-Mitgliedstaaten befördern. Gegenüber ihren Lieferern verwendet sie ihre österreichische UID, weist aber nicht nach, dass die Erwerbe in den Bestimmungsländern besteuert wurden.",
+    "question": "Entsteht dadurch ein innergemeinschaftlicher Erwerb in Österreich und ist die darauf entfallende Steuer als Vorsteuer abzugsfähig?",
+    "answer": "Ja, ein zusätzlicher innergemeinschaftlicher Erwerb in Österreich entsteht. Nach Art. 3 Abs. 8 UStG 1994 gilt der Erwerb bei Verwendung einer österreichischen UID solange auch in Österreich als bewirkt, bis der Erwerber nachweist, dass der Erwerb im Bestimmungsmitgliedstaat besteuert wurde. Die auf diesem zusätzlichen Erwerb beruhende Steuer ist nach Art. 12 UStG 1994 nicht als Vorsteuer abzugsfähig.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 3 Abs. 8 UStG 1994",
+      "Art. 12 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftlicher Erwerb / Vorsteuer",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/3f8a27a5-f9bf-48cb-a6da-a0e9af152053/117181.pdf"
+  },
+  {
+    "case_id": 125,
+    "bfg_case": "125",
+    "statement": "Eine GmbH behandelt eine Warenlieferung an einen deutschen Abnehmer als steuerfreie innergemeinschaftliche Lieferung. Tatsächlich verlassen die Waren Österreich nicht, doch die unrichtigen Angaben stammen vom Abnehmer; außerdem ist die Abnehmerin zweifelsfrei feststellbar, auch wenn die Identität der abholenden Fahrer nicht gesondert festgehalten wurde.",
+    "question": "Kann die Lieferung trotz Fehlens der materiellen Voraussetzungen aus Vertrauensschutzgründen als steuerfrei behandelt werden?",
+    "answer": "Ja. Beruht die Inanspruchnahme der Steuerbefreiung auf unrichtigen Angaben des Abnehmers und konnte der Unternehmer deren Unrichtigkeit auch bei Beachtung der Sorgfalt eines ordentlichen Kaufmanns nicht erkennen, greift Art. 7 Abs. 4 UStG 1994 ein. Fehlt zwar ein gesondertes Festhalten der Identität des Abholenden, kann der Vertrauensschutz dennoch bestehen, wenn diese Kenntnis zur Durchsetzung des Abgabenanspruchs gegen den Abnehmer nichts beitragen würde.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 7 Abs. 4 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung / Vertrauensschutz",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/5d46e2ae-d51b-4fcc-8f69-222c1486992b/111428.pdf"
+  },
+  {
+    "case_id": 126,
+    "bfg_case": "126",
+    "statement": "Ein Restaurator beauftragt einen Subunternehmer mit Arbeiten an fest mit einem Gebäude verbundenen Wand- und Fassadenmalereien. Der Subunternehmer weist in seinen Rechnungen Umsatzsteuer aus, obwohl es sich bei den Leistungen um Bauleistungen handelt.",
+    "question": "Schuldet der Restaurator die Umsatzsteuer selbst und steht ihm der korrespondierende Vorsteuerabzug zu?",
+    "answer": "Ja. Dienen die Leistungen der Instandsetzung oder Instandhaltung eines Bauwerks, liegt eine Bauleistung im Sinn des § 19 Abs. 1a UStG 1994 vor. Dann geht die Steuerschuld auf den Leistungsempfänger über; die von ihm nach § 19 Abs. 1a UStG 1994 geschuldete Steuer ist nach § 12 Abs. 1 Z 3 UStG 1994 als Vorsteuer abziehbar, soweit die Leistungen für sein Unternehmen ausgeführt wurden.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 19 Abs. 1a UStG 1994",
+      "§ 12 Abs. 1 Z 3 UStG 1994"
+    ],
+    "topic": "Bauleistung / Reverse Charge / Vorsteuer",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/b803d597-f671-4973-9912-dd6fa7f59294/124983.pdf"
+  },
+  {
+    "case_id": 127,
+    "bfg_case": "127",
+    "statement": "Ein österreichischer Unternehmer bezieht von einem in Großbritannien ansässigen Unternehmer laufend Fernsehempfangsrechte samt technischer Hilfsmittel. Der ausländische Unternehmer hat in Österreich weder Sitz noch an der Leistungserbringung beteiligte Betriebsstätte.",
+    "question": "Schuldet der österreichische Unternehmer die Umsatzsteuer und steht ihm dafür der Vorsteuerabzug auch ohne Rechnung zu?",
+    "answer": "Ja. Die Einräumung von Fernsehempfangsrechten ist eine sonstige Leistung, deren Leistungsort nach § 3a Abs. 6 UStG 1994 am Unternehmenssitz des Leistungsempfängers liegt. Da der leistende Unternehmer im Inland nicht ansässig ist, schuldet der österreichische Empfänger die Steuer nach § 19 Abs. 1 UStG 1994; für diese Steuerschuld steht ihm der Vorsteuerabzug nach § 12 Abs. 1 Z 3 UStG 1994 unabhängig vom Vorliegen einer Rechnung zu.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994",
+      "§ 19 Abs. 1 UStG 1994",
+      "§ 12 Abs. 1 Z 3 UStG 1994"
+    ],
+    "topic": "Leistungsort / Reverse Charge / Vorsteuer",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6a4824b2-b715-4bc9-89b4-48a8d4f056d6/136641.1.1.pdf"
+  },
+  {
+    "case_id": 128,
+    "bfg_case": "167",
+    "statement": "Ein Unternehmer macht Vorsteuer aus Rechnungen einer Baugesellschaft geltend. Mit dieser Gesellschaft bestand kein eigener Kontakt; Angebot, Vertrag und sonstige Unterlagen fehlen, und später stellt sich heraus, dass die Gesellschaft die verrechneten Leistungen gar nicht erbracht hat.",
+    "question": "Steht dem Unternehmer aus diesen Rechnungen der Vorsteuerabzug zu?",
+    "answer": "Nein. Der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 setzt voraus, dass die Leistung von dem Unternehmer ausgeführt wird, der sie in Rechnung stellt. Wird Umsatzsteuer in einer Rechnung ausgewiesen, obwohl die Leistung nicht vom Rechnungsaussteller erbracht wurde, greift § 12 Abs. 14 UStG 1994 ein; ein Vorsteuerabzug steht dann nicht zu.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 12 Abs. 14 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Scheinunternehmen",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6b599d6d-fb63-4883-8b0e-80a3b8edb363/144892.1.1.pdf"
+  },
+  {
+    "case_id": 129,
+    "bfg_case": "234",
+    "statement": "Eine GmbH stellt einer anderen Unternehmerin Betriebsinventar und Geschäftsausstattung mit gesondertem Umsatzsteuerausweis in Rechnung. Noch bevor das Entgelt vollständig bezahlt wird, wird über das Vermögen der Kundin das Insolvenzverfahren eröffnet und es steht fest, dass die Forderung uneinbringlich geworden ist.",
+    "question": "Darf die GmbH die Umsatzsteuer wegen Uneinbringlichkeit berichtigen?",
+    "answer": "Ja. Wird das Entgelt für einen steuerpflichtigen Umsatz uneinbringlich, ist die Bemessungsgrundlage nach § 16 Abs. 1 UStG 1994 zu berichtigen. Nach § 16 Abs. 3 Z 1 UStG 1994 gilt dies auch für den Fall der Uneinbringlichkeit, sodass die GmbH die auf den uneinbringlichen Forderungsteil entfallende Umsatzsteuer berichtigen darf.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 16 Abs. 1 UStG 1994",
+      "§ 16 Abs. 3 Z 1 UStG 1994"
+    ],
+    "topic": "Änderung der Bemessungsgrundlage / Uneinbringlichkeit",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/78744141-2dff-4803-9239-004c51ed5aa3/102101.pdf"
+  },
+  {
+    "case_id": 130,
+    "bfg_case": "130",
+    "statement": "Ein Unternehmer bietet mit Chauffeur durchgeführte Fahrten mit Stretchlimousinen an. Bei der Buchung müssen Abholort, allfällige Zwischenziele und Zielort angegeben werden; die Getränke werden gesondert verrechnet.",
+    "question": "Unterliegt das Entgelt für diese Fahrten dem ermäßigten Steuersatz für Personenbeförderung?",
+    "answer": "Ja. Besteht der Hauptzweck der einheitlichen Leistung in der zielgerichteten Beförderung von Personen von einem Ausgangspunkt zu einem Zielort, liegt eine Personenbeförderung vor. Dann ermäßigt sich die Steuer nach § 10 Abs. 2 Z 6 UStG 1994, auch wenn die Fahrt in einer Stretchlimousine mit besonderem Erlebniswert erfolgt.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 10 Abs. 2 Z 6 UStG 1994"
+    ],
+    "topic": "Steuersatz / Personenbeförderung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/d4c5023f-564a-4b32-80fb-15e8d4a755ea/133485.1.1.pdf"
+  },
+  {
+    "case_id": 131,
+    "bfg_case": "131",
+    "statement": "Eine unternehmerisch tätige Holding bezieht Beratungs- und Transaktionsleistungen für den geplanten Verkauf ihrer Beteiligung an einer Tochtergesellschaft. Der Verkauf der Anteile wird später nicht durchgeführt; die bezogenen Leistungen dienten aber objektiv der Vorbereitung dieser Anteilsveräußerung.",
+    "question": "Sind die Vorsteuern aus diesen Beratungsleistungen abzugsfähig?",
+    "answer": "Nein. Die Veräußerung von Anteilen an Gesellschaften ist nach § 6 Abs. 1 Z 8 lit. g UStG 1994 steuerfrei. Werden sonstige Leistungen objektiv zur Vorbereitung dieser steuerfreien Anteilsveräußerung in Anspruch genommen, ist der Vorsteuerabzug nach § 12 Abs. 3 Z 2 UStG 1994 ausgeschlossen, auch wenn die Veräußerung letztlich scheitert.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 6 Abs. 1 Z 8 lit. g UStG 1994",
+      "§ 12 Abs. 3 Z 2 UStG 1994"
+    ],
+    "topic": "Holding / Anteilsveräußerung / Vorsteuer",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/744aeaba-7c4e-46d6-9122-309f45e83c1e/113143.pdf"
+  },
+  {
+    "case_id": 132,
+    "bfg_case": "235",
+    "statement": "Eine österreichische GmbH lässt von einem deutschen Bauunternehmer ohne Sitz oder Betriebsstätte im Inland ein Gebäude in Österreich errichten. Der deutsche Unternehmer stellt österreichische Umsatzsteuer in Rechnung; die GmbH behält die Steuer nicht ein und führt sie nicht an das zuständige Finanzamt ab, der leistende Unternehmer entrichtet sie ebenfalls nicht.",
+    "question": "Haftet die GmbH für den dadurch entstandenen Steuerausfall?",
+    "answer": "Ja. Bei Lieferungen unbeweglicher Gegenstände liegt der Leistungsort nach § 3 Abs. 7 UStG 1994 dort, wo sich der Gegenstand zur Zeit der Verschaffung der Verfügungsmacht befindet, hier also in Österreich. Erbringt ein ausländischer Unternehmer ohne inländische Betriebsstätte eine steuerpflichtige Leistung an einen Unternehmer für dessen Unternehmen und führt der Leistungsempfänger die einzubehaltende Steuer nicht ab, haftet er nach § 27 Abs. 4 UStG 1994 für den entstandenen Steuerausfall.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3 Abs. 7 UStG 1994",
+      "§ 27 Abs. 4 UStG 1994"
+    ],
+    "topic": "Haftung / ausländischer Unternehmer / Bauleistung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/8584d726-0d85-4a3c-a7d4-e8acdd891b1d/102949.pdf"
+  },
+  {
+    "case_id": 133,
+    "bfg_case": "133",
+    "statement": "Eine nicht buchführungspflichtige land- und forstwirtschaftliche Personengesellschaft reicht im ersten Jahr ihres Bestehens Umsatzsteuervoranmeldungen ein und macht Vorsteuern geltend. Eine ausdrückliche schriftliche Erklärung, dass ihre Umsätze nach den allgemeinen Vorschriften und nicht nach § 22 Abs. 1 bis 5 UStG 1994 besteuert werden sollen, wird bis zum Ablauf des Veranlagungszeitraums nicht abgegeben.",
+    "question": "Kann die Personengesellschaft dennoch wirksam zur Regelbesteuerung optieren?",
+    "answer": "Nein. Bei nicht buchführungspflichtigen land- und forstwirtschaftlichen Betrieben gilt grundsätzlich die Durchschnittssatzbesteuerung nach § 22 Abs. 1 UStG 1994. Ein Übergang zur Regelbesteuerung setzt nach § 22 Abs. 6 UStG 1994 eine rechtzeitige ausdrückliche schriftliche Erklärung voraus; bloße Voranmeldungen oder schlüssige Handlungen reichen dafür nicht aus.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 22 Abs. 1 UStG 1994",
+      "§ 22 Abs. 6 UStG 1994"
+    ],
+    "topic": "Land- und Forstwirtschaft / Regelbesteuerung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/e60d1218-4502-4512-bfc3-131f37b289db/124138.pdf"
+  },
+  {
+    "case_id": 134,
+    "bfg_case": "134",
+    "statement": "Eine Gesellschaft erzielt entgeltliche Beratungsumsätze und hält daneben bloß Beteiligungen, aus denen sie Gewinnanteile bezieht. Allgemeine Eingangsleistungen lassen sich nicht eindeutig nur den steuerpflichtigen Beratungsumsätzen oder nur dem bloßen Beteiligungshalten zuordnen.",
+    "question": "Sind die Vorsteuern aus diesen allgemeinen Eingangsleistungen aufzuteilen?",
+    "answer": "Ja. Können Vorsteuerbeträge nicht direkt einzelnen Ausgangsumsätzen zugeordnet werden, sind sie nach § 12 Abs. 4 UStG 1994 in abziehbare und nicht abziehbare Teile aufzuteilen. Fehlen tragfähige Anhaltspunkte für eine direkte Zuordnung, kann die Aufteilung nach § 12 Abs. 5 UStG 1994 nach dem Umsatzverhältnis erfolgen.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 12 Abs. 4 UStG 1994",
+      "§ 12 Abs. 5 UStG 1994"
+    ],
+    "topic": "Vorsteueraufteilung / gemischte Tätigkeit",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/fdb2a8c3-8b2f-458d-9c64-d896827bd02a/133992.1.1.pdf"
+  },
+  {
+    "case_id": 135,
+    "bfg_case": "135",
+    "statement": "Eine in Deutschland ansässige Unternehmerin beauftragt ein österreichisches Unternehmen, an einem in Österreich gelegenen Gebäude schadhafte Fassadenplatten zu demontieren und neue Fassadenplatten zu montieren. Die Leistungen beziehen sich unmittelbar auf dieses konkrete Gebäude.",
+    "question": "Liegt der Leistungsort der Montageleistungen in Österreich?",
+    "answer": "Ja. Sonstige Leistungen im Zusammenhang mit einem Grundstück werden nach § 3a Abs. 9 UStG 1994 dort ausgeführt, wo das Grundstück gelegen ist. Da sich die Demontage- und Montagearbeiten unmittelbar auf ein in Österreich gelegenes Gebäude beziehen, liegt der Leistungsort in Österreich.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 9 UStG 1994"
+    ],
+    "topic": "Leistungsort / Grundstücksbezogene Leistung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6f7c8d3c-3983-4cc3-8339-48da15f46fa3/134267.1.1.pdf"
+  },
+  {
+    "case_id": 136,
+    "bfg_case": "136",
+    "statement": "Eine österreichische GmbH erzielt ausschließlich Umsätze aus der Vermietung eines in der Schweiz gelegenen Geschäftslokals. Die Vermietung wird in der Schweiz tatsächlich steuerpflichtig behandelt; die GmbH macht in Österreich Vorsteuern aus Eingangsleistungen geltend, die mit dieser Vermietung zusammenhängen.",
+    "question": "Sind diese Vorsteuern nach § 12 Abs. 3 Z 3 UStG 1994 vom Abzug ausgeschlossen?",
+    "answer": "Nein. Der Vorsteuerausschluss nach § 12 Abs. 3 Z 3 UStG 1994 greift nur, wenn der im Ausland ausgeführte Umsatz, wäre er im Inland steuerbar, steuerfrei wäre. Da Grundstücksvermietungen zwar nach § 6 Abs. 1 Z 16 UStG 1994 grundsätzlich steuerfrei sind, aber nach § 6 Abs. 2 UStG 1994 steuerpflichtig behandelt werden können, steht der Vorsteuerabzug zu, wenn die Vermietung im Ausland tatsächlich steuerpflichtig behandelt wird.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 3 Z 3 UStG 1994",
+      "§ 6 Abs. 1 Z 16 UStG 1994",
+      "§ 6 Abs. 2 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Auslandsvermietung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/77eff217-8274-4955-875f-b4ac026fb157/108193.pdf"
+  },
+  {
+    "case_id": 137,
+    "bfg_case": "137",
+    "statement": "Eine schweizerische Gesellschaft verkauft an ein anderes schweizerisches Unternehmen ein Reisepaket für Unternehmer und verrechnet dabei auch Eintrittsberechtigungen für kulturelle Veranstaltungen in Österreich weiter. Die Weiterverrechnung erfolgt im eigenen Namen im Rahmen einer Besorgungsleistung.",
+    "question": "Liegt der Leistungsort der weiterverrechneten Eintrittsberechtigungen in Österreich?",
+    "answer": "Ja. Besorgt ein Unternehmer eine sonstige Leistung, sind nach § 3a Abs. 4 UStG 1994 die für die besorgte Leistung geltenden Vorschriften entsprechend anzuwenden. Bei Eintrittsberechtigungen zu kulturellen Veranstaltungen bestimmt sich der Leistungsort nach § 3a Abs. 11a UStG 1994 nach dem Ort der tatsächlichen Veranstaltung; findet diese in Österreich statt, liegt der Leistungsort in Österreich.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3a Abs. 4 UStG 1994",
+      "§ 3a Abs. 11a UStG 1994"
+    ],
+    "topic": "Leistungsort / Eintrittsberechtigung / Besorgungsleistung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/1b3055dc-112f-464b-aebe-6efe01d967ee/115127.pdf"
+  },
+  {
+    "case_id": 138,
+    "bfg_case": "251",
+    "statement": "Ein österreichischer Unternehmer erbringt eine Telekommunikationsleistung an einen Unternehmer mit Sitz in einem Drittstaat. Die Leistung wird für dessen Unternehmen bezogen.",
+    "question": "Wo liegt der Leistungsort dieser Telekommunikationsleistung?",
+    "answer": "Der Leistungsort liegt im Drittstaat. Nach § 3a Abs. 6 UStG 1994 wird eine sonstige Leistung an einen Unternehmer an dem Ort ausgeführt, von dem aus der Empfänger sein Unternehmen betreibt.",
+    "result": null,
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994"
+    ],
+    "topic": "Leistungsort / Telekommunikation",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/af62bb7d-5ea3-4863-9e6e-5978325b188e/150492.1.1.pdf"
+  },
+  {
+    "case_id": 139,
+    "bfg_case": "252",
+    "statement": "Ein österreichischer Netzbetreiber stellt einem Mobilfunkunternehmen mit Sitz in einem Drittstaat gegen Entgelt Netzkapazität zur Verfügung. Der Leistungsempfänger bezieht die Leistung für sein Unternehmen.",
+    "question": "Nach welcher Bestimmung bestimmt sich der Leistungsort dieser Leistung?",
+    "answer": "Der Leistungsort bestimmt sich nach § 3a Abs. 6 UStG 1994. Bei einer sonstigen Leistung an einen Unternehmer ist auf den Ort abzustellen, von dem aus der Empfänger sein Unternehmen betreibt.",
+    "result": null,
+    "paragraphs": [
+      "§ 3a Abs. 6 UStG 1994"
+    ],
+    "topic": "Leistungsort / Telekommunikationsdienst",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/3a949808-bff9-4222-903c-d2b79dc126ee/126351.pdf"
+  },
+  {
+    "case_id": 140,
+    "bfg_case": "140",
+    "statement": "Ein Unternehmer erhält Rechnungen über Bauleistungen mit gesondertem Umsatzsteuerausweis. Tatsächlich wurden die Leistungen nicht von der rechnungsausstellenden Gesellschaft, sondern von anderen Personen erbracht; der Leistungsempfänger hätte nach den Umständen des Falles erkennen müssen, dass die Rechnungen in einen Umsatzsteuerbetrug eingebunden waren.",
+    "question": "Steht dem Unternehmer aus diesen Rechnungen der Vorsteuerabzug zu?",
+    "answer": "Nein. Der Vorsteuerabzug nach § 12 Abs. 1 Z 1 UStG 1994 setzt voraus, dass die Leistung von dem Unternehmer ausgeführt wird, der sie in Rechnung stellt. Wird Umsatzsteuer in einer Rechnung ausgewiesen, obwohl die Leistung nicht vom Rechnungsaussteller erbracht wurde, greift § 12 Abs. 14 UStG 1994 ein; ein Vorsteuerabzug steht dann nicht zu.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 12 Abs. 1 Z 1 UStG 1994",
+      "§ 12 Abs. 14 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Scheinunternehmen",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6b599d6d-fb63-4883-8b0e-80a3b8edb363/144892.1.1.pdf"
+  },
+  {
+    "case_id": 141,
+    "bfg_case": "191",
+    "statement": "Eine norwegische Gesellschaft kauft Hardware bei einem österreichischen Lieferanten und verkauft sie noch vor dem Transport an einen Unternehmer in einem anderen Mitgliedstaat weiter. Der österreichische Lieferant weiß bereits bei Vertragsabschluss, an welchen Endkunden die Ware geliefert wird, und stellt die Hardware noch in Österreich nach dessen Anforderungen fertig.",
+    "question": "Ist im Reihengeschäft die erste Lieferung die ruhende Lieferung?",
+    "answer": "Ja. Im Reihengeschäft kann nur eine Lieferung die bewegte Lieferung sein. Nach den vom BFG gewürdigten Umständen wurde den Endkunden die Verfügungsmacht bereits vor Beginn der Beförderung verschafft. Daher ist die erste Lieferung nach § 3 Abs. 7 UStG 1994 die ruhende Lieferung; die zweite Lieferung ist die bewegte Lieferung, deren Ort sich nach § 3 Abs. 8 UStG 1994 richtet.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 3 Abs. 15 UStG 1994",
+      "§ 3 Abs. 7 UStG 1994",
+      "§ 3 Abs. 8 UStG 1994"
+    ],
+    "topic": "Reihengeschäft / ruhende und bewegte Lieferung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/8f34807e-3588-41dc-846a-1a462e8ebe68/141809.1.1.pdf"
+  },
+  {
+    "case_id": 142,
+    "bfg_case": "142",
+    "statement": "Ein Unternehmer optiert im Jahr 2005 zur Ermittlung der Vorsteuer nach Durchschnittssätzen. In seiner Umsatzsteuererklärung für 2007 erklärt er den Widerruf der Pauschalierung und wiederholt diesen noch schriftlich im offenen Veranlagungsverfahren.",
+    "question": "Kann der Widerruf der Vorsteuerpauschalierung ab dem Jahr 2007 wirksam werden?",
+    "answer": "Ja. Nach § 14 Abs. 4 UStG 1994 bindet die Option zur Vorsteuerpauschalierung den Unternehmer mindestens für zwei Kalenderjahre. Gemäß § 14 Abs. 5 UStG 1994 kann der Widerruf bis zur Rechtskraft des Bescheides über das betreffende Kalenderjahr schriftlich erklärt werden; damit ist ein Widerruf ab 2007 wirksam.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 14 Abs. 4 UStG 1994",
+      "§ 14 Abs. 5 UStG 1994"
+    ],
+    "topic": "Vorsteuerpauschalierung / Widerruf",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/4d497eb8-c915-4087-a497-2b64c54f18ec/102642.pdf"
+  },
+  {
+    "case_id": 143,
+    "bfg_case": "143",
+    "statement": "Eine in der Schweiz ansässige Gesellschaft überlässt Arbeitnehmer an österreichische Unternehmen und ersetzt ihren Arbeitnehmern pauschale Tages- und Nächtigungsgelder für Einsätze in Österreich. Rechnungen über Speisen, Getränke oder Nächtigungen werden nicht vorgelegt.",
+    "question": "Kann die Gesellschaft die Vorsteuer aus diesen pauschalen Reisekosten geltend machen?",
+    "answer": "Nein. § 13 Abs. 1 UStG 1994 erlaubt die Ermittlung pauschaler Vorsteuern aus Reisekosten nur unter den dort genannten Voraussetzungen. Bei einem ausländischen Unternehmer, der nicht der inländischen Ertragsbesteuerung in der dafür maßgeblichen Weise unterliegt, schließt § 13 Abs. 3 UStG 1994 den Abzug solcher pauschal ermittelten Vorsteuern aus.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 13 Abs. 1 UStG 1994",
+      "§ 13 Abs. 3 UStG 1994"
+    ],
+    "topic": "Vorsteuerabzug / Reisekosten",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/d29807a7-a08d-4634-8b25-f9914d1864c2/139504.1.1.pdf"
+  },
+  {
+    "case_id": 144,
+    "bfg_case": "245",
+    "statement": "Eine deutsche Eventagentur organisiert im eigenen Namen für eine GmbH ein mehrtägiges Leadership-Meeting in Wien. Sie bezieht dafür von Dritten insbesondere Hotelübernachtungen, Transfers, Verpflegung und Unterhaltungsleistungen, die den Teilnehmern der GmbH unmittelbar zugutekommen.",
+    "question": "Unterliegt diese einheitliche Leistung der Sonderregel des § 23 UStG 1994?",
+    "answer": "Ja. Tritt der Unternehmer im eigenen Namen auf und nimmt er Reisevorleistungen in Anspruch, die dem Kunden unmittelbar zugutekommen, liegt eine Reiseleistung nach § 23 UStG 1994 vor. Die Organisation des Leadership-Meetings ist daher als einheitliche sonstige Leistung nach dieser Sonderregel zu behandeln.",
+    "result": "Ja",
+    "paragraphs": [
+      "§ 23 UStG 1994"
+    ],
+    "topic": "Reiseleistung / Eventorganisation / Sonderregel",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/d451ebda-abd6-4f8c-aeee-a9466ccf2f5c/148716.1.1.pdf"
+  },
+  {
+    "case_id": 145,
+    "bfg_case": "145",
+    "statement": "Ein Unternehmer hat die Vereinfachungsregel für Dreiecksgeschäfte zunächst nicht richtig angewendet. Im Jahr 2015 berichtigt er die betroffenen Ausgangsrechnungen um den Hinweis auf das Dreiecksgeschäft und gibt berichtigte Zusammenfassende Meldungen ab.",
+    "question": "Kann der zusätzliche innergemeinschaftliche Erwerb ab dem Zeitpunkt dieser Berichtigungen als besteuert gelten?",
+    "answer": "Ja. Art. 25 Abs. 2 UStG 1994 knüpft die Besteuerungsfiktion beim Dreiecksgeschäft an den Nachweis des Dreiecksgeschäfts und an die Erfüllung der Erklärungspflichten. Werden die erforderlichen Rechnungshinweise und Erklärungen erst später wirksam nachgeholt, treten die Rechtsfolgen der Vereinfachungsregel ex nunc ein; die Berichtigung wirkt daher nicht rückwirkend, wohl aber ab dem Zeitpunkt der ordnungsgemäßen Nachholung.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 25 Abs. 2 UStG 1994",
+      "Art. 3 Abs. 8 UStG 1994"
+    ],
+    "topic": "Dreiecksgeschäft / ex nunc-Berichtigung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/97ed93d5-1c51-477e-8da1-7461c5f60c3c/142835.1.1.pdf"
+  },
+  {
+    "case_id": 146,
+    "bfg_case": "146",
+    "statement": "Eine in der Schweiz ansässige Aktiengesellschaft führt Waren nach Österreich ein und lässt sie anschließend an Abnehmer in Deutschland weitergelangen. Für die betreffenden Lieferungen kann im Verfahren nachgewiesen werden, dass die Waren tatsächlich von Österreich in einen anderen Mitgliedstaat gelangt sind und der Erwerb dort steuerbar war.",
+    "question": "Liegt eine steuerfreie innergemeinschaftliche Lieferung vor?",
+    "answer": "Ja. Nach Art. 6 Abs. 1 UStG 1994 sind innergemeinschaftliche Lieferungen steuerfrei. Diese Steuerfreiheit setzt nach Art. 7 UStG 1994 voraus, dass der Gegenstand in das übrige Gemeinschaftsgebiet gelangt und der Erwerb im anderen Mitgliedstaat steuerbar ist; sind diese Voraussetzungen nachgewiesen, ist die Lieferung steuerfrei.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 6 Abs. 1 UStG 1994",
+      "Art. 7 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/6a986bf3-8ea4-430b-a780-409b5674836a/126248.pdf"
+  },
+  {
+    "case_id": 147,
+    "bfg_case": "242",
+    "statement": "Eine österreichische GmbH tritt als Zwischenerwerberin in Reihengeschäften auf und verwendet ihre österreichische UID. Die ursprünglich ausgestellten Rechnungen an den letzten Abnehmer enthalten keinen Hinweis auf ein Dreiecksgeschäft und keinen Hinweis auf die Steuerschuldnerschaft des Leistungsempfängers; erst später werden berichtigte Rechnungen mit diesen Angaben ausgestellt und dem letzten Abnehmer übermittelt.",
+    "question": "Greift ab diesem Zeitpunkt die Vereinfachungsregel für Dreiecksgeschäfte?",
+    "answer": "Ja. Nach Art. 25 Abs. 2 UStG 1994 gilt der innergemeinschaftliche Erwerb als besteuert, wenn der Unternehmer nachweist, dass ein Dreiecksgeschäft vorliegt und er seiner Erklärungspflicht nachgekommen ist. Dafür muss die vom Zwischenerwerber ausgestellte Rechnung nach Art. 25 Abs. 4 UStG 1994 insbesondere den Hinweis auf das Dreiecksgeschäft und die Steuerschuldnerschaft des Leistungsempfängers enthalten; wird dies später wirksam nachgeholt, greift die Vereinfachungsregel ab diesem Zeitpunkt.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 25 Abs. 2 UStG 1994",
+      "Art. 25 Abs. 4 UStG 1994"
+    ],
+    "topic": "Dreiecksgeschäft / Rechnungsberichtigung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/97ed93d5-1c51-477e-8da1-7461c5f60c3c/142835.1.1.pdf"
+  },
+  {
+    "case_id": 148,
+    "bfg_case": "148",
+    "statement": "Ein Unternehmer behandelt eine Warenlieferung an einen Abnehmer in einem anderen Mitgliedstaat als steuerfreie innergemeinschaftliche Lieferung. Er hält im Abholfall die Identität des Abholenden nicht fest und kann auch später nicht zweifelsfrei nachweisen, dass die Ware tatsächlich in das übrige Gemeinschaftsgebiet gelangt ist.",
+    "question": "Kann sich der Unternehmer auf den Vertrauensschutz des Art. 7 Abs. 4 UStG 1994 berufen?",
+    "answer": "Nein. Art. 7 Abs. 4 UStG 1994 schützt den Unternehmer nur, wenn er trotz Fehlens der materiellen Voraussetzungen mit der Sorgfalt eines ordentlichen Kaufmanns gehandelt hat. Wird im Abholfall die Identität des Abholenden nicht festgehalten und gelingt der Nachweis der Warenbewegung nicht, greift der Vertrauensschutz nicht ein.",
+    "result": "Nein",
+    "paragraphs": [
+      "Art. 7 Abs. 4 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung / Vertrauensschutz",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/80399fe7-0798-44d4-bc44-98a22fbe9f37/112416.pdf"
+  },
+  {
+    "case_id": 149,
+    "bfg_case": "149",
+    "statement": "Eine Körperschaft öffentlichen Rechts überlässt renovierte Räumlichkeiten einer anderen Körperschaft öffentlichen Rechts. Als Gegenleistung wird lediglich der Ersatz der Betriebskosten zuzüglich eines Aufschlags von 1 % vereinbart.",
+    "question": "Liegt damit eine unternehmerische Vermietung im Sinn des § 2 Abs. 3 UStG 1994 vor?",
+    "answer": "Nein. § 2 Abs. 3 UStG 1994 erfasst die Vermietung und Verpachtung von Grundstücken durch Körperschaften öffentlichen Rechts nur dann als unternehmerische Tätigkeit, wenn überhaupt eine entgeltliche Vermietung vorliegt. Wird bloß ein Anerkennungszins in Höhe der Betriebskosten zuzüglich eines minimalen Aufschlags vereinbart, fehlt es an einer solchen entgeltlichen Vermietung.",
+    "result": "Nein",
+    "paragraphs": [
+      "§ 2 Abs. 3 UStG 1994"
+    ],
+    "topic": "Körperschaft öffentlichen Rechts / Vermietung",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/f407fff7-7a06-4573-9fd3-f9fceea4ef3f/113478.pdf"
+  },
+  {
+    "case_id": 150,
+    "bfg_case": "150",
+    "statement": "Eine GmbH verkauft ein neues Wettbewerbsmotorrad an eine Privatperson in einem anderen Mitgliedstaat und lässt das Motorrad dorthin befördern. Der Erwerb des neuen Fahrzeugs ist dort steuerbar.",
+    "question": "Ist diese Lieferung in Österreich als innergemeinschaftliche Lieferung steuerfrei?",
+    "answer": "Ja. Nach Art. 6 Abs. 1 UStG 1994 sind innergemeinschaftliche Lieferungen steuerfrei. Bei der Lieferung eines neuen Fahrzeugs an jeden anderen Erwerber greift die Steuerfreiheit, wenn die Voraussetzungen des Art. 7 Abs. 1 UStG 1994 erfüllt sind, insbesondere die Beförderung in das übrige Gemeinschaftsgebiet und die Steuerbarkeit des Erwerbs im anderen Mitgliedstaat.",
+    "result": "Ja",
+    "paragraphs": [
+      "Art. 6 Abs. 1 UStG 1994",
+      "Art. 7 Abs. 1 UStG 1994"
+    ],
+    "topic": "Innergemeinschaftliche Lieferung / neues Fahrzeug",
+    "source": "https://findok.bmf.gv.at/findok/resources/pdf/4277de2a-54fb-49db-8a26-d546030295ad/111017.pdf"
+  }
+]
