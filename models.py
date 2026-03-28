@@ -192,7 +192,7 @@ class RetrievalResult:
     sparse_score: float = 0.0      # BM25 score
     rerank_score: float = 0.0      # Cross-encoder score
     combined_score: float = 0.0    # Final weighted score
-    boost_reason: str = ""         # boost reasong ("explicit_ref", "linked_ustr", etc.)
+    boost_reason: str = ""         # boost reason ("explicit_ref", "linked_ustr", etc.)
     
     @property
     def chunk_id(self) -> str:
