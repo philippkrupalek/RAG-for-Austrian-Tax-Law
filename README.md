@@ -1,4 +1,4 @@
-# UStG RAG — Retrieval-Augmented Generation for Austrian VAT Law
+# UStG RAG - Retrieval-Augmented Generation for Austrian VAT Law
 
 NOTICE: You can download the UStR2000_html.xml file (the guidelines) from https://findok.bmf.gv.at/findok/volltext(suche:Standardsuche)?dokumentId=c47353b7-028f-487c-9b78-2f1b53354e08
 
