@@ -397,7 +397,7 @@ class RuleBasedMetrics:
         -) Art dot format: "Art7.1.4" or "Art7.1"
         -) Bare number: "12"
         -) Article references: "Art. 1 para. 1" or "Art. 7 para. 1 UStG 1994"
-        -) Paragraphs with letter suffixes: "§ 19 para. 1a", "§ 3a para. 11a""""
+        -) Paragraphs with letter suffixes: "§ 19 para. 1a", "§ 3a para. 11a"""
         
         ref = ref_str.strip()
         
