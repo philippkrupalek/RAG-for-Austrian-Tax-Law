@@ -3,7 +3,7 @@ evaluate.py – Evaluation pipeline for UStG RAG, to run all experiments
 
 2 models: DeepSeek-V3, Llama-3.1-8B
 4 setups: Baseline up to full rag
-9 metrics: 7 primary (rule-based) + 2 secondary (LLM-as-judge)
+9 metrics: 7 primary + 2 secondary (LLM-as-judge)
 150 test cases from golden_dataset.json
 """
 
@@ -397,7 +397,8 @@ class RuleBasedMetrics:
         -) Art dot format: "Art7.1.4" or "Art7.1"
         -) Bare number: "12"
         -) Article references: "Art. 1 para. 1" or "Art. 7 para. 1 UStG 1994"
-        -) Paragraphs with letter suffixes: "§ 19 para. 1a", "§ 3a para. 11a"""
+        -) Paragraphs with letter suffixes: "§ 19 para. 1a", "§ 3a para. 11a"
+        """
         
         ref = ref_str.strip()
         
@@ -1017,10 +1018,10 @@ class ExperimentRunner:
             if setup.use_query_rewrite and rewriter:
                 _, rewritten = rewriter.rewrite(case.question)
 
-    # Retrieval (always hybrid: dense + BM25)
+    # Retrieval (hybrid)
     # retrieval_query = facts + question for semantic search
-    # ref_query = question only for § reference extraction (no noise from facts)
-    # rerank_query = question only for the cross-encoder (optimized for short queries)
+    # ref_query = question only for paragraph reference extraction
+    # rerank_query = question only for the cross-encoder
             retrieval_results = retriever.retrieve(
                 query=retrieval_query,
                 rewritten_query=rewritten,
@@ -1042,8 +1043,7 @@ class ExperimentRunner:
                 )
                 # etrieved_paragraphs sorted by score for correct Recall@K metric
                 sorted_by_score = sorted(retrieval_results, key=lambda r: r.combined_score, reverse=True)
-                # Filter out UStR paragraph-level chunks from recall calculation. UStR chunks have paragraph="107" (section numbers) with no Abs granularity.
-                # They never match expected refs (which have Abs) - waste slots in top-K. The chunks are still in the LLM context, just not counted for recall.
+                # Filter out UStR paragraph-level chunks from recall calculation. UStR chunks have paragraph="107" (section numbers) with no Abs granularity. They never match expected refs and waste slots in top-K. 
                 result.retrieved_paragraphs = [
                     _ref_to_dotkey(r.chunk.ref) for r in sorted_by_score
                     if not (r.chunk.source_type == SourceType.USTR 
@@ -1094,7 +1094,7 @@ class ExperimentRunner:
         result.predicted_result = RuleBasedMetrics.extract_outcome(
             result.answer, expected=case.result
         )
-        # Granular citation extraction: "§ 12 Abs. 2 Z 2 lit. a" → "12.2.2.a"
+        # Granular citation extraction: "§ 12 Abs. 2 Z 2 lit. a" -> "12.2.2.a"
         cited_refs = extract_cited_references(result.answer)
         result.cited_paragraphs = []
         seen_keys = set()
@@ -1136,7 +1136,7 @@ class ExperimentRunner:
             result.recall_at_20 = ret['recall_at_20']
             result.ndcg_at_10 = ret['ndcg_at_10']
 
-        # LLM Judge (2 scores, GPT-4o-mini)
+        # LLM Judge
         if not skip_judge:
             judge = self._get_judge()
 
@@ -1148,7 +1148,7 @@ class ExperimentRunner:
                     for r in retrieval_results
                 ]
 
-            # Context-dependent metrics (only when retrieval was used)
+            # Context-dependent metrics when retrieval used
             if judge_contexts:
                 result.judge_groundedness = judge.score_groundedness(
                     case.question, result.answer, judge_contexts
@@ -1157,27 +1157,27 @@ class ExperimentRunner:
                     case.question, judge_contexts
                 )
             else:
-                result.judge_groundedness = None   # N/A for baseline (no context)
-                result.judge_doc_relevance = None  # N/A for baseline (no context)
+                result.judge_groundedness = None   # N/A for baseline 
+                result.judge_doc_relevance = None  # N/A for baseline 
 
         result.duration_seconds = time.time() - t0
         return result
 
-    # RESULTS EXPORT
+    # results export
 
     def save_results(self, filename: str = None):
         """Save all results to JSON and CSV"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = filename or f"eval_{timestamp}"
 
-        # JSON (full detail)
+        # JSON detail
         json_path = RESULTS_DIR / f"{filename}.json"
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump([asdict(r) for r in self.results], f,
                       ensure_ascii=False, indent=2)
         print(f"   JSON: {json_path}")
 
-        # CSV (for analysis)
+        # CSV (
         csv_path = RESULTS_DIR / f"{filename}.csv"
         if self.results:
             fieldnames = list(asdict(self.results[0]).keys())
@@ -1288,7 +1288,7 @@ class ExperimentRunner:
 
         # Table Model Comparison (S1 vs S4)
         print(f"\n{'='*80}")
-        print("TABLE 3: Model Comparison (S1 Baseline → S4 Full RAG)")
+        print("Table Model Comparison (S1 Baseline -> S4 Full RAG)")
         print(f"{'='*80}")
         print()
 
@@ -1374,7 +1374,7 @@ def main():
     )
 
     if store.size == 0:
-        print("No chunks parsed! Check source file paths.")
+        print("No chunks parsed!")
         return
 
     # Detect device
