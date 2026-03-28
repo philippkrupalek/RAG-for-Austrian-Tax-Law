@@ -1,30 +1,4 @@
-"""
-evaluate_nq_v4.py – NQ Retrieval Benchmark, Voller Wikipedia-Korpus, NUR DENSE (BGE-M3)
-                     Direkt vergleichbar mit DPR (Karpukhin et al. 2020).
 
-Kein BM25 – der BM25 Index für 21M Passages braucht 200-400GB RAM (Python Dict Overhead).
-Dense-only ist methodisch sauber: DPR ist auch pure dense retrieval.
-
-Hardware-Anforderungen:
-    - RAM: ~80GB für Embeddings (21M × 1024-dim × float32)
-    - VRAM: 24GB reicht für Encoding (Batches à 512)
-    - Encoding-Zeit: ~2-4 Stunden
-
-Download:
-    wget https://dl.fbaipublicfiles.com/dpr/wikipedia_split/psgs_w100.tsv.gz
-    gunzip psgs_w100.tsv.gz
-
-Verwendung:
-    python evaluate_nq_v4.py \\
-        --wiki_file psgs_w100.tsv \\
-        --nq_file biencoder-nq-dev.json \\
-        --output nq_v4_results.json
-
-Benchmark-Zielzahlen (MINDER Table 1, voller Korpus):
-    BM25                   43.6%  @5
-    DPR (Karpukhin 2020)   68.3%  @5   ← unser Hauptvergleich
-    MINDER                 65.8%  @5
-"""
 
 import argparse
 import json
@@ -35,10 +9,6 @@ from typing import Dict, List, Optional, Set, Tuple
 
 import numpy as np
 
-
-# ============================================================================
-# ARGUMENT PARSING
-# ============================================================================
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -64,18 +34,16 @@ def parse_args():
     return parser.parse_args()
 
 
-# ============================================================================
-# LOAD WIKIPEDIA CORPUS
-# ============================================================================
+
 
 def load_wiki_corpus(tsv_file: str, max_passages: Optional[int] = None) -> Dict[str, str]:
     if not Path(tsv_file).exists():
-        print(f"❌ Nicht gefunden: {tsv_file}")
+        print(f" Nicht gefunden: {tsv_file}")
         print("   wget https://dl.fbaipublicfiles.com/dpr/wikipedia_split/psgs_w100.tsv.gz")
         print("   gunzip psgs_w100.tsv.gz")
         sys.exit(1)
 
-    print(f"\n📂 Lade Wikipedia-Korpus: {tsv_file}")
+    print(f"\n Lade Wikipedia-Korpus: {tsv_file}")
     corpus: Dict[str, str] = {}
     start = time.time()
 
@@ -99,11 +67,6 @@ def load_wiki_corpus(tsv_file: str, max_passages: Optional[int] = None) -> Dict[
     elapsed = time.time() - start
     print(f"   ✅ {len(corpus):,} Passages geladen in {elapsed:.1f}s")
     return corpus
-
-
-# ============================================================================
-# LOAD NQ QUESTIONS
-# ============================================================================
 
 def load_nq_questions(nq_file: str, max_questions: Optional[int] = None):
     import gzip
@@ -132,10 +95,6 @@ def load_nq_questions(nq_file: str, max_questions: Optional[int] = None):
     print(f"   Evaluations-Fragen: {len(questions)}")
     return questions, positive_ids
 
-
-# ============================================================================
-# DENSE RETRIEVER (BGE-M3) mit Embedding-Cache
-# ============================================================================
 
 class DenseRetriever:
 
@@ -254,24 +213,16 @@ class DenseRetriever:
         return [(self.passage_ids[i], float(scores[i])) for i in top_indices]
 
 
-# ============================================================================
-# HITS@K
-# ============================================================================
-
 def compute_hits_at_k(retrieved: List[str], relevant: Set[str], k_values: List[int]):
     return {k: 1 if set(retrieved[:k]) & relevant else 0 for k in k_values}
 
-
-# ============================================================================
-# EVALUATION LOOP
-# ============================================================================
 
 def evaluate_dense(
     questions, positive_ids, dense: DenseRetriever,
     top_k=100, k_values=[5, 20, 100]
 ) -> Dict:
     print(f"\n{'='*65}")
-    print("📊 Evaluiere: Dense-only (BGE-M3)")
+    print(" Evaluiere: Dense-only (BGE-M3)")
     print(f"{'='*65}")
 
     hits = {k: 0 for k in k_values}
@@ -296,16 +247,12 @@ def evaluate_dense(
     metrics["total_questions"] = total
     metrics["setup"] = "Dense-only (BGE-M3)"
 
-    print(f"\n   📈 Ergebnisse:")
+    print(f"\n   Ergebnisse:")
     for k in k_values:
         print(f"      Hits@{k:3d}: {metrics[f'hits@{k}']:.1f}%")
 
     return metrics
 
-
-# ============================================================================
-# RESULTS TABLE
-# ============================================================================
 
 BENCHMARKS = {
     "BM25 (MINDER Table 1)":       {"hits@5": 43.6, "hits@20": 62.9, "hits@100": 78.1},
@@ -325,14 +272,14 @@ def print_results_table(results: Dict, k_values=[5, 20, 100]):
     print(header)
     print("-" * 70)
 
-    print("  ▶ Dieses System")
+    print("  Dieses System")
     row = f"    {'BGE-M3 Dense-only':<36}"
     for k in k_values:
         row += f"  {results[f'hits@{k}']:6.1f}%"
     print(row)
 
     print("-" * 70)
-    print("  ▶ Publizierte Baselines (MINDER Table 1, voller Korpus)")
+    print("  Publizierte Baselines (MINDER Table 1, voller Korpus)")
     for name, bench in BENCHMARKS.items():
         row = f"    {name:<36}"
         for k in k_values:
@@ -344,10 +291,6 @@ def print_results_table(results: Dict, k_values=[5, 20, 100]):
     print("\nHinweis: Voller Wikipedia-Korpus (psgs_w100.tsv, ~21M Passages)")
     print("         NQ Dev Split, 6515 Fragen (DPR-Format)")
 
-
-# ============================================================================
-# MAIN
-# ============================================================================
 
 def main():
     args = parse_args()
