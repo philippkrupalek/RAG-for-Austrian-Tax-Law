@@ -5,8 +5,6 @@ Multi-Model Support:
 - DeepSeek-V3 (deepseek-chat) - high-performance
 - Llama-3.1-8B (llama-3.1-8b-instant via Groq) - weaker model
 - Gemini 1.5 Flash - for Evaluation (LLM-as-Judge)
-
-All models use OpenAI-compatible API.
 """
 
 import os
@@ -30,7 +28,7 @@ def get_client(model_config: ModelConfig) -> OpenAI:
 
 
 def get_llm_client() -> OpenAI:
-    """Legacy: Create DeepSeek client (backward compatible)"""
+    """Create DeepSeek client"""
     return get_client(DEEPSEEK_V3)
 
 
@@ -38,11 +36,11 @@ def get_llm_client() -> OpenAI:
 
 def extract_cited_paragraphs(answer: str) -> Set[str]:
     """
-    Extract all § references cited in an LLM answer. Returns set of paragraph numbers: {"12", "19", "11", ...}
+    Extract all § references cited in an LLM answer. Returns set of paragraph numbers: {"12", "19", "11"}
     """
     result: Set[str] = set()
 
-    # "§§ 12 und 19" or "§§ 6, 10, 12" (plural, comma/und separated list)
+    # "§§ 12 und 19" or "§§ 6, 10, 12" (comma/und separated list)
     plural_pattern = re.compile(
         r'§{1,2}\s*(\d+[a-z]?)(?:\s*(?:,|und|sowie|bzw\.?)\s*(\d+[a-z]?))*',
         re.IGNORECASE
@@ -137,9 +135,10 @@ def extract_cited_references(answer: str) -> List[CitedReference]:
             continue
         key = ('art', m.group(1), m.group(2), m.group(3), m.group(4))
         if key not in seen:
-    # Store with "Art" prefix 
+            # Store with "Art" prefix so paragraph matches Anhang chunk IDs
+            art_para = f"Art{m.group(1)}"
             refs.append(CitedReference(
-                paragraph=m.group(1),
+                paragraph=art_para,
                 absatz=m.group(2),
                 ziffer=m.group(3),
                 litera=m.group(4),
@@ -206,7 +205,7 @@ class QueryRewriter:
 # Answer Generator
 
 class AnswerGenerator:
-    """ Generates answers from retrieved context, also works with any OpenAI ompatible API.
+    """ Generates answers from retrieved context, also works with any OpenAI compatible API.
     """
     
     SYSTEM_PROMPT = """Du beantwortest Umsatzsteuer-Fragen nach oesterreichischem Recht (UStG 1994, UStR 2000, UStG_Anhang) auf Basis des bereitgestellten Kontexts. 
