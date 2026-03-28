@@ -420,6 +420,20 @@ class HybridRetriever:
 
         # Step 4: Merge
         candidates = self._merge_candidates(dense_results, bm25_results)
+        
+        # Step 4a: Filter out §-level chunks (paragraph-only, no Abs/Z)
+        # These contain only the section title and crowd out specific Abs/Z chunks.
+        # Exception: UStR chunks are Randzahlen and always paragraph-level.
+        pre_filter = len(candidates)
+        candidates = [
+            r for r in candidates
+            if r.chunk.ref.level != ChunkLevel.PARAGRAPH
+            or r.chunk.source_type == SourceType.USTR
+        ]
+        filtered = pre_filter - len(candidates)
+        if filtered:
+            print(f"   Filtered {filtered} §-level chunks (too coarse)")
+        
         print(f"   Merged candidates: {len(candidates)}")
 
         # Then inject UStG chunks for explicit §-references
@@ -1133,7 +1147,7 @@ class HybridRetriever:
         source_map = {}
 
         if ustg_results:
-            parts.append("🏛️LEGAL BASIS (UStG 1994)🏛️")
+            parts.append("LEGAL BASIS (UStG 1994)🏛️")
             for r in ustg_results:
                 parts.append(f"[{source_num}] {r.chunk.citation}")
                 if r.chunk.title:
@@ -1146,7 +1160,7 @@ class HybridRetriever:
                 source_num += 1
 
         if anhang_results:
-            parts.append("🏛️EU-BINNENMARKTREGELUNG (Anhang UStG)🏛️")
+            parts.append("EU-BINNENMARKTREGELUNG (Anhang UStG)🏛️")
             for r in anhang_results:
                 parts.append(f"[{source_num}] {r.chunk.citation}")
                 parts.append(f"    {r.chunk.text_with_context or r.chunk.text}")
@@ -1155,7 +1169,7 @@ class HybridRetriever:
                 source_num += 1
 
         if ustr_results:
-            parts.append("🏛️RICHTLINIEN & JUDIKATUR (UStR 2000)🏛️")
+            parts.append("RICHTLINIEN & JUDIKATUR (UStR 2000)🏛️")
             for r in ustr_results:
                 parts.append(f"[{source_num}] {r.chunk.citation}")
                 if r.chunk.judikatur:
