@@ -1,10 +1,8 @@
-#!/usr/bin/env python3
 """
-🚀 UStG RAG System
--------------
+UStG RAG System
 
 Setup:
-1. Chunking:   § → Abs → Z → lit with parent/child structure + preservation of the introductory sentence
+1. Chunking:   § -> Abs -> Z -> lit with parent/child structure + preservation of the introductory sentence
 2. Retrieval:  Dense (BGE-M3) + BM25 + Cross-Encoder Rerank
 3. Boosting:   Explicit §-refs + UStR norm linking
 4. LLM:        Query Rewrite + answer generation
@@ -294,7 +292,7 @@ def main():
 
 def _debug_retrieval(query: str, retriever, rewriter):
     """Debug mode: show detailed retrieval scores"""
-    print(f"\n DEBUG RETRIEVAL: '{query}'")
+    print(f"\n debeug retrieval: '{query}'")
     
     rewritten = None
     if rewriter:
