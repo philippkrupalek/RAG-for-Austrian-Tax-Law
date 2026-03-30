@@ -68,7 +68,7 @@ The accuracy drop from S1→S2 is expected and well-documented in RAG literature
 
 ## Data Files
 
-The legal source files are not included in the repo. You need:
+The legal source files are (UStR download link included):
 
 - `UStG1994_rtf.rtf` — UStG 1994 full text (RTF export from RIS)
 - `anhang_ustg.rtf` — Anhang/Binnenmarktregelung (RTF export from RIS)
