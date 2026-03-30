@@ -3,7 +3,7 @@ evaluate.py – Evaluation pipeline for UStG RAG, to run all experiments
 
 2 models: DeepSeek-V3, Llama-3.1-8B
 4 setups: Baseline up to full rag
-9 metrics: 7 primary + 2 secondary (LLM-as-judge)
+9 metrics: 7 primary (rule-based) + 2 secondary (LLM-as-judge)
 150 test cases from golden_dataset.json
 """
 
@@ -103,6 +103,7 @@ class RunResult:
     # Secondary Metrics - LM-as-Judge
     judge_groundedness: Optional[float] = None     # None = N/A (S1 no context)
     judge_doc_relevance: Optional[float] = None    # None = N/A (S1 no context)
+    judge_answer_correctness: Optional[float] = None  # Works for all setups incl. baseline
 
     # Meta
     backfill_count: int = 0
@@ -832,7 +833,32 @@ On a scale from 0 to 1, where:
 respond with only a single number between 0 and 1."""
         return self._call(prompt)
 
+    # Answer Correctness (works for ALL setups including baseline)
+    def score_answer_correctness(self, question: str, model_answer: str, golden_answer: str) -> float:
+        """
+        Score how correct and complete the model answer is compared to the golden answer.
+        Works for all setups (S1-S4) since it does not depend on retrieved context.
+        0 = completely wrong, 1 = fully correct and complete.
+        """
+        prompt = f"""You are grading the *correctness* of an answer to an Austrian tax law question.
+Compare the model's answer against the reference answer.
 
+Question:
+{question}
+
+Reference answer (ground truth):
+{golden_answer[:2000]}
+
+Model answer:
+{model_answer[:2000]}
+
+On a scale from 0 to 1, where:
+- 1 means the model answer is fully correct: right conclusion, right legal provisions cited, correct reasoning,
+- 0.5 means partially correct: right conclusion but wrong provisions, or wrong conclusion but right provisions,
+- 0 means completely wrong conclusion and wrong provisions,
+
+respond with ONLY a single number between 0 and 1."""
+        return self._call(prompt)
 # Experiment Run
 
 class ExperimentRunner:
@@ -1018,10 +1044,10 @@ class ExperimentRunner:
             if setup.use_query_rewrite and rewriter:
                 _, rewritten = rewriter.rewrite(case.question)
 
-    # Retrieval (hybrid)
+    # Retrieval (always hybrid: dense + BM25)
     # retrieval_query = facts + question for semantic search
-    # ref_query = question only for paragraph reference extraction
-    # rerank_query = question only for the cross-encoder
+    # ref_query = question only for § reference extraction (no noise from facts)
+    # rerank_query = question only for the cross-encoder (optimized for short queries)
             retrieval_results = retriever.retrieve(
                 query=retrieval_query,
                 rewritten_query=rewritten,
@@ -1043,7 +1069,8 @@ class ExperimentRunner:
                 )
                 # etrieved_paragraphs sorted by score for correct Recall@K metric
                 sorted_by_score = sorted(retrieval_results, key=lambda r: r.combined_score, reverse=True)
-                # Filter out UStR paragraph-level chunks from recall calculation. UStR chunks have paragraph="107" (section numbers) with no Abs granularity. They never match expected refs and waste slots in top-K. 
+                # Filter out UStR paragraph-level chunks from recall calculation. UStR chunks have paragraph="107" (section numbers) with no Abs granularity.
+                # They never match expected refs (which have Abs) - waste slots in top-K. The chunks are still in the LLM context, just not counted for recall.
                 result.retrieved_paragraphs = [
                     _ref_to_dotkey(r.chunk.ref) for r in sorted_by_score
                     if not (r.chunk.source_type == SourceType.USTR 
@@ -1094,7 +1121,7 @@ class ExperimentRunner:
         result.predicted_result = RuleBasedMetrics.extract_outcome(
             result.answer, expected=case.result
         )
-        # Granular citation extraction: "§ 12 Abs. 2 Z 2 lit. a" -> "12.2.2.a"
+        # Granular citation extraction: "§ 12 Abs. 2 Z 2 lit. a" → "12.2.2.a"
         cited_refs = extract_cited_references(result.answer)
         result.cited_paragraphs = []
         seen_keys = set()
@@ -1136,7 +1163,7 @@ class ExperimentRunner:
             result.recall_at_20 = ret['recall_at_20']
             result.ndcg_at_10 = ret['ndcg_at_10']
 
-        # LLM Judge
+        # LLM Judge (2 scores, GPT-4o-mini)
         if not skip_judge:
             judge = self._get_judge()
 
@@ -1148,7 +1175,7 @@ class ExperimentRunner:
                     for r in retrieval_results
                 ]
 
-            # Context-dependent metrics when retrieval used
+            # Context-dependent metrics (only when retrieval was used)
             if judge_contexts:
                 result.judge_groundedness = judge.score_groundedness(
                     case.question, result.answer, judge_contexts
@@ -1157,27 +1184,32 @@ class ExperimentRunner:
                     case.question, judge_contexts
                 )
             else:
-                result.judge_groundedness = None   # N/A for baseline 
-                result.judge_doc_relevance = None  # N/A for baseline 
+                result.judge_groundedness = None   # N/A for baseline (no context)
+                result.judge_doc_relevance = None  # N/A for baseline (no context)
+
+            # Answer correctness (works for ALL setups, compares against golden answer)
+            result.judge_answer_correctness = judge.score_answer_correctness(
+                case.question, result.answer, case.answer
+            )
 
         result.duration_seconds = time.time() - t0
         return result
 
-    # results export
+    # RESULTS EXPORT
 
     def save_results(self, filename: str = None):
         """Save all results to JSON and CSV"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = filename or f"eval_{timestamp}"
 
-        # JSON detail
+        # JSON (full detail)
         json_path = RESULTS_DIR / f"{filename}.json"
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump([asdict(r) for r in self.results], f,
                       ensure_ascii=False, indent=2)
         print(f"   JSON: {json_path}")
 
-        # CSV (
+        # CSV (for analysis)
         csv_path = RESULTS_DIR / f"{filename}.csv"
         if self.results:
             fieldnames = list(asdict(self.results[0]).keys())
@@ -1207,10 +1239,10 @@ class ExperimentRunner:
         print(f"{'='*140}")
         print(f"{'Model':<16} {'Setup':<6} {'Acc':<7} {'CitF1s':<7} {'CitF1p':<7} "
               f"{'CitPs':<7} {'CitRs':<7} {'CitPp':<7} {'CitRp':<7} "
-              f"{'R@5':<7} {'R@20':<7} {'NDCG':<7} {'Gnd':<7} {'DocRel':<7}")
+              f"{'R@5':<7} {'R@20':<7} {'NDCG':<7} {'Gnd':<7} {'DocRel':<7} {'AnsC':<7}")
         print(f"{'─'*16} {'─'*6} {'─'*7} {'─'*7} {'─'*7} "
               f"{'─'*7} {'─'*7} {'─'*7} {'─'*7} "
-              f"{'─'*7} {'─'*7} {'─'*7} {'─'*7} {'─'*7}")
+              f"{'─'*7} {'─'*7} {'─'*7} {'─'*7} {'─'*7} {'─'*7}")
 
         # Group by model + setup
         groups = defaultdict(list)
@@ -1234,22 +1266,26 @@ class ExperimentRunner:
             gnd = np.mean(gnd_runs) if gnd_runs else float('nan')
             drel_runs = [r.judge_doc_relevance for r in runs if r.judge_doc_relevance is not None]
             drel = np.mean(drel_runs) if drel_runs else float('nan')
+            ansc_runs = [r.judge_answer_correctness for r in runs if r.judge_answer_correctness is not None]
+            ansc = np.mean(ansc_runs) if ansc_runs else float('nan')
 
             r5_str = f"{r5:>5.0%}" if setup != 'S1' else "  N/A"
             r20_str = f"{r20:>5.0%}" if setup != 'S1' else "  N/A"
             ndcg_str = f"{ndcg:>5.2f}" if setup != 'S1' else "  N/A"
             gnd_str = f"{gnd:>5.2f}" if not (gnd != gnd) else "  N/A"
             drel_str = f"{drel:>5.2f}" if not (drel != drel) else "  N/A"
+            ansc_str = f"{ansc:>5.2f}" if not (ansc != ansc) else "  N/A"
 
             print(f"{model:<16} {setup:<6} {acc:>5.0%}  {f1:>5.0%}  {f1p:>5.0%}  "
                   f"{cit_p:>5.0%}  {cit_r:>5.0%}  {cit_pp:>5.0%}  {cit_rp:>5.0%}  "
-                  f"{r5_str}  {r20_str}  {ndcg_str}  {gnd_str}  {drel_str}")
+                  f"{r5_str}  {r20_str}  {ndcg_str}  {gnd_str}  {drel_str}  {ansc_str}")
 
         print()
         print("  CitF1s/CitPs/CitRs = Strict (exact hierarchical match)")
         print("  CitF1p/CitPp/CitRp = Partial (ancestor credit)")
         print("  R@5/R@20/NDCG = N/A for S1 (no retrieval)")
         print("  Gnd/DocRel = N/A for S1 (no retrieval context)")
+        print("  AnsC = Answer Correctness (LLM judge, all setups)")
 
         # ── TABLE 2: Component Ablation (DeepSeek only) ──
         deepseek_runs = [r for r in self.results if r.model_name == DEEPSEEK_V3.name]
@@ -1288,7 +1324,7 @@ class ExperimentRunner:
 
         # Table Model Comparison (S1 vs S4)
         print(f"\n{'='*80}")
-        print("Table Model Comparison (S1 Baseline -> S4 Full RAG)")
+        print("TABLE 3: Model Comparison (S1 Baseline → S4 Full RAG)")
         print(f"{'='*80}")
         print()
 
@@ -1333,6 +1369,8 @@ def main():
                        help='Show plan without running')
     parser.add_argument('--output', type=str, default=None,
                        help='Output filename (without extension)')
+    parser.add_argument('--judge-only', type=str, default=None,
+                       help='Path to existing eval JSON. Runs only LLM judge on those results (no retrieval/generation).')
     args = parser.parse_args()
 
     print("\n" + "="*70)
@@ -1341,6 +1379,65 @@ def main():
 
     # Load golden dataset
     test_cases = load_golden_dataset()
+    gd_map = {c.case_id: c for c in test_cases}
+
+    # ── Judge-only mode: load existing results, run only LLM judge ──
+    if args.judge_only:
+        print(f"\n   JUDGE-ONLY mode: {args.judge_only}")
+        with open(args.judge_only, 'r', encoding='utf-8') as f:
+            existing = json.load(f)
+        print(f"   Loaded {len(existing)} existing results")
+
+        judge = LLMJudge()
+        if not judge._enabled:
+            print("   LLM Judge not available (no OpenAI key). Aborting.")
+            return
+
+        for i, r in enumerate(existing):
+            cid = r['case_id']
+            case = gd_map.get(cid)
+            if not case:
+                continue
+
+            print(f"\r   [{i+1}/{len(existing)}] {r['model_name']} {r['setup_id']} Case {cid}", end="", flush=True)
+
+            # Groundedness + DocRelevance (only if retrieval context exists)
+            if r.get('retrieved_paragraphs'):
+                # We don't have the actual chunk texts in the JSON, so skip Gnd/DocRel
+                # unless they're already filled
+                pass
+
+            # Answer Correctness (works for all setups)
+            if r.get('judge_answer_correctness') is None:
+                r['judge_answer_correctness'] = judge.score_answer_correctness(
+                    case.question, r.get('answer', ''), case.answer
+                )
+
+        print()
+
+        # Save updated results
+        out_path = args.judge_only.replace('.json', '_judged.json')
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump(existing, f, ensure_ascii=False, indent=2)
+        print(f"\n   Saved to: {out_path}")
+
+        # Print summary
+        from collections import defaultdict
+        groups = defaultdict(list)
+        for r in existing:
+            groups[(r['model_name'], r['setup_id'])].append(r)
+
+        print(f"\n{'Model':<16} {'Setup':<6} {'Acc':>5} {'CitF1':>6} {'AnsC':>6}")
+        print("-" * 45)
+        for (model, setup), runs in sorted(groups.items()):
+            acc = np.mean([r['outcome_accuracy'] for r in runs])
+            f1 = np.mean([r['citation_f1'] for r in runs])
+            ansc_vals = [r['judge_answer_correctness'] for r in runs if r.get('judge_answer_correctness') is not None]
+            ansc = np.mean(ansc_vals) if ansc_vals else float('nan')
+            ansc_str = f"{ansc:>5.2f}" if not np.isnan(ansc) else "  N/A"
+            print(f"{model:<16} {setup:<6} {acc:>4.0%} {f1:>5.0%} {ansc_str}")
+
+        return
 
     if args.dry_run:
         models = args.model or ['deepseek', 'llama']
@@ -1374,7 +1471,7 @@ def main():
     )
 
     if store.size == 0:
-        print("No chunks parsed!")
+        print("No chunks parsed! Check source file paths.")
         return
 
     # Detect device
